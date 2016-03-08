@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C7177751C78851A00013CDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7177741C78851A00013CDD /* main.m */; };
+		0C71777B1C78851A00013CDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71777A1C78851A00013CDD /* ViewController.m */; };
+		0C7177801C78851A00013CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C71777F1C78851A00013CDD /* Assets.xcassets */; };
+		0C7177831C78851A00013CDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177811C78851A00013CDD /* LaunchScreen.storyboard */; };
+		0C71778E1C78851A00013CDD /* Spotlight_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71778D1C78851A00013CDD /* Spotlight_iOSTests.m */; };
+		0C7177991C78851A00013CDD /* Spotlight_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7177981C78851A00013CDD /* Spotlight_iOSUITests.m */; };
+		0C7177AB1C78890200013CDD /* camerawhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177A61C78890200013CDD /* camerawhite.png */; };
+		0C7177AC1C78890200013CDD /* listviewwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177A71C78890200013CDD /* listviewwhite.png */; };
+		0C7177AD1C78890200013CDD /* settingswhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177A81C78890200013CDD /* settingswhite.png */; };
+		0C7177AE1C78890200013CDD /* trendingwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177A91C78890200013CDD /* trendingwhite.png */; };
+		0C7177AF1C78890200013CDD /* xwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177AA1C78890200013CDD /* xwhite.png */; };
+		0C7177B51C78890A00013CDD /* JUSTIFY ALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177B01C78890A00013CDD /* JUSTIFY ALL.png */; };
+		0C7177B61C78890A00013CDD /* LAUNCH.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177B11C78890A00013CDD /* LAUNCH.png */; };
+		0C7177B71C78890A00013CDD /* SETTINGS.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177B21C78890A00013CDD /* SETTINGS.png */; };
+		0C7177B81C78890A00013CDD /* settingsicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177B31C78890A00013CDD /* settingsicon.png */; };
+		0C7177B91C78890A00013CDD /* VIDEO CAMERA.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177B41C78890A00013CDD /* VIDEO CAMERA.png */; };
+		0C7177BB1C78896500013CDD /* pluswhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177BA1C78896500013CDD /* pluswhite.png */; };
+		0C7177BD1C78896B00013CDD /* PLUS.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177BC1C78896B00013CDD /* PLUS.png */; };
+		0C7177BF1C788A3600013CDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7177BE1C788A3600013CDD /* AppDelegate.m */; };
+		0C7177E41C78AE7600013CDD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7177E31C78AE7600013CDD /* AVFoundation.framework */; };
+		0C7177EC1C78AF0200013CDD /* camera-switch.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177E51C78AF0200013CDD /* camera-switch.png */; };
+		0C7177ED1C78AF0200013CDD /* camera-switch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177E61C78AF0200013CDD /* camera-switch@2x.png */; };
+		0C7177EE1C78AF0200013CDD /* camera-flash.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177E71C78AF0200013CDD /* camera-flash.png */; };
+		0C7177EF1C78AF0200013CDD /* camera-flash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177E81C78AF0200013CDD /* camera-flash@2x.png */; };
+		0C7177F01C78AF0200013CDD /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177E91C78AF0200013CDD /* cancel.png */; };
+		0C7177F11C78AF0200013CDD /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177EA1C78AF0200013CDD /* cancel@2x.png */; };
+		0C7177F21C78AF0200013CDD /* cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7177EB1C78AF0200013CDD /* cancel@3x.png */; };
+		0C71783A1C78B69000013CDD /* YALSpringAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7178391C78B69000013CDD /* YALSpringAnimation.m */; };
+		0C71783D1C78B69A00013CDD /* CAAnimation+YALTabBarViewAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71783C1C78B69A00013CDD /* CAAnimation+YALTabBarViewAnimations.m */; };
+		0C7178401C78B6A800013CDD /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71783F1C78B6A800013CDD /* CATransaction+TransactionWithAnimationsAndCompletion.m */; };
+		0C7178431C78B6B400013CDD /* YALAnimatingTabBarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7178421C78B6B400013CDD /* YALAnimatingTabBarConstants.m */; };
+		0C7178461C78B6C100013CDD /* YALFoldingTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7178451C78B6C100013CDD /* YALFoldingTabBarController.m */; };
+		0C7178491C78B6CC00013CDD /* YALTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7178481C78B6CC00013CDD /* YALTabBarItem.m */; };
+		0C71784D1C78B6E900013CDD /* YALFoldingTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71784C1C78B6E900013CDD /* YALFoldingTabBar.m */; };
+		0C7178511C78E4F900013CDD /* Line.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7178501C78E4F900013CDD /* Line.png */; };
+		0C7178531C78ECCF00013CDD /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7178521C78ECCF00013CDD /* arrow.png */; };
+		0C7178551C78ED7200013CDD /* arrowdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7178541C78ED7200013CDD /* arrowdown.png */; };
+		0C7178571C790DFB00013CDD /* xgreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7178561C790DFB00013CDD /* xgreen.png */; };
+		0C7178591C79197000013CDD /* MicrosoftAzureMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7178581C79197000013CDD /* MicrosoftAzureMobile.framework */; };
+		0C71785C1C7919E600013CDD /* TrendingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71785B1C7919E600013CDD /* TrendingViewController.m */; };
+		0C71785E1C792E1500013CDD /* circlewhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C71785D1C792E1500013CDD /* circlewhite.png */; };
+		0C7178601C792FB700013CDD /* camwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C71785F1C792FB700013CDD /* camwhite.png */; };
+		0C7178621C79300400013CDD /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7178611C79300400013CDD /* camera.png */; };
+		0C71787D1C79338800013CDD /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C71787C1C79338800013CDD /* ListViewController.m */; };
+		0C7178911C793BE000013CDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7178901C793BE000013CDD /* Main.storyboard */; };
+		4635D8ECCD7024AF2E171390 /* Pods_Spotlight_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F9F58D028EDD10504B410D /* Pods_Spotlight_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C71778A1C78851A00013CDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7177681C78851A00013CDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C71776F1C78851A00013CDD;
+			remoteInfo = "Spotlight-iOS";
+		};
+		0C7177951C78851A00013CDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C7177681C78851A00013CDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C71776F1C78851A00013CDD;
+			remoteInfo = "Spotlight-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C7177701C78851A00013CDD /* Spotlight-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spotlight-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7177741C78851A00013CDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C7177761C78851A00013CDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C7177791C78851A00013CDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C71777A1C78851A00013CDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C71777F1C78851A00013CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C7177821C78851A00013CDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C7177841C78851A00013CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C7177891C78851A00013CDD /* Spotlight-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spotlight-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C71778D1C78851A00013CDD /* Spotlight_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Spotlight_iOSTests.m; sourceTree = "<group>"; };
+		0C71778F1C78851A00013CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C7177941C78851A00013CDD /* Spotlight-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Spotlight-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C7177981C78851A00013CDD /* Spotlight_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Spotlight_iOSUITests.m; sourceTree = "<group>"; };
+		0C71779A1C78851A00013CDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C7177A61C78890200013CDD /* camerawhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camerawhite.png; sourceTree = "<group>"; };
+		0C7177A71C78890200013CDD /* listviewwhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listviewwhite.png; sourceTree = "<group>"; };
+		0C7177A81C78890200013CDD /* settingswhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingswhite.png; sourceTree = "<group>"; };
+		0C7177A91C78890200013CDD /* trendingwhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trendingwhite.png; sourceTree = "<group>"; };
+		0C7177AA1C78890200013CDD /* xwhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xwhite.png; sourceTree = "<group>"; };
+		0C7177B01C78890A00013CDD /* JUSTIFY ALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "JUSTIFY ALL.png"; sourceTree = "<group>"; };
+		0C7177B11C78890A00013CDD /* LAUNCH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LAUNCH.png; sourceTree = "<group>"; };
+		0C7177B21C78890A00013CDD /* SETTINGS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SETTINGS.png; sourceTree = "<group>"; };
+		0C7177B31C78890A00013CDD /* settingsicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsicon.png; sourceTree = "<group>"; };
+		0C7177B41C78890A00013CDD /* VIDEO CAMERA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VIDEO CAMERA.png"; sourceTree = "<group>"; };
+		0C7177BA1C78896500013CDD /* pluswhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pluswhite.png; sourceTree = "<group>"; };
+		0C7177BC1C78896B00013CDD /* PLUS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PLUS.png; sourceTree = "<group>"; };
+		0C7177BE1C788A3600013CDD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C7177D71C78940200013CDD /* Qanelas-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-Black.otf"; sourceTree = "<group>"; };
+		0C7177D81C78940200013CDD /* Qanelas-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-BlackItalic.otf"; sourceTree = "<group>"; };
+		0C7177D91C78940200013CDD /* Qanelas-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-Bold.otf"; sourceTree = "<group>"; };
+		0C7177DA1C78940200013CDD /* Qanelas-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-BoldItalic.otf"; sourceTree = "<group>"; };
+		0C7177DB1C78940200013CDD /* Qanelas-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-ExtraBold.otf"; sourceTree = "<group>"; };
+		0C7177DC1C78940200013CDD /* Qanelas-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-Heavy.otf"; sourceTree = "<group>"; };
+		0C7177DD1C78940200013CDD /* Qanelas-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-Light.otf"; sourceTree = "<group>"; };
+		0C7177DE1C78940200013CDD /* Qanelas-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-Medium.otf"; sourceTree = "<group>"; };
+		0C7177DF1C78940200013CDD /* Qanelas-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-Regular.otf"; sourceTree = "<group>"; };
+		0C7177E01C78940200013CDD /* Qanelas-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-RegularItalic.otf"; sourceTree = "<group>"; };
+		0C7177E11C78940200013CDD /* Qanelas-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-Thin.otf"; sourceTree = "<group>"; };
+		0C7177E21C78940200013CDD /* Qanelas-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-UltraLight.otf"; sourceTree = "<group>"; };
+		0C7177E31C78AE7600013CDD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0C7177E51C78AF0200013CDD /* camera-switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-switch.png"; sourceTree = "<group>"; };
+		0C7177E61C78AF0200013CDD /* camera-switch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-switch@2x.png"; sourceTree = "<group>"; };
+		0C7177E71C78AF0200013CDD /* camera-flash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-flash.png"; sourceTree = "<group>"; };
+		0C7177E81C78AF0200013CDD /* camera-flash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-flash@2x.png"; sourceTree = "<group>"; };
+		0C7177E91C78AF0200013CDD /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		0C7177EA1C78AF0200013CDD /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
+		0C7177EB1C78AF0200013CDD /* cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@3x.png"; sourceTree = "<group>"; };
+		0C7178381C78B69000013CDD /* YALSpringAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALSpringAnimation.h; sourceTree = "<group>"; };
+		0C7178391C78B69000013CDD /* YALSpringAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALSpringAnimation.m; sourceTree = "<group>"; };
+		0C71783B1C78B69A00013CDD /* CAAnimation+YALTabBarViewAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+YALTabBarViewAnimations.h"; sourceTree = "<group>"; };
+		0C71783C1C78B69A00013CDD /* CAAnimation+YALTabBarViewAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+YALTabBarViewAnimations.m"; sourceTree = "<group>"; };
+		0C71783E1C78B6A800013CDD /* CATransaction+TransactionWithAnimationsAndCompletion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CATransaction+TransactionWithAnimationsAndCompletion.h"; sourceTree = "<group>"; };
+		0C71783F1C78B6A800013CDD /* CATransaction+TransactionWithAnimationsAndCompletion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CATransaction+TransactionWithAnimationsAndCompletion.m"; sourceTree = "<group>"; };
+		0C7178411C78B6B400013CDD /* YALAnimatingTabBarConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALAnimatingTabBarConstants.h; sourceTree = "<group>"; };
+		0C7178421C78B6B400013CDD /* YALAnimatingTabBarConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALAnimatingTabBarConstants.m; sourceTree = "<group>"; };
+		0C7178441C78B6C100013CDD /* YALFoldingTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALFoldingTabBarController.h; sourceTree = "<group>"; };
+		0C7178451C78B6C100013CDD /* YALFoldingTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALFoldingTabBarController.m; sourceTree = "<group>"; };
+		0C7178471C78B6CC00013CDD /* YALTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALTabBarItem.h; sourceTree = "<group>"; };
+		0C7178481C78B6CC00013CDD /* YALTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALTabBarItem.m; sourceTree = "<group>"; };
+		0C71784A1C78B6DD00013CDD /* YALTabBarInteracting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YALTabBarInteracting.h; sourceTree = "<group>"; };
+		0C71784B1C78B6E900013CDD /* YALFoldingTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALFoldingTabBar.h; sourceTree = "<group>"; };
+		0C71784C1C78B6E900013CDD /* YALFoldingTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALFoldingTabBar.m; sourceTree = "<group>"; };
+		0C7178501C78E4F900013CDD /* Line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Line.png; sourceTree = "<group>"; };
+		0C7178521C78ECCF00013CDD /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		0C7178541C78ED7200013CDD /* arrowdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowdown.png; sourceTree = "<group>"; };
+		0C7178561C790DFB00013CDD /* xgreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xgreen.png; sourceTree = "<group>"; };
+		0C7178581C79197000013CDD /* MicrosoftAzureMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicrosoftAzureMobile.framework; sourceTree = "<group>"; };
+		0C71785A1C7919E600013CDD /* TrendingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendingViewController.h; sourceTree = "<group>"; };
+		0C71785B1C7919E600013CDD /* TrendingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendingViewController.m; sourceTree = "<group>"; };
+		0C71785D1C792E1500013CDD /* circlewhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circlewhite.png; sourceTree = "<group>"; };
+		0C71785F1C792FB700013CDD /* camwhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camwhite.png; sourceTree = "<group>"; };
+		0C7178611C79300400013CDD /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		0C71787B1C79338800013CDD /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		0C71787C1C79338800013CDD /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		0C7178901C793BE000013CDD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A6F9F58D028EDD10504B410D /* Pods_Spotlight_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spotlight_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B7B50C12D6561B96D48BDB /* Pods-Spotlight-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotlight-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spotlight-iOS/Pods-Spotlight-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D3A8F84C39C494FEE3F28782 /* Pods-Spotlight-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spotlight-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spotlight-iOS/Pods-Spotlight-iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C71776D1C78851A00013CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7177E41C78AE7600013CDD /* AVFoundation.framework in Frameworks */,
+				0C7178591C79197000013CDD /* MicrosoftAzureMobile.framework in Frameworks */,
+				4635D8ECCD7024AF2E171390 /* Pods_Spotlight_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7177861C78851A00013CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7177911C78851A00013CDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C7177671C78851A00013CDD = {
+			isa = PBXGroup;
+			children = (
+				0C7177721C78851A00013CDD /* Spotlight-iOS */,
+				0C71778C1C78851A00013CDD /* Spotlight-iOSTests */,
+				0C7177971C78851A00013CDD /* Spotlight-iOSUITests */,
+				0C7177711C78851A00013CDD /* Products */,
+				8EA4475FCF9B1D071DB9B588 /* Pods */,
+				8A4B7A58C163051649702D4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0C7177711C78851A00013CDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C7177701C78851A00013CDD /* Spotlight-iOS.app */,
+				0C7177891C78851A00013CDD /* Spotlight-iOSTests.xctest */,
+				0C7177941C78851A00013CDD /* Spotlight-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C7177721C78851A00013CDD /* Spotlight-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0C7178581C79197000013CDD /* MicrosoftAzureMobile.framework */,
+				0C7177761C78851A00013CDD /* AppDelegate.h */,
+				0C7177BE1C788A3600013CDD /* AppDelegate.m */,
+				0C7177791C78851A00013CDD /* ViewController.h */,
+				0C71777A1C78851A00013CDD /* ViewController.m */,
+				0C71785A1C7919E600013CDD /* TrendingViewController.h */,
+				0C71785B1C7919E600013CDD /* TrendingViewController.m */,
+				0C7178901C793BE000013CDD /* Main.storyboard */,
+				0C71787B1C79338800013CDD /* ListViewController.h */,
+				0C71787C1C79338800013CDD /* ListViewController.m */,
+				0C71784F1C78BDAA00013CDD /* CoolTabBar */,
+				0C71777F1C78851A00013CDD /* Assets.xcassets */,
+				0C7177811C78851A00013CDD /* LaunchScreen.storyboard */,
+				0C7178501C78E4F900013CDD /* Line.png */,
+				0C7178521C78ECCF00013CDD /* arrow.png */,
+				0C7178541C78ED7200013CDD /* arrowdown.png */,
+				0C7177F41C78AF1400013CDD /* Images */,
+				0C7177F31C78AF0C00013CDD /* Font */,
+				0C7177731C78851A00013CDD /* Supporting Files */,
+			);
+			path = "Spotlight-iOS";
+			sourceTree = "<group>";
+		};
+		0C7177731C78851A00013CDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C7177741C78851A00013CDD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C71778C1C78851A00013CDD /* Spotlight-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C71778D1C78851A00013CDD /* Spotlight_iOSTests.m */,
+				0C71778F1C78851A00013CDD /* Info.plist */,
+			);
+			path = "Spotlight-iOSTests";
+			sourceTree = "<group>";
+		};
+		0C7177971C78851A00013CDD /* Spotlight-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C7177981C78851A00013CDD /* Spotlight_iOSUITests.m */,
+				0C71779A1C78851A00013CDD /* Info.plist */,
+			);
+			path = "Spotlight-iOSUITests";
+			sourceTree = "<group>";
+		};
+		0C7177F31C78AF0C00013CDD /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0C7177D71C78940200013CDD /* Qanelas-Black.otf */,
+				0C7177D81C78940200013CDD /* Qanelas-BlackItalic.otf */,
+				0C7177D91C78940200013CDD /* Qanelas-Bold.otf */,
+				0C7177DA1C78940200013CDD /* Qanelas-BoldItalic.otf */,
+				0C7177DB1C78940200013CDD /* Qanelas-ExtraBold.otf */,
+				0C7177DC1C78940200013CDD /* Qanelas-Heavy.otf */,
+				0C7177DD1C78940200013CDD /* Qanelas-Light.otf */,
+				0C7177DE1C78940200013CDD /* Qanelas-Medium.otf */,
+				0C7177DF1C78940200013CDD /* Qanelas-Regular.otf */,
+				0C7177E01C78940200013CDD /* Qanelas-RegularItalic.otf */,
+				0C7177E11C78940200013CDD /* Qanelas-Thin.otf */,
+				0C7177E21C78940200013CDD /* Qanelas-UltraLight.otf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		0C7177F41C78AF1400013CDD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0C71785D1C792E1500013CDD /* circlewhite.png */,
+				0C71785F1C792FB700013CDD /* camwhite.png */,
+				0C7177BC1C78896B00013CDD /* PLUS.png */,
+				0C7178561C790DFB00013CDD /* xgreen.png */,
+				0C7177BA1C78896500013CDD /* pluswhite.png */,
+				0C7177B01C78890A00013CDD /* JUSTIFY ALL.png */,
+				0C7177B11C78890A00013CDD /* LAUNCH.png */,
+				0C7177B21C78890A00013CDD /* SETTINGS.png */,
+				0C7177B31C78890A00013CDD /* settingsicon.png */,
+				0C7177B41C78890A00013CDD /* VIDEO CAMERA.png */,
+				0C7177841C78851A00013CDD /* Info.plist */,
+				0C7177A61C78890200013CDD /* camerawhite.png */,
+				0C7177A71C78890200013CDD /* listviewwhite.png */,
+				0C7177A81C78890200013CDD /* settingswhite.png */,
+				0C7178611C79300400013CDD /* camera.png */,
+				0C7177A91C78890200013CDD /* trendingwhite.png */,
+				0C7177AA1C78890200013CDD /* xwhite.png */,
+				0C7177E51C78AF0200013CDD /* camera-switch.png */,
+				0C7177E61C78AF0200013CDD /* camera-switch@2x.png */,
+				0C7177E71C78AF0200013CDD /* camera-flash.png */,
+				0C7177E81C78AF0200013CDD /* camera-flash@2x.png */,
+				0C7177E91C78AF0200013CDD /* cancel.png */,
+				0C7177EA1C78AF0200013CDD /* cancel@2x.png */,
+				0C7177EB1C78AF0200013CDD /* cancel@3x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		0C71784F1C78BDAA00013CDD /* CoolTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0C7178381C78B69000013CDD /* YALSpringAnimation.h */,
+				0C7178391C78B69000013CDD /* YALSpringAnimation.m */,
+				0C71783B1C78B69A00013CDD /* CAAnimation+YALTabBarViewAnimations.h */,
+				0C71783C1C78B69A00013CDD /* CAAnimation+YALTabBarViewAnimations.m */,
+				0C71783E1C78B6A800013CDD /* CATransaction+TransactionWithAnimationsAndCompletion.h */,
+				0C71783F1C78B6A800013CDD /* CATransaction+TransactionWithAnimationsAndCompletion.m */,
+				0C7178411C78B6B400013CDD /* YALAnimatingTabBarConstants.h */,
+				0C7178421C78B6B400013CDD /* YALAnimatingTabBarConstants.m */,
+				0C7178441C78B6C100013CDD /* YALFoldingTabBarController.h */,
+				0C7178451C78B6C100013CDD /* YALFoldingTabBarController.m */,
+				0C7178471C78B6CC00013CDD /* YALTabBarItem.h */,
+				0C7178481C78B6CC00013CDD /* YALTabBarItem.m */,
+				0C71784A1C78B6DD00013CDD /* YALTabBarInteracting.h */,
+				0C71784B1C78B6E900013CDD /* YALFoldingTabBar.h */,
+				0C71784C1C78B6E900013CDD /* YALFoldingTabBar.m */,
+			);
+			name = CoolTabBar;
+			sourceTree = "<group>";
+		};
+		8A4B7A58C163051649702D4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C7177E31C78AE7600013CDD /* AVFoundation.framework */,
+				A6F9F58D028EDD10504B410D /* Pods_Spotlight_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EA4475FCF9B1D071DB9B588 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1B7B50C12D6561B96D48BDB /* Pods-Spotlight-iOS.debug.xcconfig */,
+				D3A8F84C39C494FEE3F28782 /* Pods-Spotlight-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C71776F1C78851A00013CDD /* Spotlight-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C71779D1C78851A00013CDD /* Build configuration list for PBXNativeTarget "Spotlight-iOS" */;
+			buildPhases = (
+				C8D16506425F0BD23DC32D08 /* Check Pods Manifest.lock */,
+				0C71776C1C78851A00013CDD /* Sources */,
+				0C71776D1C78851A00013CDD /* Frameworks */,
+				0C71776E1C78851A00013CDD /* Resources */,
+				FE0B75CE1C89C0FBFF3DBE1B /* Embed Pods Frameworks */,
+				3626009269E6925558B0464A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spotlight-iOS";
+			productName = "Spotlight-iOS";
+			productReference = 0C7177701C78851A00013CDD /* Spotlight-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C7177881C78851A00013CDD /* Spotlight-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C7177A01C78851A00013CDD /* Build configuration list for PBXNativeTarget "Spotlight-iOSTests" */;
+			buildPhases = (
+				0C7177851C78851A00013CDD /* Sources */,
+				0C7177861C78851A00013CDD /* Frameworks */,
+				0C7177871C78851A00013CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C71778B1C78851A00013CDD /* PBXTargetDependency */,
+			);
+			name = "Spotlight-iOSTests";
+			productName = "Spotlight-iOSTests";
+			productReference = 0C7177891C78851A00013CDD /* Spotlight-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C7177931C78851A00013CDD /* Spotlight-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C7177A31C78851A00013CDD /* Build configuration list for PBXNativeTarget "Spotlight-iOSUITests" */;
+			buildPhases = (
+				0C7177901C78851A00013CDD /* Sources */,
+				0C7177911C78851A00013CDD /* Frameworks */,
+				0C7177921C78851A00013CDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C7177961C78851A00013CDD /* PBXTargetDependency */,
+			);
+			name = "Spotlight-iOSUITests";
+			productName = "Spotlight-iOSUITests";
+			productReference = 0C7177941C78851A00013CDD /* Spotlight-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C7177681C78851A00013CDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Spotlight;
+				TargetAttributes = {
+					0C71776F1C78851A00013CDD = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					0C7177881C78851A00013CDD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 0C71776F1C78851A00013CDD;
+					};
+					0C7177931C78851A00013CDD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 0C71776F1C78851A00013CDD;
+					};
+				};
+			};
+			buildConfigurationList = 0C71776B1C78851A00013CDD /* Build configuration list for PBXProject "Spotlight-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C7177671C78851A00013CDD;
+			productRefGroup = 0C7177711C78851A00013CDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C71776F1C78851A00013CDD /* Spotlight-iOS */,
+				0C7177881C78851A00013CDD /* Spotlight-iOSTests */,
+				0C7177931C78851A00013CDD /* Spotlight-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C71776E1C78851A00013CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7177B71C78890A00013CDD /* SETTINGS.png in Resources */,
+				0C7177B81C78890A00013CDD /* settingsicon.png in Resources */,
+				0C7177B61C78890A00013CDD /* LAUNCH.png in Resources */,
+				0C7177F01C78AF0200013CDD /* cancel.png in Resources */,
+				0C7177AC1C78890200013CDD /* listviewwhite.png in Resources */,
+				0C7177AB1C78890200013CDD /* camerawhite.png in Resources */,
+				0C7177B91C78890A00013CDD /* VIDEO CAMERA.png in Resources */,
+				0C7178531C78ECCF00013CDD /* arrow.png in Resources */,
+				0C7177AD1C78890200013CDD /* settingswhite.png in Resources */,
+				0C7177831C78851A00013CDD /* LaunchScreen.storyboard in Resources */,
+				0C7177F21C78AF0200013CDD /* cancel@3x.png in Resources */,
+				0C7178551C78ED7200013CDD /* arrowdown.png in Resources */,
+				0C7177801C78851A00013CDD /* Assets.xcassets in Resources */,
+				0C7177BB1C78896500013CDD /* pluswhite.png in Resources */,
+				0C7177AF1C78890200013CDD /* xwhite.png in Resources */,
+				0C7177EC1C78AF0200013CDD /* camera-switch.png in Resources */,
+				0C7178601C792FB700013CDD /* camwhite.png in Resources */,
+				0C7177BD1C78896B00013CDD /* PLUS.png in Resources */,
+				0C7177EF1C78AF0200013CDD /* camera-flash@2x.png in Resources */,
+				0C7177ED1C78AF0200013CDD /* camera-switch@2x.png in Resources */,
+				0C7178621C79300400013CDD /* camera.png in Resources */,
+				0C7177EE1C78AF0200013CDD /* camera-flash.png in Resources */,
+				0C7177AE1C78890200013CDD /* trendingwhite.png in Resources */,
+				0C7178571C790DFB00013CDD /* xgreen.png in Resources */,
+				0C7178911C793BE000013CDD /* Main.storyboard in Resources */,
+				0C71785E1C792E1500013CDD /* circlewhite.png in Resources */,
+				0C7177F11C78AF0200013CDD /* cancel@2x.png in Resources */,
+				0C7177B51C78890A00013CDD /* JUSTIFY ALL.png in Resources */,
+				0C7178511C78E4F900013CDD /* Line.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7177871C78851A00013CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7177921C78851A00013CDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3626009269E6925558B0464A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spotlight-iOS/Pods-Spotlight-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8D16506425F0BD23DC32D08 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE0B75CE1C89C0FBFF3DBE1B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spotlight-iOS/Pods-Spotlight-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C71776C1C78851A00013CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7178431C78B6B400013CDD /* YALAnimatingTabBarConstants.m in Sources */,
+				0C7178401C78B6A800013CDD /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
+				0C71784D1C78B6E900013CDD /* YALFoldingTabBar.m in Sources */,
+				0C71783D1C78B69A00013CDD /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
+				0C71777B1C78851A00013CDD /* ViewController.m in Sources */,
+				0C7178491C78B6CC00013CDD /* YALTabBarItem.m in Sources */,
+				0C71787D1C79338800013CDD /* ListViewController.m in Sources */,
+				0C71783A1C78B69000013CDD /* YALSpringAnimation.m in Sources */,
+				0C7178461C78B6C100013CDD /* YALFoldingTabBarController.m in Sources */,
+				0C71785C1C7919E600013CDD /* TrendingViewController.m in Sources */,
+				0C7177751C78851A00013CDD /* main.m in Sources */,
+				0C7177BF1C788A3600013CDD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7177851C78851A00013CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C71778E1C78851A00013CDD /* Spotlight_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C7177901C78851A00013CDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7177991C78851A00013CDD /* Spotlight_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C71778B1C78851A00013CDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C71776F1C78851A00013CDD /* Spotlight-iOS */;
+			targetProxy = 0C71778A1C78851A00013CDD /* PBXContainerItemProxy */;
+		};
+		0C7177961C78851A00013CDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C71776F1C78851A00013CDD /* Spotlight-iOS */;
+			targetProxy = 0C7177951C78851A00013CDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C7177811C78851A00013CDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C7177821C78851A00013CDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C71779B1C78851A00013CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_HEADERS_RUN_UNIFDEF = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C71779C1C78851A00013CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_HEADERS_RUN_UNIFDEF = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C71779E1C78851A00013CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1B7B50C12D6561B96D48BDB /* Pods-Spotlight-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Spotlight-iOS",
+				);
+				INFOPLIST_FILE = "Spotlight-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kunal.Spotlight-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C71779F1C78851A00013CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A8F84C39C494FEE3F28782 /* Pods-Spotlight-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Spotlight-iOS",
+				);
+				INFOPLIST_FILE = "Spotlight-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kunal.Spotlight-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0C7177A11C78851A00013CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Spotlight-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kunal.Spotlight-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotlight-iOS.app/Spotlight-iOS";
+			};
+			name = Debug;
+		};
+		0C7177A21C78851A00013CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Spotlight-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kunal.Spotlight-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spotlight-iOS.app/Spotlight-iOS";
+			};
+			name = Release;
+		};
+		0C7177A41C78851A00013CDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Spotlight-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kunal.Spotlight-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Spotlight-iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0C7177A51C78851A00013CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Spotlight-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Kunal.Spotlight-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Spotlight-iOS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C71776B1C78851A00013CDD /* Build configuration list for PBXProject "Spotlight-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C71779B1C78851A00013CDD /* Debug */,
+				0C71779C1C78851A00013CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C71779D1C78851A00013CDD /* Build configuration list for PBXNativeTarget "Spotlight-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C71779E1C78851A00013CDD /* Debug */,
+				0C71779F1C78851A00013CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C7177A01C78851A00013CDD /* Build configuration list for PBXNativeTarget "Spotlight-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7177A11C78851A00013CDD /* Debug */,
+				0C7177A21C78851A00013CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C7177A31C78851A00013CDD /* Build configuration list for PBXNativeTarget "Spotlight-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C7177A41C78851A00013CDD /* Debug */,
+				0C7177A51C78851A00013CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C7177681C78851A00013CDD /* Project object */;
+}
