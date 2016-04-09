@@ -7,66 +7,134 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10D07EC8D2BBF2F41773210E68D7F3EE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC93988D7F091F0DEE5CF44506467A32 /* AVFoundation.framework */; };
-		2F4B1AF15ECA562D4135BB41CC907AAA /* Pods-SpotlightRevised-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A083934A652270443271922903E43D1F /* Pods-SpotlightRevised-dummy.m */; };
-		5CA8BCBE8D912BA8500E198D4F47E1AE /* LLSimpleCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB78F671FD871F87BC803E55DD245443 /* LLSimpleCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E3D71D11A9778CCAEE350748CD92286 /* LLSimpleCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = F6363EF728F303DF8F76F5409B8C0FC3 /* LLSimpleCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AD52D80E5C7AB3C0D28A2BB4FCAE074 /* LLSimpleCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5863B13606DAD3366D9CF74E8618DD87 /* LLSimpleCamera-dummy.m */; };
-		8CAC372B4D65D175A0574BB8D40FA96F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764C93382B59CEE3ED12979B5766DD1E /* Foundation.framework */; };
-		924E42C1512BA8B48BF2974343F4D1B4 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FA175CC44F7860E223E6396291A152 /* LLSimpleCamera.m */; };
-		93A65C4380703954DF5831808850E6D6 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D3535B4E8AD8F8BF3A66F07D3FDEF46 /* UIImage+FixOrientation.m */; };
-		9D997518DD928746E774FAAAE38F4062 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764C93382B59CEE3ED12979B5766DD1E /* Foundation.framework */; };
-		AAEAEF5D55C085AC560844E416DA4FCB /* Pods-SpotlightRevised-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E048C8F11A25534CE1B60C021B21004E /* Pods-SpotlightRevised-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3C101ACB04EDAC3BA7EC5F4C2984A94 /* UIImage+FixOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FAB3972D54D1756145052C83B00E73C /* UIImage+FixOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00D9A6BF682C495BE80D2D4C8AEC2B63 /* YALAnimatingTabBarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7030D7929362B3F33846D913DD9149DC /* YALAnimatingTabBarConstants.m */; };
+		06192BEF4786E7971FE2F52F2389E17D /* YALSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D37699E50C585DF78727679B65147832 /* YALSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CE5B65177B4BC135AED6D8A06C5DC51 /* FoldingTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF36738C954DF42A04966BAF9C867E72 /* FoldingTabBar-dummy.m */; };
+		10D07EC8D2BBF2F41773210E68D7F3EE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F71929DF1C3C11432934FBEB317518 /* AVFoundation.framework */; };
+		1D54E6EC43B2B4250E1FE53B0C0A6662 /* MGSwipeTableCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C8B3673831940161B39713EAF19FAA1 /* MGSwipeTableCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC80D326050B6D9F2D2303FA37D9D15 /* Pods-SpotlightRevised-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A083934A652270443271922903E43D1F /* Pods-SpotlightRevised-dummy.m */; };
+		25DEF719A61C37E5CB10C799A01DFE42 /* YALTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDA81334C2458558EB90A2C16D6EA38 /* YALTabBarItem.m */; };
+		375D5687696A3D2F77580F4E13F447DC /* YALFoldingTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5378DD529C25CE018CD8CB45D5344F /* YALFoldingTabBarController.m */; };
+		3DB3C644CEEE4787CE6C1E70A5509C45 /* Pods-SpotlightRevised-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E048C8F11A25534CE1B60C021B21004E /* Pods-SpotlightRevised-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		473915DFCF0BE86A8570AD80A5381E49 /* CAAnimation+YALTabBarViewAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = A1ED8E4B76E2422ACBE20A0C375958FB /* CAAnimation+YALTabBarViewAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CE0183024DB913B7D195AFD016DC687 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8907D231FA32BDECBCEF52968C9631 /* QuartzCore.framework */; };
+		569D057F4C7A6F69AEA4AB0BD6D9900E /* MGSwipeTableCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5305BF4927ED5CF2A7BEF960EE1A1BC9 /* MGSwipeTableCell-dummy.m */; };
+		5A9D3D48B182CC30C8EFBC078D89EA05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4051A6DA4BC91E15F4A2A25D34C2BBBE /* Foundation.framework */; };
+		5CA8BCBE8D912BA8500E198D4F47E1AE /* LLSimpleCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59B97E0B9411196C1A205C35848E923F /* LLSimpleCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E3D71D11A9778CCAEE350748CD92286 /* LLSimpleCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 86112B689C83F5DE60DBDAF709C9B8AA /* LLSimpleCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EECB665352F33357612F51630336021 /* YALFoldingTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BB03997E0D7313E52C1DDB8C562EFC /* YALFoldingTabBar.m */; };
+		63DC27806C23AFFC9B7115E5EEAB9CBF /* MGSwipeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E9EE4CF252D8676098C76D100A992BAB /* MGSwipeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64165A4763C4D32CE8EC3AA8160359D9 /* YALSpringAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EABE68C4C532587C59CA3B3FB021033 /* YALSpringAnimation.m */; };
+		647BC4B96EC85393DE8E60D4F0089EA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4051A6DA4BC91E15F4A2A25D34C2BBBE /* Foundation.framework */; };
+		67558B72295110F846C2420C9540A52A /* MGSwipeTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B645E238073A0A751C57CDCF93A98F9 /* MGSwipeTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AD52D80E5C7AB3C0D28A2BB4FCAE074 /* LLSimpleCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2610ABD2503CA13A03B995D6E077D290 /* LLSimpleCamera-dummy.m */; };
+		7106B361CA57148640756546450E0F74 /* CATransaction+TransactionWithAnimationsAndCompletion.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CDFE1823A18C1EFC6B24A6328E6A4DF /* CATransaction+TransactionWithAnimationsAndCompletion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A6125B82A0C3BD3EA496D0BEDC1ADF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EFE5C5129835C420AC803CB3198A31 /* UIKit.framework */; };
+		8CAC372B4D65D175A0574BB8D40FA96F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4051A6DA4BC91E15F4A2A25D34C2BBBE /* Foundation.framework */; };
+		924E42C1512BA8B48BF2974343F4D1B4 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 412FA65CCB217E4377FCCBEE682B669A /* LLSimpleCamera.m */; };
+		933ADA79A4137D3FC76DA0BE1734F3B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4051A6DA4BC91E15F4A2A25D34C2BBBE /* Foundation.framework */; };
+		93A65C4380703954DF5831808850E6D6 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 297A187F9927CBAE311FAA21E0748AE6 /* UIImage+FixOrientation.m */; };
+		94F6B95FD263B8271100E4B9A40A68D9 /* CAAnimation+YALTabBarViewAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0974072B4132FCC0B00569ED006C34FA /* CAAnimation+YALTabBarViewAnimations.m */; };
+		95E41293E05A8ABB9866D6F3AED0CA10 /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E0CC1997D603184A8ED24A0F86D566 /* MGSwipeTableCell.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B33149BB6AFF371AC9E5D779FD552DD0 /* YALTabBarInteracting.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D4F0C90AFD99A5A6B9E537D1CCD197F /* YALTabBarInteracting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C189A4A418ED4CFEAC1C63F7FFE0FAD8 /* YALTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C4BACD9FE2A1DB12CC50D4EB5615DEDD /* YALTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2D1986F363E54A9162F8718AB6B8F75 /* YALAnimatingTabBarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = C90FDF4C6BA4C8A23D4B08AC7FF1133D /* YALAnimatingTabBarConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3C101ACB04EDAC3BA7EC5F4C2984A94 /* UIImage+FixOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A8115A546120AB15F3DCFDFAC73598 /* UIImage+FixOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8FD669C32DE47E548CBB0153988C1E2 /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A8932F912674DB9E6D49B4B165B407B /* MGSwipeButton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CA9B2A21A886487DD89DBB8DDCCFEF99 /* FoldingTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA6DA568A55E1FA70C1AC36A2E4E20F /* FoldingTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8BE45A7B0621551DF48DAB76858E1D1 /* YALFoldingTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 28FC36C5A74BDFB554D887C8058C5C13 /* YALFoldingTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED16DDA04FD591F4FEE094BA7E04B3FB /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A3927C6DD0B0772A50120DC3A35486 /* CATransaction+TransactionWithAnimationsAndCompletion.m */; };
+		FABB6CAC4FDDB99E3C3B4FA04FA4EB50 /* YALFoldingTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FD79BC441ABC5A1285D0DA44290FAE3 /* YALFoldingTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A8163B8496EDFB20BE9986477E096CE5 /* PBXContainerItemProxy */ = {
+		2382DE511732E29089EFDA3ED08AF594 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CE0CC7E2B5B550BC4172F6FF9CC5D50A;
 			remoteInfo = LLSimpleCamera;
 		};
+		C2904B95D528D3B82DA9231F491E1B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F52284BB73D7CF6A946B01B92E4E07F;
+			remoteInfo = FoldingTabBar;
+		};
+		F33FCD0D1C3BE8EF054DFBE86867593B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E1263BFF45F6446CF3DE29AE234C893;
+			remoteInfo = MGSwipeTableCell;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F6BCB05BD330AAAEAAD26D52C36CDB5 /* LLSimpleCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera-prefix.pch"; sourceTree = "<group>"; };
-		1FAB3972D54D1756145052C83B00E73C /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FixOrientation.h"; path = "LLSimpleCamera/UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		0974072B4132FCC0B00569ED006C34FA /* CAAnimation+YALTabBarViewAnimations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+YALTabBarViewAnimations.m"; path = "FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.m"; sourceTree = "<group>"; };
+		0A349B7614007A2D2490933D025DE3D1 /* FoldingTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FoldingTabBar.modulemap; sourceTree = "<group>"; };
+		0B10B2E7730AB77FF94EF6E4729289E8 /* LLSimpleCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LLSimpleCamera.modulemap; sourceTree = "<group>"; };
+		0C8B3673831940161B39713EAF19FAA1 /* MGSwipeTableCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGSwipeTableCell-umbrella.h"; sourceTree = "<group>"; };
+		0D4F0C90AFD99A5A6B9E537D1CCD197F /* YALTabBarInteracting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALTabBarInteracting.h; path = FoldingTabBar/Protocol/TabBarInteracting/YALTabBarInteracting.h; sourceTree = "<group>"; };
+		10AC0B57C02B90B8FE2F956B829CAF43 /* Pods_SpotlightRevised.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotlightRevised.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14BB03997E0D7313E52C1DDB8C562EFC /* YALFoldingTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALFoldingTabBar.m; path = FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.m; sourceTree = "<group>"; };
+		2610ABD2503CA13A03B995D6E077D290 /* LLSimpleCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLSimpleCamera-dummy.m"; sourceTree = "<group>"; };
+		279E7FF3C95FFEADFD04FEBA2D24A5D5 /* MGSwipeTableCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGSwipeTableCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		287E55035E7D4358E7D26736B3498A46 /* Pods-SpotlightRevised.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotlightRevised.debug.xcconfig"; sourceTree = "<group>"; };
-		2D3535B4E8AD8F8BF3A66F07D3FDEF46 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FixOrientation.m"; path = "LLSimpleCamera/UIImage+FixOrientation.m"; sourceTree = "<group>"; };
-		4512D30C01A013BD26E9F8410AAF019B /* LLSimpleCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LLSimpleCamera.modulemap; sourceTree = "<group>"; };
+		28FC36C5A74BDFB554D887C8058C5C13 /* YALFoldingTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALFoldingTabBar.h; path = FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.h; sourceTree = "<group>"; };
+		297A187F9927CBAE311FAA21E0748AE6 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FixOrientation.m"; path = "LLSimpleCamera/UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		2FD79BC441ABC5A1285D0DA44290FAE3 /* YALFoldingTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALFoldingTabBarController.h; path = FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.h; sourceTree = "<group>"; };
+		31AB5C715355342EC49927B55AB4B27B /* FoldingTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FoldingTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A58EA482E613BF0F0A68896F837F74B /* MGSwipeTableCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MGSwipeTableCell.modulemap; sourceTree = "<group>"; };
+		3EABE68C4C532587C59CA3B3FB021033 /* YALSpringAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALSpringAnimation.m; path = FoldingTabBar/Animation/YALSpringAnimation/YALSpringAnimation.m; sourceTree = "<group>"; };
+		4051A6DA4BC91E15F4A2A25D34C2BBBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		412FA65CCB217E4377FCCBEE682B669A /* LLSimpleCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLSimpleCamera.m; path = LLSimpleCamera/LLSimpleCamera.m; sourceTree = "<group>"; };
+		44F71929DF1C3C11432934FBEB317518 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		4CD96B962CC63A3653647B0263106BA9 /* LLSimpleCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera-prefix.pch"; sourceTree = "<group>"; };
 		4DF2632D9519B87EB732E34F04F7990F /* Pods-SpotlightRevised-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpotlightRevised-resources.sh"; sourceTree = "<group>"; };
-		5863B13606DAD3366D9CF74E8618DD87 /* LLSimpleCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLSimpleCamera-dummy.m"; sourceTree = "<group>"; };
-		58FDD4C36E37640E4D03A8319F3C2C5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		764C93382B59CEE3ED12979B5766DD1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5305BF4927ED5CF2A7BEF960EE1A1BC9 /* MGSwipeTableCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGSwipeTableCell-dummy.m"; sourceTree = "<group>"; };
+		5542106225C2B82BD46EF8F1ADBECF37 /* FoldingTabBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoldingTabBar.xcconfig; sourceTree = "<group>"; };
+		59B97E0B9411196C1A205C35848E923F /* LLSimpleCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera-umbrella.h"; sourceTree = "<group>"; };
+		5A8932F912674DB9E6D49B4B165B407B /* MGSwipeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGSwipeButton.m; path = MGSwipeTableCell/MGSwipeButton.m; sourceTree = "<group>"; };
+		5B645E238073A0A751C57CDCF93A98F9 /* MGSwipeTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGSwipeTableCell.h; path = MGSwipeTableCell/MGSwipeTableCell.h; sourceTree = "<group>"; };
+		665C6AF5A3C8F72FA7A1D08DD470EE90 /* FoldingTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingTabBar-prefix.pch"; sourceTree = "<group>"; };
+		6CDFE1823A18C1EFC6B24A6328E6A4DF /* CATransaction+TransactionWithAnimationsAndCompletion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CATransaction+TransactionWithAnimationsAndCompletion.h"; path = "FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.h"; sourceTree = "<group>"; };
+		7030D7929362B3F33846D913DD9149DC /* YALAnimatingTabBarConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALAnimatingTabBarConstants.m; path = FoldingTabBar/Constants/YALAnimatingTabBarConstants.m; sourceTree = "<group>"; };
+		71A3927C6DD0B0772A50120DC3A35486 /* CATransaction+TransactionWithAnimationsAndCompletion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CATransaction+TransactionWithAnimationsAndCompletion.m"; path = "FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.m"; sourceTree = "<group>"; };
 		76DE744A2EF37553BA2E30F7F40D309C /* Pods-SpotlightRevised-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpotlightRevised-frameworks.sh"; sourceTree = "<group>"; };
+		86112B689C83F5DE60DBDAF709C9B8AA /* LLSimpleCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLSimpleCamera.h; path = LLSimpleCamera/LLSimpleCamera.h; sourceTree = "<group>"; };
 		8C04B01266C569E54FEC87AD2300F737 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		925E4033B9DE93A35BEB49A213535766 /* Pods-SpotlightRevised.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SpotlightRevised.modulemap"; sourceTree = "<group>"; };
 		A083934A652270443271922903E43D1F /* Pods-SpotlightRevised-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpotlightRevised-dummy.m"; sourceTree = "<group>"; };
-		A56D6DCE757BB325EC0D95930124A7A6 /* LLSimpleCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLSimpleCamera.xcconfig; sourceTree = "<group>"; };
+		A0E6DC7D1799C15A77F76AAF7A51DCA6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1ED8E4B76E2422ACBE20A0C375958FB /* CAAnimation+YALTabBarViewAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+YALTabBarViewAnimations.h"; path = "FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.h"; sourceTree = "<group>"; };
+		A48C9B0C6E908BCBAD24ED86B8168E4D /* MGSwipeTableCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGSwipeTableCell.xcconfig; sourceTree = "<group>"; };
 		AAD4D0513E157A7622CEC0B68DE07702 /* Pods-SpotlightRevised.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotlightRevised.release.xcconfig"; sourceTree = "<group>"; };
 		ABB246A717A595A7A5335A2F8D3225E5 /* Pods-SpotlightRevised-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpotlightRevised-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD8907D231FA32BDECBCEF52968C9631 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BB78F671FD871F87BC803E55DD245443 /* LLSimpleCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera-umbrella.h"; sourceTree = "<group>"; };
-		CC93988D7F091F0DEE5CF44506467A32 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		CE912FD6E0F75CB0E24626A2BEC839A1 /* LLSimpleCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LLSimpleCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BACD9FE2A1DB12CC50D4EB5615DEDD /* YALTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALTabBarItem.h; path = FoldingTabBar/Model/TabBarItem/YALTabBarItem.h; sourceTree = "<group>"; };
+		C90FDF4C6BA4C8A23D4B08AC7FF1133D /* YALAnimatingTabBarConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALAnimatingTabBarConstants.h; path = FoldingTabBar/Constants/YALAnimatingTabBarConstants.h; sourceTree = "<group>"; };
+		D1A8115A546120AB15F3DCFDFAC73598 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FixOrientation.h"; path = "LLSimpleCamera/UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		D37699E50C585DF78727679B65147832 /* YALSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALSpringAnimation.h; path = FoldingTabBar/Animation/YALSpringAnimation/YALSpringAnimation.h; sourceTree = "<group>"; };
 		D4A8F14C309B527418ED2B61FA83E2AA /* Pods-SpotlightRevised-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpotlightRevised-acknowledgements.plist"; sourceTree = "<group>"; };
-		D9FA175CC44F7860E223E6396291A152 /* LLSimpleCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLSimpleCamera.m; path = LLSimpleCamera/LLSimpleCamera.m; sourceTree = "<group>"; };
+		D5E0DEAADEE90F1485FFBD821408A78F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC2F12872BF5BB73E07DB3230A74A4DA /* LLSimpleCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLSimpleCamera.xcconfig; sourceTree = "<group>"; };
+		DF36738C954DF42A04966BAF9C867E72 /* FoldingTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FoldingTabBar-dummy.m"; sourceTree = "<group>"; };
+		DFC613FACEA107124106EF60415D4505 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E048C8F11A25534CE1B60C021B21004E /* Pods-SpotlightRevised-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpotlightRevised-umbrella.h"; sourceTree = "<group>"; };
-		F3452D20813455C28ACF960AC7624F53 /* Pods_SpotlightRevised.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotlightRevised.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6363EF728F303DF8F76F5409B8C0FC3 /* LLSimpleCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLSimpleCamera.h; path = LLSimpleCamera/LLSimpleCamera.h; sourceTree = "<group>"; };
+		E5E0CC1997D603184A8ED24A0F86D566 /* MGSwipeTableCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGSwipeTableCell.m; path = MGSwipeTableCell/MGSwipeTableCell.m; sourceTree = "<group>"; };
+		E6EFE5C5129835C420AC803CB3198A31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E9EE4CF252D8676098C76D100A992BAB /* MGSwipeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGSwipeButton.h; path = MGSwipeTableCell/MGSwipeButton.h; sourceTree = "<group>"; };
+		EAA6DA568A55E1FA70C1AC36A2E4E20F /* FoldingTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingTabBar-umbrella.h"; sourceTree = "<group>"; };
+		F10A371755AC954B413F96E85A7C5C2A /* LLSimpleCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LLSimpleCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9917EB183922D5957357B16CBD10757 /* MGSwipeTableCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGSwipeTableCell-prefix.pch"; sourceTree = "<group>"; };
+		FBDA81334C2458558EB90A2C16D6EA38 /* YALTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALTabBarItem.m; path = FoldingTabBar/Model/TabBarItem/YALTabBarItem.m; sourceTree = "<group>"; };
+		FF5378DD529C25CE018CD8CB45D5344F /* YALFoldingTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALFoldingTabBarController.m; path = FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07905E24AF8410D5EDFCB06CED1386EF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D997518DD928746E774FAAAE38F4062 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		42B1C09FA49EC551A9BB46E594E7FC63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,16 +144,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		68F74EF030AC41FE62660D02D19FA287 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647BC4B96EC85393DE8E60D4F0089EA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0271E88F65B17975F56915CAAD607F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9D3D48B182CC30C8EFBC078D89EA05 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE92B6904276D96AABE735278A581F62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933ADA79A4137D3FC76DA0BE1734F3B2 /* Foundation.framework in Frameworks */,
+				4CE0183024DB913B7D195AFD016DC687 /* QuartzCore.framework in Frameworks */,
+				8A6125B82A0C3BD3EA496D0BEDC1ADF7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		140E72A099EB1355A5C85118488C48FC /* Products */ = {
+		117218C02973A7F840C3187FD65B5BF5 /* MGSwipeTableCell */ = {
 			isa = PBXGroup;
 			children = (
-				CE912FD6E0F75CB0E24626A2BEC839A1 /* LLSimpleCamera.framework */,
-				F3452D20813455C28ACF960AC7624F53 /* Pods_SpotlightRevised.framework */,
+				E9EE4CF252D8676098C76D100A992BAB /* MGSwipeButton.h */,
+				5A8932F912674DB9E6D49B4B165B407B /* MGSwipeButton.m */,
+				5B645E238073A0A751C57CDCF93A98F9 /* MGSwipeTableCell.h */,
+				E5E0CC1997D603184A8ED24A0F86D566 /* MGSwipeTableCell.m */,
+				A8FEC58520FC8EB63FF1741827A19A02 /* Support Files */,
 			);
-			name = Products;
+			path = MGSwipeTableCell;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A43D47E2D19D53721513572DCA410936 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		25A8C759D476BCCE6912A8C64B8E42A5 /* Pods-SpotlightRevised */ = {
@@ -106,21 +211,48 @@
 			path = "Target Support Files/Pods-SpotlightRevised";
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		33A52CE00B798EE9894B063DA92346EE /* FoldingTabBar */ = {
 			isa = PBXGroup;
 			children = (
-				502F60075FC4331F755C37AE61C739B8 /* iOS */,
+				A1ED8E4B76E2422ACBE20A0C375958FB /* CAAnimation+YALTabBarViewAnimations.h */,
+				0974072B4132FCC0B00569ED006C34FA /* CAAnimation+YALTabBarViewAnimations.m */,
+				6CDFE1823A18C1EFC6B24A6328E6A4DF /* CATransaction+TransactionWithAnimationsAndCompletion.h */,
+				71A3927C6DD0B0772A50120DC3A35486 /* CATransaction+TransactionWithAnimationsAndCompletion.m */,
+				C90FDF4C6BA4C8A23D4B08AC7FF1133D /* YALAnimatingTabBarConstants.h */,
+				7030D7929362B3F33846D913DD9149DC /* YALAnimatingTabBarConstants.m */,
+				28FC36C5A74BDFB554D887C8058C5C13 /* YALFoldingTabBar.h */,
+				14BB03997E0D7313E52C1DDB8C562EFC /* YALFoldingTabBar.m */,
+				2FD79BC441ABC5A1285D0DA44290FAE3 /* YALFoldingTabBarController.h */,
+				FF5378DD529C25CE018CD8CB45D5344F /* YALFoldingTabBarController.m */,
+				D37699E50C585DF78727679B65147832 /* YALSpringAnimation.h */,
+				3EABE68C4C532587C59CA3B3FB021033 /* YALSpringAnimation.m */,
+				0D4F0C90AFD99A5A6B9E537D1CCD197F /* YALTabBarInteracting.h */,
+				C4BACD9FE2A1DB12CC50D4EB5615DEDD /* YALTabBarItem.h */,
+				FBDA81334C2458558EB90A2C16D6EA38 /* YALTabBarItem.m */,
+				DBD4693DC5BC2ADB4748C666D0B99F6D /* Support Files */,
 			);
-			name = Frameworks;
+			path = FoldingTabBar;
 			sourceTree = "<group>";
 		};
-		502F60075FC4331F755C37AE61C739B8 /* iOS */ = {
+		3FC96B94C272CAD0C679C48B308026D8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CC93988D7F091F0DEE5CF44506467A32 /* AVFoundation.framework */,
-				764C93382B59CEE3ED12979B5766DD1E /* Foundation.framework */,
+				33A52CE00B798EE9894B063DA92346EE /* FoldingTabBar */,
+				82404AD9A3CC67C4A93BDF5409F528D9 /* LLSimpleCamera */,
+				117218C02973A7F840C3187FD65B5BF5 /* MGSwipeTableCell */,
 			);
-			name = iOS;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4993914A58BBD1A1AD381A02A2DFF4BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31AB5C715355342EC49927B55AB4B27B /* FoldingTabBar.framework */,
+				F10A371755AC954B413F96E85A7C5C2A /* LLSimpleCamera.framework */,
+				279E7FF3C95FFEADFD04FEBA2D24A5D5 /* MGSwipeTableCell.framework */,
+				10AC0B57C02B90B8FE2F956B829CAF43 /* Pods_SpotlightRevised.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		6E61451A4EA9813105E97464BFB7C749 /* Targets Support Files */ = {
@@ -131,54 +263,95 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7197DCC19C38D8041DDB9852DD714DD3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AD156EACCBF5D0E4D67F0A31537667D4 /* LLSimpleCamera */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				7197DCC19C38D8041DDB9852DD714DD3 /* Pods */,
-				140E72A099EB1355A5C85118488C48FC /* Products */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				3FC96B94C272CAD0C679C48B308026D8 /* Pods */,
+				4993914A58BBD1A1AD381A02A2DFF4BA /* Products */,
 				6E61451A4EA9813105E97464BFB7C749 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		AD156EACCBF5D0E4D67F0A31537667D4 /* LLSimpleCamera */ = {
+		82404AD9A3CC67C4A93BDF5409F528D9 /* LLSimpleCamera */ = {
 			isa = PBXGroup;
 			children = (
-				F6363EF728F303DF8F76F5409B8C0FC3 /* LLSimpleCamera.h */,
-				D9FA175CC44F7860E223E6396291A152 /* LLSimpleCamera.m */,
-				1FAB3972D54D1756145052C83B00E73C /* UIImage+FixOrientation.h */,
-				2D3535B4E8AD8F8BF3A66F07D3FDEF46 /* UIImage+FixOrientation.m */,
-				BD11A7C07D08AFBEB8355494BF0C5AED /* Support Files */,
+				86112B689C83F5DE60DBDAF709C9B8AA /* LLSimpleCamera.h */,
+				412FA65CCB217E4377FCCBEE682B669A /* LLSimpleCamera.m */,
+				D1A8115A546120AB15F3DCFDFAC73598 /* UIImage+FixOrientation.h */,
+				297A187F9927CBAE311FAA21E0748AE6 /* UIImage+FixOrientation.m */,
+				C99035AA51A0C0E76AB269820CA3897D /* Support Files */,
 			);
 			path = LLSimpleCamera;
 			sourceTree = "<group>";
 		};
-		BD11A7C07D08AFBEB8355494BF0C5AED /* Support Files */ = {
+		A43D47E2D19D53721513572DCA410936 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				58FDD4C36E37640E4D03A8319F3C2C5F /* Info.plist */,
-				4512D30C01A013BD26E9F8410AAF019B /* LLSimpleCamera.modulemap */,
-				A56D6DCE757BB325EC0D95930124A7A6 /* LLSimpleCamera.xcconfig */,
-				5863B13606DAD3366D9CF74E8618DD87 /* LLSimpleCamera-dummy.m */,
-				1F6BCB05BD330AAAEAAD26D52C36CDB5 /* LLSimpleCamera-prefix.pch */,
-				BB78F671FD871F87BC803E55DD245443 /* LLSimpleCamera-umbrella.h */,
+				44F71929DF1C3C11432934FBEB317518 /* AVFoundation.framework */,
+				4051A6DA4BC91E15F4A2A25D34C2BBBE /* Foundation.framework */,
+				AD8907D231FA32BDECBCEF52968C9631 /* QuartzCore.framework */,
+				E6EFE5C5129835C420AC803CB3198A31 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A8FEC58520FC8EB63FF1741827A19A02 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5E0DEAADEE90F1485FFBD821408A78F /* Info.plist */,
+				3A58EA482E613BF0F0A68896F837F74B /* MGSwipeTableCell.modulemap */,
+				A48C9B0C6E908BCBAD24ED86B8168E4D /* MGSwipeTableCell.xcconfig */,
+				5305BF4927ED5CF2A7BEF960EE1A1BC9 /* MGSwipeTableCell-dummy.m */,
+				F9917EB183922D5957357B16CBD10757 /* MGSwipeTableCell-prefix.pch */,
+				0C8B3673831940161B39713EAF19FAA1 /* MGSwipeTableCell-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MGSwipeTableCell";
+			sourceTree = "<group>";
+		};
+		C99035AA51A0C0E76AB269820CA3897D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFC613FACEA107124106EF60415D4505 /* Info.plist */,
+				0B10B2E7730AB77FF94EF6E4729289E8 /* LLSimpleCamera.modulemap */,
+				DC2F12872BF5BB73E07DB3230A74A4DA /* LLSimpleCamera.xcconfig */,
+				2610ABD2503CA13A03B995D6E077D290 /* LLSimpleCamera-dummy.m */,
+				4CD96B962CC63A3653647B0263106BA9 /* LLSimpleCamera-prefix.pch */,
+				59B97E0B9411196C1A205C35848E923F /* LLSimpleCamera-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/LLSimpleCamera";
 			sourceTree = "<group>";
 		};
+		DBD4693DC5BC2ADB4748C666D0B99F6D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A349B7614007A2D2490933D025DE3D1 /* FoldingTabBar.modulemap */,
+				5542106225C2B82BD46EF8F1ADBECF37 /* FoldingTabBar.xcconfig */,
+				DF36738C954DF42A04966BAF9C867E72 /* FoldingTabBar-dummy.m */,
+				665C6AF5A3C8F72FA7A1D08DD470EE90 /* FoldingTabBar-prefix.pch */,
+				EAA6DA568A55E1FA70C1AC36A2E4E20F /* FoldingTabBar-umbrella.h */,
+				A0E6DC7D1799C15A77F76AAF7A51DCA6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FoldingTabBar";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1E754E9D399930F33BC210A07296168D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DC27806C23AFFC9B7115E5EEAB9CBF /* MGSwipeButton.h in Headers */,
+				1D54E6EC43B2B4250E1FE53B0C0A6662 /* MGSwipeTableCell-umbrella.h in Headers */,
+				67558B72295110F846C2420C9540A52A /* MGSwipeTableCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3CCC3AAF8F87F8D1B6851D6A685CC141 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,33 +362,85 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		697258BD5034F1B1E8AE081B4D58B53D /* Headers */ = {
+		3D4CF7EECB343CC304AD45E10582DF2D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAEAEF5D55C085AC560844E416DA4FCB /* Pods-SpotlightRevised-umbrella.h in Headers */,
+				3DB3C644CEEE4787CE6C1E70A5509C45 /* Pods-SpotlightRevised-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1E551D92398799D43309CEE9B1D557 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473915DFCF0BE86A8570AD80A5381E49 /* CAAnimation+YALTabBarViewAnimations.h in Headers */,
+				7106B361CA57148640756546450E0F74 /* CATransaction+TransactionWithAnimationsAndCompletion.h in Headers */,
+				CA9B2A21A886487DD89DBB8DDCCFEF99 /* FoldingTabBar-umbrella.h in Headers */,
+				C2D1986F363E54A9162F8718AB6B8F75 /* YALAnimatingTabBarConstants.h in Headers */,
+				D8BE45A7B0621551DF48DAB76858E1D1 /* YALFoldingTabBar.h in Headers */,
+				FABB6CAC4FDDB99E3C3B4FA04FA4EB50 /* YALFoldingTabBarController.h in Headers */,
+				06192BEF4786E7971FE2F52F2389E17D /* YALSpringAnimation.h in Headers */,
+				B33149BB6AFF371AC9E5D779FD552DD0 /* YALTabBarInteracting.h in Headers */,
+				C189A4A418ED4CFEAC1C63F7FFE0FAD8 /* YALTabBarItem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B7B1E00FCFE86C2CB4AF21B368B0C497 /* Pods-SpotlightRevised */ = {
+		0F52284BB73D7CF6A946B01B92E4E07F /* FoldingTabBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C243A58D1C2D6FE0A2707715CE913E1 /* Build configuration list for PBXNativeTarget "Pods-SpotlightRevised" */;
+			buildConfigurationList = 23D529782B826D4145385D9F722BCD02 /* Build configuration list for PBXNativeTarget "FoldingTabBar" */;
 			buildPhases = (
-				894137CF68131DDDCB715B23C74B99B9 /* Sources */,
-				07905E24AF8410D5EDFCB06CED1386EF /* Frameworks */,
-				697258BD5034F1B1E8AE081B4D58B53D /* Headers */,
+				4128CDA34F3112B2109187153E4F1197 /* Sources */,
+				AE92B6904276D96AABE735278A581F62 /* Frameworks */,
+				FE1E551D92398799D43309CEE9B1D557 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				98B12480AA166C5951B6E5913B1D2A8F /* PBXTargetDependency */,
+			);
+			name = FoldingTabBar;
+			productName = FoldingTabBar;
+			productReference = 31AB5C715355342EC49927B55AB4B27B /* FoldingTabBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E1263BFF45F6446CF3DE29AE234C893 /* MGSwipeTableCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B05C24F339BF84D6E16E6538A947C90 /* Build configuration list for PBXNativeTarget "MGSwipeTableCell" */;
+			buildPhases = (
+				C8C13026DC462129E945B064D7D89D95 /* Sources */,
+				AC0271E88F65B17975F56915CAAD607F /* Frameworks */,
+				1E754E9D399930F33BC210A07296168D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGSwipeTableCell;
+			productName = MGSwipeTableCell;
+			productReference = 279E7FF3C95FFEADFD04FEBA2D24A5D5 /* MGSwipeTableCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91D1E15B6B4DE2BF1D0DF60874A07E01 /* Pods-SpotlightRevised */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C27DBD3CC4370534780E10E92DF413 /* Build configuration list for PBXNativeTarget "Pods-SpotlightRevised" */;
+			buildPhases = (
+				01FFE0311AB0B5CAABCDE7B946B27E4F /* Sources */,
+				68F74EF030AC41FE62660D02D19FA287 /* Frameworks */,
+				3D4CF7EECB343CC304AD45E10582DF2D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B75BAD71E9251322952FB15CCB1BF9FC /* PBXTargetDependency */,
+				ABCBDD729F30543F0C50D210865C2834 /* PBXTargetDependency */,
+				B7B761594B59FC2FB35B92D67652EBE9 /* PBXTargetDependency */,
 			);
 			name = "Pods-SpotlightRevised";
 			productName = "Pods-SpotlightRevised";
-			productReference = F3452D20813455C28ACF960AC7624F53 /* Pods_SpotlightRevised.framework */;
+			productReference = 10AC0B57C02B90B8FE2F956B829CAF43 /* Pods_SpotlightRevised.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CE0CC7E2B5B550BC4172F6FF9CC5D50A /* LLSimpleCamera */ = {
@@ -232,7 +457,7 @@
 			);
 			name = LLSimpleCamera;
 			productName = LLSimpleCamera;
-			productReference = CE912FD6E0F75CB0E24626A2BEC839A1 /* LLSimpleCamera.framework */;
+			productReference = F10A371755AC954B413F96E85A7C5C2A /* LLSimpleCamera.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -252,22 +477,49 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 140E72A099EB1355A5C85118488C48FC /* Products */;
+			productRefGroup = 4993914A58BBD1A1AD381A02A2DFF4BA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				0F52284BB73D7CF6A946B01B92E4E07F /* FoldingTabBar */,
 				CE0CC7E2B5B550BC4172F6FF9CC5D50A /* LLSimpleCamera */,
-				B7B1E00FCFE86C2CB4AF21B368B0C497 /* Pods-SpotlightRevised */,
+				4E1263BFF45F6446CF3DE29AE234C893 /* MGSwipeTableCell */,
+				91D1E15B6B4DE2BF1D0DF60874A07E01 /* Pods-SpotlightRevised */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		894137CF68131DDDCB715B23C74B99B9 /* Sources */ = {
+		01FFE0311AB0B5CAABCDE7B946B27E4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F4B1AF15ECA562D4135BB41CC907AAA /* Pods-SpotlightRevised-dummy.m in Sources */,
+				1DC80D326050B6D9F2D2303FA37D9D15 /* Pods-SpotlightRevised-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4128CDA34F3112B2109187153E4F1197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F6B95FD263B8271100E4B9A40A68D9 /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
+				ED16DDA04FD591F4FEE094BA7E04B3FB /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
+				0CE5B65177B4BC135AED6D8A06C5DC51 /* FoldingTabBar-dummy.m in Sources */,
+				00D9A6BF682C495BE80D2D4C8AEC2B63 /* YALAnimatingTabBarConstants.m in Sources */,
+				5EECB665352F33357612F51630336021 /* YALFoldingTabBar.m in Sources */,
+				375D5687696A3D2F77580F4E13F447DC /* YALFoldingTabBarController.m in Sources */,
+				64165A4763C4D32CE8EC3AA8160359D9 /* YALSpringAnimation.m in Sources */,
+				25DEF719A61C37E5CB10C799A01DFE42 /* YALTabBarItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C13026DC462129E945B064D7D89D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FD669C32DE47E548CBB0153988C1E2 /* MGSwipeButton.m in Sources */,
+				569D057F4C7A6F69AEA4AB0BD6D9900E /* MGSwipeTableCell-dummy.m in Sources */,
+				95E41293E05A8ABB9866D6F3AED0CA10 /* MGSwipeTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,16 +536,55 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		98B12480AA166C5951B6E5913B1D2A8F /* PBXTargetDependency */ = {
+		ABCBDD729F30543F0C50D210865C2834 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LLSimpleCamera;
 			target = CE0CC7E2B5B550BC4172F6FF9CC5D50A /* LLSimpleCamera */;
-			targetProxy = A8163B8496EDFB20BE9986477E096CE5 /* PBXContainerItemProxy */;
+			targetProxy = 2382DE511732E29089EFDA3ED08AF594 /* PBXContainerItemProxy */;
+		};
+		B75BAD71E9251322952FB15CCB1BF9FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FoldingTabBar;
+			target = 0F52284BB73D7CF6A946B01B92E4E07F /* FoldingTabBar */;
+			targetProxy = C2904B95D528D3B82DA9231F491E1B1C /* PBXContainerItemProxy */;
+		};
+		B7B761594B59FC2FB35B92D67652EBE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGSwipeTableCell;
+			target = 4E1263BFF45F6446CF3DE29AE234C893 /* MGSwipeTableCell */;
+			targetProxy = F33FCD0D1C3BE8EF054DFBE86867593B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		80FB81B68D5050E5E01F5B9302644043 /* Debug */ = {
+		01936BD68B2EE3D51A816D4CE6B343D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A48C9B0C6E908BCBAD24ED86B8168E4D /* MGSwipeTableCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGSwipeTableCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MGSwipeTableCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A0D443EE4DFDAEEF74D55FFB6E1AADA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 287E55035E7D4358E7D26736B3498A46 /* Pods-SpotlightRevised.debug.xcconfig */;
 			buildSettings = {
@@ -325,7 +616,7 @@
 		};
 		94BBC8829ACD88D9CD196EB624E79A99 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A56D6DCE757BB325EC0D95930124A7A6 /* LLSimpleCamera.xcconfig */;
+			baseConfigurationReference = DC2F12872BF5BB73E07DB3230A74A4DA /* LLSimpleCamera.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -349,6 +640,33 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		A455652A7B3D585BF46C947223450CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5542106225C2B82BD46EF8F1ADBECF37 /* FoldingTabBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FoldingTabBar/FoldingTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoldingTabBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FoldingTabBar/FoldingTabBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FoldingTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -391,7 +709,7 @@
 		};
 		AA73BEABF752DDF39F81BD1FFB2DD8CF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A56D6DCE757BB325EC0D95930124A7A6 /* LLSimpleCamera.xcconfig */;
+			baseConfigurationReference = DC2F12872BF5BB73E07DB3230A74A4DA /* LLSimpleCamera.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -416,7 +734,34 @@
 			};
 			name = Release;
 		};
-		DB4AE5196C148D5ABB29270D1C762BB9 /* Release */ = {
+		C52939A31F4AC8C24B3F0B3D3B7E934F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A48C9B0C6E908BCBAD24ED86B8168E4D /* MGSwipeTableCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGSwipeTableCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MGSwipeTableCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E396885E77E6CF0AFAE513638B3F9083 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AAD4D0513E157A7622CEC0B68DE07702 /* Pods-SpotlightRevised.release.xcconfig */;
 			buildSettings = {
@@ -445,6 +790,33 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		EE04AD3C507CD2FB37E6AB3D13013FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5542106225C2B82BD46EF8F1ADBECF37 /* FoldingTabBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FoldingTabBar/FoldingTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoldingTabBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FoldingTabBar/FoldingTabBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FoldingTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -492,6 +864,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		23D529782B826D4145385D9F722BCD02 /* Build configuration list for PBXNativeTarget "FoldingTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE04AD3C507CD2FB37E6AB3D13013FA8 /* Debug */,
+				A455652A7B3D585BF46C947223450CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -501,11 +882,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C243A58D1C2D6FE0A2707715CE913E1 /* Build configuration list for PBXNativeTarget "Pods-SpotlightRevised" */ = {
+		67C27DBD3CC4370534780E10E92DF413 /* Build configuration list for PBXNativeTarget "Pods-SpotlightRevised" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80FB81B68D5050E5E01F5B9302644043 /* Debug */,
-				DB4AE5196C148D5ABB29270D1C762BB9 /* Release */,
+				6A0D443EE4DFDAEEF74D55FFB6E1AADA /* Debug */,
+				E396885E77E6CF0AFAE513638B3F9083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B05C24F339BF84D6E16E6538A947C90 /* Build configuration list for PBXNativeTarget "MGSwipeTableCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C52939A31F4AC8C24B3F0B3D3B7E934F /* Debug */,
+				01936BD68B2EE3D51A816D4CE6B343D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

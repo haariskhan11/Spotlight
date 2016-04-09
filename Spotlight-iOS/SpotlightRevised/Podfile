@@ -5,6 +5,8 @@ use_frameworks!
 
 target 'SpotlightRevised' do
 pod 'LLSimpleCamera', '~> 4.1'
+pod 'FoldingTabBar', '~> 1.0.2'
+pod 'MGSwipeTableCell'
 end
 
 target 'SpotlightRevisedTests' do
