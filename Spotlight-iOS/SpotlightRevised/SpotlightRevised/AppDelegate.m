@@ -69,6 +69,11 @@
     tabBarController.tabBarView.tabBarViewEdgeInsets = YALTabBarViewHDefaultEdgeInsets;
     tabBarController.tabBarView.tabBarItemsEdgeInsets = YALTabBarViewItemsDefaultEdgeInsets;
     
+    // hide tab bar when camera vc is presented
+    if (tabBarController.selectedIndex == 2) {
+        tabBarController.tabBarView.backgroundColor = [UIColor blackColor];
+        
+    }
     
 }
 

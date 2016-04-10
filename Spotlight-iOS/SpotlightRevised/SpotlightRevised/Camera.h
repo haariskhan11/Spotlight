@@ -8,14 +8,22 @@
 
 #import <UIKit/UIKit.h>
 #import "LLSimpleCamera.h"
+#import <MediaPlayer/MediaPlayer.h>
+#import <MobileCoreServices/MobileCoreServices.h>
 
-@interface Camera : UIViewController
+@interface Camera : UIViewController <UIImagePickerControllerDelegate>
 
-@property (strong, nonatomic) LLSimpleCamera *camera;
-@property (strong, nonatomic) UILabel *errorLabel;
-@property (strong, nonatomic) UIButton *snapButton;
-@property (strong, nonatomic) UIButton *switchButton;
-@property (strong, nonatomic) UIButton *flashButton;
-@property (strong, nonatomic) UISegmentedControl *segmentedControl;
+//@property (strong, nonatomic) LLSimpleCamera *camera;
+//@property (strong, nonatomic) UILabel *errorLabel;
+//@property (strong, nonatomic) UIButton *snapButton;
+//@property (strong, nonatomic) UIButton *switchButton;
+//@property (strong, nonatomic) UIButton *flashButton;
+//@property (strong, nonatomic) UISegmentedControl *segmentedControl;
+
+@property (strong, nonatomic) NSURL *videoURL;
+@property (strong, nonatomic) MPMoviePlayerController *videoController;
+- (IBAction)captureVideo:(id)sender;
+
+
 
 @end
