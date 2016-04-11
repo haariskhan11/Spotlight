@@ -36,6 +36,26 @@
 		0CB80E441CBA1058006996C7 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB80E411CBA1058006996C7 /* UIImage+Crop.m */; };
 		0CB80E451CBA1058006996C7 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB80E431CBA1058006996C7 /* UIImage+Resize.m */; };
 		0CB80E481CBA1085006996C7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB80E471CBA1085006996C7 /* AVFoundation.framework */; };
+		0CF63CB31CBB3FC2003B8E01 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF63CB21CBB3FC2003B8E01 /* Login.m */; };
+		0CF63CCE1CBB51A7003B8E01 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF63CC71CBB51A7003B8E01 /* Bolts.framework */; };
+		0CF63CCF1CBB51A7003B8E01 /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CC81CBB51A7003B8E01 /* FacebookSDKStrings.bundle */; };
+		0CF63CD01CBB51A7003B8E01 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF63CC91CBB51A7003B8E01 /* FBAudienceNetwork.framework */; };
+		0CF63CD11CBB51A7003B8E01 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF63CCA1CBB51A7003B8E01 /* FBSDKCoreKit.framework */; };
+		0CF63CD21CBB51A7003B8E01 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF63CCB1CBB51A7003B8E01 /* FBSDKLoginKit.framework */; };
+		0CF63CD31CBB51A7003B8E01 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF63CCC1CBB51A7003B8E01 /* FBSDKMessengerShareKit.framework */; };
+		0CF63CD41CBB51A7003B8E01 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF63CCD1CBB51A7003B8E01 /* FBSDKShareKit.framework */; };
+		0CF63CD51CBB52DE003B8E01 /* Qanelas-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CA41CBB3C38003B8E01 /* Qanelas-Black.otf */; };
+		0CF63CD61CBB52DE003B8E01 /* Qanelas-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CA51CBB3C38003B8E01 /* Qanelas-BlackItalic.otf */; };
+		0CF63CD71CBB52DE003B8E01 /* Qanelas-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CA61CBB3C38003B8E01 /* Qanelas-Bold.otf */; };
+		0CF63CD81CBB52DE003B8E01 /* Qanelas-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CA71CBB3C38003B8E01 /* Qanelas-BoldItalic.otf */; };
+		0CF63CD91CBB52DE003B8E01 /* Qanelas-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CA81CBB3C38003B8E01 /* Qanelas-ExtraBold.otf */; };
+		0CF63CDA1CBB52DE003B8E01 /* Qanelas-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CA91CBB3C38003B8E01 /* Qanelas-Heavy.otf */; };
+		0CF63CDB1CBB52DE003B8E01 /* Qanelas-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CAA1CBB3C38003B8E01 /* Qanelas-Light.otf */; };
+		0CF63CDC1CBB52DE003B8E01 /* Qanelas-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CAB1CBB3C38003B8E01 /* Qanelas-Medium.otf */; };
+		0CF63CDD1CBB52DE003B8E01 /* Qanelas-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CAC1CBB3C38003B8E01 /* Qanelas-Regular.otf */; };
+		0CF63CDE1CBB52DE003B8E01 /* Qanelas-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CAD1CBB3C38003B8E01 /* Qanelas-RegularItalic.otf */; };
+		0CF63CDF1CBB52DE003B8E01 /* Qanelas-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CAE1CBB3C38003B8E01 /* Qanelas-Thin.otf */; };
+		0CF63CE01CBB52DE003B8E01 /* Qanelas-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CAF1CBB3C38003B8E01 /* Qanelas-UltraLight.otf */; };
 		ECB2BCD89EF0209E73DD2651 /* Pods_SpotlightRevised.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22650A679ED24E2FF26A76AA /* Pods_SpotlightRevised.framework */; };
 /* End PBXBuildFile section */
 
@@ -109,6 +129,27 @@
 		0CB80E421CBA1058006996C7 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
 		0CB80E431CBA1058006996C7 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		0CB80E471CBA1085006996C7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0CF63CA41CBB3C38003B8E01 /* Qanelas-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-Black.otf"; sourceTree = "<group>"; };
+		0CF63CA51CBB3C38003B8E01 /* Qanelas-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-BlackItalic.otf"; sourceTree = "<group>"; };
+		0CF63CA61CBB3C38003B8E01 /* Qanelas-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-Bold.otf"; sourceTree = "<group>"; };
+		0CF63CA71CBB3C38003B8E01 /* Qanelas-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-BoldItalic.otf"; sourceTree = "<group>"; };
+		0CF63CA81CBB3C38003B8E01 /* Qanelas-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-ExtraBold.otf"; sourceTree = "<group>"; };
+		0CF63CA91CBB3C38003B8E01 /* Qanelas-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-Heavy.otf"; sourceTree = "<group>"; };
+		0CF63CAA1CBB3C38003B8E01 /* Qanelas-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-Light.otf"; sourceTree = "<group>"; };
+		0CF63CAB1CBB3C38003B8E01 /* Qanelas-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-Medium.otf"; sourceTree = "<group>"; };
+		0CF63CAC1CBB3C38003B8E01 /* Qanelas-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-Regular.otf"; sourceTree = "<group>"; };
+		0CF63CAD1CBB3C38003B8E01 /* Qanelas-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-RegularItalic.otf"; sourceTree = "<group>"; };
+		0CF63CAE1CBB3C38003B8E01 /* Qanelas-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-Thin.otf"; sourceTree = "<group>"; };
+		0CF63CAF1CBB3C38003B8E01 /* Qanelas-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-UltraLight.otf"; sourceTree = "<group>"; };
+		0CF63CB11CBB3FC2003B8E01 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		0CF63CB21CBB3FC2003B8E01 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		0CF63CC71CBB51A7003B8E01 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		0CF63CC81CBB51A7003B8E01 /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKStrings.bundle; path = FacebookSDK/FacebookSDKStrings.bundle; sourceTree = "<group>"; };
+		0CF63CC91CBB51A7003B8E01 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = FacebookSDK/FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		0CF63CCA1CBB51A7003B8E01 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		0CF63CCB1CBB51A7003B8E01 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		0CF63CCC1CBB51A7003B8E01 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = FacebookSDK/FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		0CF63CCD1CBB51A7003B8E01 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		22650A679ED24E2FF26A76AA /* Pods_SpotlightRevised.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotlightRevised.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB81F10AB996913FF559F44 /* Pods-SpotlightRevised.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightRevised.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpotlightRevised/Pods-SpotlightRevised.release.xcconfig"; sourceTree = "<group>"; };
 		B11A303B38924736AF205B23 /* Pods-SpotlightRevised.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightRevised.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpotlightRevised/Pods-SpotlightRevised.debug.xcconfig"; sourceTree = "<group>"; };
@@ -119,8 +160,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF63CD41CBB51A7003B8E01 /* FBSDKShareKit.framework in Frameworks */,
+				0CF63CD11CBB51A7003B8E01 /* FBSDKCoreKit.framework in Frameworks */,
+				0CF63CCE1CBB51A7003B8E01 /* Bolts.framework in Frameworks */,
+				0CF63CD21CBB51A7003B8E01 /* FBSDKLoginKit.framework in Frameworks */,
 				0CB80E481CBA1085006996C7 /* AVFoundation.framework in Frameworks */,
 				ECB2BCD89EF0209E73DD2651 /* Pods_SpotlightRevised.framework in Frameworks */,
+				0CF63CD01CBB51A7003B8E01 /* FBAudienceNetwork.framework in Frameworks */,
+				0CF63CD31CBB51A7003B8E01 /* FBSDKMessengerShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +218,8 @@
 				0C627BFB1C8F5EF900A3DA3F /* ViewController.h */,
 				0C627BFC1C8F5EF900A3DA3F /* ViewController.m */,
 				0C627BFE1C8F5EF900A3DA3F /* Main.storyboard */,
+				0CF63CB11CBB3FC2003B8E01 /* Login.h */,
+				0CF63CB21CBB3FC2003B8E01 /* Login.m */,
 				0CB80E311CB98598006996C7 /* Camera.h */,
 				0CB80E321CB98598006996C7 /* Camera.m */,
 				0CB80E2E1CB9826C006996C7 /* Trending.h */,
@@ -179,6 +228,7 @@
 				0C627C011C8F5EF900A3DA3F /* Assets.xcassets */,
 				0C627C031C8F5EF900A3DA3F /* LaunchScreen.storyboard */,
 				0C627C061C8F5EF900A3DA3F /* Info.plist */,
+				0CF63CB01CBB3C40003B8E01 /* QanelasFont */,
 				0CB80E2A1CB97D15006996C7 /* Icons */,
 				0C627C3E1C8F602000A3DA3F /* Tab Bar */,
 				0C627BF51C8F5EF900A3DA3F /* Supporting Files */,
@@ -264,6 +314,25 @@
 			name = Files_Needed_For_Camera;
 			sourceTree = "<group>";
 		};
+		0CF63CB01CBB3C40003B8E01 /* QanelasFont */ = {
+			isa = PBXGroup;
+			children = (
+				0CF63CA41CBB3C38003B8E01 /* Qanelas-Black.otf */,
+				0CF63CA51CBB3C38003B8E01 /* Qanelas-BlackItalic.otf */,
+				0CF63CA61CBB3C38003B8E01 /* Qanelas-Bold.otf */,
+				0CF63CA71CBB3C38003B8E01 /* Qanelas-BoldItalic.otf */,
+				0CF63CA81CBB3C38003B8E01 /* Qanelas-ExtraBold.otf */,
+				0CF63CA91CBB3C38003B8E01 /* Qanelas-Heavy.otf */,
+				0CF63CAA1CBB3C38003B8E01 /* Qanelas-Light.otf */,
+				0CF63CAB1CBB3C38003B8E01 /* Qanelas-Medium.otf */,
+				0CF63CAC1CBB3C38003B8E01 /* Qanelas-Regular.otf */,
+				0CF63CAD1CBB3C38003B8E01 /* Qanelas-RegularItalic.otf */,
+				0CF63CAE1CBB3C38003B8E01 /* Qanelas-Thin.otf */,
+				0CF63CAF1CBB3C38003B8E01 /* Qanelas-UltraLight.otf */,
+			);
+			name = QanelasFont;
+			sourceTree = "<group>";
+		};
 		45B50C5187EF3AEAB4B07454 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,6 +345,13 @@
 		4680C115D20707BD53A8FC9A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0CF63CC71CBB51A7003B8E01 /* Bolts.framework */,
+				0CF63CC81CBB51A7003B8E01 /* FacebookSDKStrings.bundle */,
+				0CF63CC91CBB51A7003B8E01 /* FBAudienceNetwork.framework */,
+				0CF63CCA1CBB51A7003B8E01 /* FBSDKCoreKit.framework */,
+				0CF63CCB1CBB51A7003B8E01 /* FBSDKLoginKit.framework */,
+				0CF63CCC1CBB51A7003B8E01 /* FBSDKMessengerShareKit.framework */,
+				0CF63CCD1CBB51A7003B8E01 /* FBSDKShareKit.framework */,
 				0CB80E471CBA1085006996C7 /* AVFoundation.framework */,
 				22650A679ED24E2FF26A76AA /* Pods_SpotlightRevised.framework */,
 			);
@@ -388,7 +464,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF63CD51CBB52DE003B8E01 /* Qanelas-Black.otf in Resources */,
+				0CF63CD61CBB52DE003B8E01 /* Qanelas-BlackItalic.otf in Resources */,
+				0CF63CD71CBB52DE003B8E01 /* Qanelas-Bold.otf in Resources */,
+				0CF63CD81CBB52DE003B8E01 /* Qanelas-BoldItalic.otf in Resources */,
+				0CF63CD91CBB52DE003B8E01 /* Qanelas-ExtraBold.otf in Resources */,
+				0CF63CDA1CBB52DE003B8E01 /* Qanelas-Heavy.otf in Resources */,
+				0CF63CDB1CBB52DE003B8E01 /* Qanelas-Light.otf in Resources */,
+				0CF63CDC1CBB52DE003B8E01 /* Qanelas-Medium.otf in Resources */,
+				0CF63CDD1CBB52DE003B8E01 /* Qanelas-Regular.otf in Resources */,
+				0CF63CDE1CBB52DE003B8E01 /* Qanelas-RegularItalic.otf in Resources */,
+				0CF63CDF1CBB52DE003B8E01 /* Qanelas-Thin.otf in Resources */,
+				0CF63CE01CBB52DE003B8E01 /* Qanelas-UltraLight.otf in Resources */,
 				0CB80E281CB97D0E006996C7 /* SETTINGS.png in Resources */,
+				0CF63CCF1CBB51A7003B8E01 /* FacebookSDKStrings.bundle in Resources */,
 				0CB80E291CB97D0E006996C7 /* VIDEOCAMERA.png in Resources */,
 				0C627C051C8F5EF900A3DA3F /* LaunchScreen.storyboard in Resources */,
 				0C627C021C8F5EF900A3DA3F /* Assets.xcassets in Resources */,
@@ -472,6 +561,7 @@
 				0C627C361C8F5FF900A3DA3F /* YALFoldingTabBarController.m in Sources */,
 				0C627C301C8F5FE600A3DA3F /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
 				0CB80E301CB9826C006996C7 /* Trending.m in Sources */,
+				0CF63CB31CBB3FC2003B8E01 /* Login.m in Sources */,
 				0C627C2A1C8F5FD000A3DA3F /* YALSpringAnimation.m in Sources */,
 				0CB80E391CB98889006996C7 /* ViewUtils.m in Sources */,
 				0CB80E3F1CBA1025006996C7 /* VideoViewController.m in Sources */,
@@ -627,6 +717,12 @@
 			baseConfigurationReference = B11A303B38924736AF205B23 /* Pods-SpotlightRevised.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FacebookSDK",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "/Users/Kunal/Documents/Projects/Spotlight/Spotlight-iOS/SpotlightRevised/FacebookSDK";
 				INFOPLIST_FILE = SpotlightRevised/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -640,6 +736,11 @@
 			baseConfigurationReference = 8BB81F10AB996913FF559F44 /* Pods-SpotlightRevised.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FacebookSDK",
+				);
 				INFOPLIST_FILE = SpotlightRevised/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
