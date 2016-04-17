@@ -56,6 +56,14 @@
 		0CF63CDE1CBB52DE003B8E01 /* Qanelas-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CAD1CBB3C38003B8E01 /* Qanelas-RegularItalic.otf */; };
 		0CF63CDF1CBB52DE003B8E01 /* Qanelas-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CAE1CBB3C38003B8E01 /* Qanelas-Thin.otf */; };
 		0CF63CE01CBB52DE003B8E01 /* Qanelas-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CAF1CBB3C38003B8E01 /* Qanelas-UltraLight.otf */; };
+		0CF63CE91CBD8F2A003B8E01 /* TestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF63CE81CBD8F2A003B8E01 /* TestData.m */; };
+		0CF63CEB1CC0339C003B8E01 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CEA1CC0339C003B8E01 /* header.png */; };
+		0CF63CF11CC03A95003B8E01 /* Newsfeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF63CF01CC03A95003B8E01 /* Newsfeed.m */; };
+		0CF63CF31CC156AF003B8E01 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF63CF21CC156AF003B8E01 /* MediaPlayer.framework */; };
+		0CF63CF91CC15940003B8E01 /* PlayVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF63CF81CC15940003B8E01 /* PlayVideo.m */; };
+		0CF63CFB1CC15B0B003B8E01 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF63CFA1CC15B0B003B8E01 /* AVKit.framework */; };
+		0CF63CFC1CC15CE2003B8E01 /* chicagotrump.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CF61CC15924003B8E01 /* chicagotrump.mp4 */; };
+		0CF63CFE1CC42776003B8E01 /* Kunal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CFD1CC42776003B8E01 /* Kunal.png */; };
 		ECB2BCD89EF0209E73DD2651 /* Pods_SpotlightRevised.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22650A679ED24E2FF26A76AA /* Pods_SpotlightRevised.framework */; };
 /* End PBXBuildFile section */
 
@@ -150,6 +158,17 @@
 		0CF63CCB1CBB51A7003B8E01 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		0CF63CCC1CBB51A7003B8E01 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = FacebookSDK/FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
 		0CF63CCD1CBB51A7003B8E01 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		0CF63CE71CBD8F2A003B8E01 /* TestData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestData.h; sourceTree = "<group>"; };
+		0CF63CE81CBD8F2A003B8E01 /* TestData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestData.m; sourceTree = "<group>"; };
+		0CF63CEA1CC0339C003B8E01 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		0CF63CEF1CC03A95003B8E01 /* Newsfeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Newsfeed.h; sourceTree = "<group>"; };
+		0CF63CF01CC03A95003B8E01 /* Newsfeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Newsfeed.m; sourceTree = "<group>"; };
+		0CF63CF21CC156AF003B8E01 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		0CF63CF61CC15924003B8E01 /* chicagotrump.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = chicagotrump.mp4; sourceTree = "<group>"; };
+		0CF63CF71CC15940003B8E01 /* PlayVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayVideo.h; sourceTree = "<group>"; };
+		0CF63CF81CC15940003B8E01 /* PlayVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVideo.m; sourceTree = "<group>"; };
+		0CF63CFA1CC15B0B003B8E01 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		0CF63CFD1CC42776003B8E01 /* Kunal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kunal.png; sourceTree = "<group>"; };
 		22650A679ED24E2FF26A76AA /* Pods_SpotlightRevised.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotlightRevised.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB81F10AB996913FF559F44 /* Pods-SpotlightRevised.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightRevised.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpotlightRevised/Pods-SpotlightRevised.release.xcconfig"; sourceTree = "<group>"; };
 		B11A303B38924736AF205B23 /* Pods-SpotlightRevised.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightRevised.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpotlightRevised/Pods-SpotlightRevised.debug.xcconfig"; sourceTree = "<group>"; };
@@ -160,11 +179,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF63CFB1CC15B0B003B8E01 /* AVKit.framework in Frameworks */,
+				0CB80E481CBA1085006996C7 /* AVFoundation.framework in Frameworks */,
+				0CF63CF31CC156AF003B8E01 /* MediaPlayer.framework in Frameworks */,
 				0CF63CD41CBB51A7003B8E01 /* FBSDKShareKit.framework in Frameworks */,
 				0CF63CD11CBB51A7003B8E01 /* FBSDKCoreKit.framework in Frameworks */,
 				0CF63CCE1CBB51A7003B8E01 /* Bolts.framework in Frameworks */,
 				0CF63CD21CBB51A7003B8E01 /* FBSDKLoginKit.framework in Frameworks */,
-				0CB80E481CBA1085006996C7 /* AVFoundation.framework in Frameworks */,
 				ECB2BCD89EF0209E73DD2651 /* Pods_SpotlightRevised.framework in Frameworks */,
 				0CF63CD01CBB51A7003B8E01 /* FBAudienceNetwork.framework in Frameworks */,
 				0CF63CD31CBB51A7003B8E01 /* FBSDKMessengerShareKit.framework in Frameworks */,
@@ -218,12 +239,18 @@
 				0C627BFB1C8F5EF900A3DA3F /* ViewController.h */,
 				0C627BFC1C8F5EF900A3DA3F /* ViewController.m */,
 				0C627BFE1C8F5EF900A3DA3F /* Main.storyboard */,
+				0CF63CF71CC15940003B8E01 /* PlayVideo.h */,
+				0CF63CF81CC15940003B8E01 /* PlayVideo.m */,
 				0CF63CB11CBB3FC2003B8E01 /* Login.h */,
 				0CF63CB21CBB3FC2003B8E01 /* Login.m */,
 				0CB80E311CB98598006996C7 /* Camera.h */,
 				0CB80E321CB98598006996C7 /* Camera.m */,
+				0CF63CEF1CC03A95003B8E01 /* Newsfeed.h */,
+				0CF63CF01CC03A95003B8E01 /* Newsfeed.m */,
 				0CB80E2E1CB9826C006996C7 /* Trending.h */,
 				0CB80E2F1CB9826C006996C7 /* Trending.m */,
+				0CF63CE71CBD8F2A003B8E01 /* TestData.h */,
+				0CF63CE81CBD8F2A003B8E01 /* TestData.m */,
 				0CB80E461CBA105D006996C7 /* Files_Needed_For_Camera */,
 				0C627C011C8F5EF900A3DA3F /* Assets.xcassets */,
 				0C627C031C8F5EF900A3DA3F /* LaunchScreen.storyboard */,
@@ -293,6 +320,7 @@
 				0CB80E211CB97D0E006996C7 /* PLUS.png */,
 				0CB80E221CB97D0E006996C7 /* SETTINGS.png */,
 				0CB80E231CB97D0E006996C7 /* VIDEOCAMERA.png */,
+				0CF63CEA1CC0339C003B8E01 /* header.png */,
 			);
 			name = Icons;
 			sourceTree = "<group>";
@@ -300,6 +328,8 @@
 		0CB80E461CBA105D006996C7 /* Files_Needed_For_Camera */ = {
 			isa = PBXGroup;
 			children = (
+				0CF63CFD1CC42776003B8E01 /* Kunal.png */,
+				0CF63CF61CC15924003B8E01 /* chicagotrump.mp4 */,
 				0CB80E371CB98889006996C7 /* ViewUtils.h */,
 				0CB80E381CB98889006996C7 /* ViewUtils.m */,
 				0CB80E3A1CBA1025006996C7 /* ImageViewController.h */,
@@ -345,6 +375,8 @@
 		4680C115D20707BD53A8FC9A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0CF63CFA1CC15B0B003B8E01 /* AVKit.framework */,
+				0CF63CF21CC156AF003B8E01 /* MediaPlayer.framework */,
 				0CF63CC71CBB51A7003B8E01 /* Bolts.framework */,
 				0CF63CC81CBB51A7003B8E01 /* FacebookSDKStrings.bundle */,
 				0CF63CC91CBB51A7003B8E01 /* FBAudienceNetwork.framework */,
@@ -464,6 +496,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CF63CFC1CC15CE2003B8E01 /* chicagotrump.mp4 in Resources */,
 				0CF63CD51CBB52DE003B8E01 /* Qanelas-Black.otf in Resources */,
 				0CF63CD61CBB52DE003B8E01 /* Qanelas-BlackItalic.otf in Resources */,
 				0CF63CD71CBB52DE003B8E01 /* Qanelas-Bold.otf in Resources */,
@@ -473,6 +506,7 @@
 				0CF63CDB1CBB52DE003B8E01 /* Qanelas-Light.otf in Resources */,
 				0CF63CDC1CBB52DE003B8E01 /* Qanelas-Medium.otf in Resources */,
 				0CF63CDD1CBB52DE003B8E01 /* Qanelas-Regular.otf in Resources */,
+				0CF63CFE1CC42776003B8E01 /* Kunal.png in Resources */,
 				0CF63CDE1CBB52DE003B8E01 /* Qanelas-RegularItalic.otf in Resources */,
 				0CF63CDF1CBB52DE003B8E01 /* Qanelas-Thin.otf in Resources */,
 				0CF63CE01CBB52DE003B8E01 /* Qanelas-UltraLight.otf in Resources */,
@@ -481,6 +515,7 @@
 				0CB80E291CB97D0E006996C7 /* VIDEOCAMERA.png in Resources */,
 				0C627C051C8F5EF900A3DA3F /* LaunchScreen.storyboard in Resources */,
 				0C627C021C8F5EF900A3DA3F /* Assets.xcassets in Resources */,
+				0CF63CEB1CC0339C003B8E01 /* header.png in Resources */,
 				0CB80E241CB97D0E006996C7 /* camera.png in Resources */,
 				0CB80E271CB97D0E006996C7 /* PLUS.png in Resources */,
 				0C627C001C8F5EF900A3DA3F /* Main.storyboard in Resources */,
@@ -563,6 +598,7 @@
 				0CB80E301CB9826C006996C7 /* Trending.m in Sources */,
 				0CF63CB31CBB3FC2003B8E01 /* Login.m in Sources */,
 				0C627C2A1C8F5FD000A3DA3F /* YALSpringAnimation.m in Sources */,
+				0CF63CE91CBD8F2A003B8E01 /* TestData.m in Sources */,
 				0CB80E391CB98889006996C7 /* ViewUtils.m in Sources */,
 				0CB80E3F1CBA1025006996C7 /* VideoViewController.m in Sources */,
 				0CB80E331CB98598006996C7 /* Camera.m in Sources */,
@@ -575,6 +611,8 @@
 				0C627C3D1C8F601200A3DA3F /* YALFoldingTabBar.m in Sources */,
 				0CB80E3E1CBA1025006996C7 /* ImageViewController.m in Sources */,
 				0CB80E451CBA1058006996C7 /* UIImage+Resize.m in Sources */,
+				0CF63CF91CC15940003B8E01 /* PlayVideo.m in Sources */,
+				0CF63CF11CC03A95003B8E01 /* Newsfeed.m in Sources */,
 				0C627C331C8F5FF100A3DA3F /* YALAnimatingTabBarConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

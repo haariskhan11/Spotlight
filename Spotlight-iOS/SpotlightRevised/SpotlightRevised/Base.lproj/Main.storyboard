@@ -51,6 +51,9 @@
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Item" id="cxt-rL-8fa"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="tableView" destination="AjN-wO-NbS" id="Qyl-aD-Nf9"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="suS-gC-Pe5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -59,7 +62,7 @@
         <!--Item-->
         <scene sceneID="zZ6-NN-C31">
             <objects>
-                <tableViewController id="3uT-gn-F6L" sceneMemberID="viewController">
+                <tableViewController id="3uT-gn-F6L" customClass="Newsfeed" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="wIv-XZ-h3A">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,10 +104,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7QS-sA-ium">
-                                <rect key="frame" x="112" y="86" width="150" height="150"/>
-                                <animations/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T0E-Gc-yPO">
                                 <rect key="frame" x="20" y="319" width="67" height="30"/>
                                 <animations/>
@@ -136,6 +135,15 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIF-jo-lbP">
+                                <rect key="frame" x="164" y="507" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kunal.png" translatesAutoresizingMaskIntoConstraints="NO" id="7QS-sA-ium">
+                                <rect key="frame" x="112" y="86" width="150" height="150"/>
+                                <animations/>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.59215686270000001" green="0.84705882349999995" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -146,6 +154,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NJF-qj-Ydt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-469.5" y="105.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Hyd-Vz-793">
+            <objects>
+                <viewController id="Tkq-tO-Xev" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="T77-ZF-zQ6"/>
+                        <viewControllerLayoutGuide type="bottom" id="udI-u7-xdI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JLT-0i-PiY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nao-B4-WHP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48.5" y="245.5"/>
         </scene>
         <!--Login-->
         <scene sceneID="37W-5K-vpb">
@@ -261,9 +289,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZc-uJ-WSh">
-                                <rect key="frame" x="0.0" y="549" width="375" height="41"/>
+                                <rect key="frame" x="0.0" y="520" width="375" height="70"/>
                                 <animations/>
-                                <color key="backgroundColor" red="0.95052939970000005" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.66666666666666663" green="0.048281265621817518" blue="0.12335277683622126" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Post">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -280,5 +308,48 @@
             </objects>
             <point key="canvasLocation" x="-469.5" y="-693.5"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="D2O-lm-lmI">
+            <objects>
+                <viewController id="EqV-I0-RFf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l5b-hd-xmC"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Aa-xq-pXf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KQm-Lq-Njl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cNE-Ge-kAb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48.5" y="-530.5"/>
+        </scene>
+        <!--Play Video-->
+        <scene sceneID="Sis-xY-Pz5">
+            <objects>
+                <viewController id="B0G-Qv-u9o" customClass="PlayVideo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QsK-gB-oic"/>
+                        <viewControllerLayoutGuide type="bottom" id="NkE-Rq-Na4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="t7K-ka-TlL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ejj-OC-Hmr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48.5" y="-1295.5"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="Kunal.png" width="2000" height="2000"/>
+    </resources>
 </document>

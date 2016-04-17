@@ -185,7 +185,7 @@
     self.videoController = [[MPMoviePlayerController alloc] init];
     
     [self.videoController setContentURL:self.videoURL];
-    [self.videoController.view setFrame:CGRectMake (0, 0, 375, 555)];
+    [self.videoController.view setFrame:CGRectMake (0, 0, 375, 525)];
     [self.view addSubview:self.videoController.view];
     
     [self.videoController play];
