@@ -22,6 +22,10 @@
 		0C627C361C8F5FF900A3DA3F /* YALFoldingTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C627C351C8F5FF900A3DA3F /* YALFoldingTabBarController.m */; };
 		0C627C391C8F600000A3DA3F /* YALTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C627C381C8F600000A3DA3F /* YALTabBarItem.m */; };
 		0C627C3D1C8F601200A3DA3F /* YALFoldingTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C627C3C1C8F601200A3DA3F /* YALFoldingTabBar.m */; };
+		0C70B2F71CC49F640035B521 /* policebrutality.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C70B2F61CC49ED40035B521 /* policebrutality.mp4 */; };
+		0C70B2F91CC4A10D0035B521 /* blacklivesmatter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C70B2F81CC4A1000035B521 /* blacklivesmatter.mp4 */; };
+		0C70B2FB1CC4A3F10035B521 /* warruins.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C70B2FA1CC4A3E40035B521 /* warruins.mp4 */; };
+		0C70B2FD1CC4A5300035B521 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C70B2FC1CC4A5300035B521 /* facebook.png */; };
 		0CB80E241CB97D0E006996C7 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB80E1E1CB97D0E006996C7 /* camera.png */; };
 		0CB80E251CB97D0E006996C7 /* JUSTIFYALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB80E1F1CB97D0E006996C7 /* JUSTIFYALL.png */; };
 		0CB80E261CB97D0E006996C7 /* LAUNCH.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB80E201CB97D0E006996C7 /* LAUNCH.png */; };
@@ -60,7 +64,6 @@
 		0CF63CEB1CC0339C003B8E01 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CEA1CC0339C003B8E01 /* header.png */; };
 		0CF63CF11CC03A95003B8E01 /* Newsfeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF63CF01CC03A95003B8E01 /* Newsfeed.m */; };
 		0CF63CF31CC156AF003B8E01 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF63CF21CC156AF003B8E01 /* MediaPlayer.framework */; };
-		0CF63CF91CC15940003B8E01 /* PlayVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF63CF81CC15940003B8E01 /* PlayVideo.m */; };
 		0CF63CFB1CC15B0B003B8E01 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF63CFA1CC15B0B003B8E01 /* AVKit.framework */; };
 		0CF63CFC1CC15CE2003B8E01 /* chicagotrump.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CF61CC15924003B8E01 /* chicagotrump.mp4 */; };
 		0CF63CFE1CC42776003B8E01 /* Kunal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CFD1CC42776003B8E01 /* Kunal.png */; };
@@ -116,6 +119,10 @@
 		0C627C3A1C8F600800A3DA3F /* YALTabBarInteracting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YALTabBarInteracting.h; sourceTree = "<group>"; };
 		0C627C3B1C8F601200A3DA3F /* YALFoldingTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALFoldingTabBar.h; sourceTree = "<group>"; };
 		0C627C3C1C8F601200A3DA3F /* YALFoldingTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALFoldingTabBar.m; sourceTree = "<group>"; };
+		0C70B2F61CC49ED40035B521 /* policebrutality.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = policebrutality.mp4; sourceTree = "<group>"; };
+		0C70B2F81CC4A1000035B521 /* blacklivesmatter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = blacklivesmatter.mp4; sourceTree = "<group>"; };
+		0C70B2FA1CC4A3E40035B521 /* warruins.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = warruins.mp4; sourceTree = "<group>"; };
+		0C70B2FC1CC4A5300035B521 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 		0CB80E1E1CB97D0E006996C7 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
 		0CB80E1F1CB97D0E006996C7 /* JUSTIFYALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JUSTIFYALL.png; sourceTree = "<group>"; };
 		0CB80E201CB97D0E006996C7 /* LAUNCH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LAUNCH.png; sourceTree = "<group>"; };
@@ -165,8 +172,6 @@
 		0CF63CF01CC03A95003B8E01 /* Newsfeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Newsfeed.m; sourceTree = "<group>"; };
 		0CF63CF21CC156AF003B8E01 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		0CF63CF61CC15924003B8E01 /* chicagotrump.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = chicagotrump.mp4; sourceTree = "<group>"; };
-		0CF63CF71CC15940003B8E01 /* PlayVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayVideo.h; sourceTree = "<group>"; };
-		0CF63CF81CC15940003B8E01 /* PlayVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVideo.m; sourceTree = "<group>"; };
 		0CF63CFA1CC15B0B003B8E01 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		0CF63CFD1CC42776003B8E01 /* Kunal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kunal.png; sourceTree = "<group>"; };
 		22650A679ED24E2FF26A76AA /* Pods_SpotlightRevised.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotlightRevised.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -239,8 +244,6 @@
 				0C627BFB1C8F5EF900A3DA3F /* ViewController.h */,
 				0C627BFC1C8F5EF900A3DA3F /* ViewController.m */,
 				0C627BFE1C8F5EF900A3DA3F /* Main.storyboard */,
-				0CF63CF71CC15940003B8E01 /* PlayVideo.h */,
-				0CF63CF81CC15940003B8E01 /* PlayVideo.m */,
 				0CF63CB11CBB3FC2003B8E01 /* Login.h */,
 				0CF63CB21CBB3FC2003B8E01 /* Login.m */,
 				0CB80E311CB98598006996C7 /* Camera.h */,
@@ -328,7 +331,11 @@
 		0CB80E461CBA105D006996C7 /* Files_Needed_For_Camera */ = {
 			isa = PBXGroup;
 			children = (
+				0C70B2FC1CC4A5300035B521 /* facebook.png */,
 				0CF63CFD1CC42776003B8E01 /* Kunal.png */,
+				0C70B2FA1CC4A3E40035B521 /* warruins.mp4 */,
+				0C70B2F81CC4A1000035B521 /* blacklivesmatter.mp4 */,
+				0C70B2F61CC49ED40035B521 /* policebrutality.mp4 */,
 				0CF63CF61CC15924003B8E01 /* chicagotrump.mp4 */,
 				0CB80E371CB98889006996C7 /* ViewUtils.h */,
 				0CB80E381CB98889006996C7 /* ViewUtils.m */,
@@ -496,12 +503,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C70B2FB1CC4A3F10035B521 /* warruins.mp4 in Resources */,
+				0C70B2F91CC4A10D0035B521 /* blacklivesmatter.mp4 in Resources */,
+				0C70B2F71CC49F640035B521 /* policebrutality.mp4 in Resources */,
 				0CF63CFC1CC15CE2003B8E01 /* chicagotrump.mp4 in Resources */,
 				0CF63CD51CBB52DE003B8E01 /* Qanelas-Black.otf in Resources */,
 				0CF63CD61CBB52DE003B8E01 /* Qanelas-BlackItalic.otf in Resources */,
 				0CF63CD71CBB52DE003B8E01 /* Qanelas-Bold.otf in Resources */,
 				0CF63CD81CBB52DE003B8E01 /* Qanelas-BoldItalic.otf in Resources */,
 				0CF63CD91CBB52DE003B8E01 /* Qanelas-ExtraBold.otf in Resources */,
+				0C70B2FD1CC4A5300035B521 /* facebook.png in Resources */,
 				0CF63CDA1CBB52DE003B8E01 /* Qanelas-Heavy.otf in Resources */,
 				0CF63CDB1CBB52DE003B8E01 /* Qanelas-Light.otf in Resources */,
 				0CF63CDC1CBB52DE003B8E01 /* Qanelas-Medium.otf in Resources */,
@@ -611,7 +622,6 @@
 				0C627C3D1C8F601200A3DA3F /* YALFoldingTabBar.m in Sources */,
 				0CB80E3E1CBA1025006996C7 /* ImageViewController.m in Sources */,
 				0CB80E451CBA1058006996C7 /* UIImage+Resize.m in Sources */,
-				0CF63CF91CC15940003B8E01 /* PlayVideo.m in Sources */,
 				0CF63CF11CC03A95003B8E01 /* Newsfeed.m in Sources */,
 				0C627C331C8F5FF100A3DA3F /* YALAnimatingTabBarConstants.m in Sources */,
 			);

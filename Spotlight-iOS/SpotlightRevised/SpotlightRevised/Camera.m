@@ -177,6 +177,10 @@
     }
 }
 
+- (IBAction)postVideo:(id)sender {
+    
+}
+
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
     
     self.videoURL = info[UIImagePickerControllerMediaURL];
@@ -197,4 +201,7 @@
     [picker dismissViewControllerAnimated:YES completion:NULL];
     
 }
+
+
+
 @end

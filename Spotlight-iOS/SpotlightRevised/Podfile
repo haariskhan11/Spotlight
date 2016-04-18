@@ -7,6 +7,7 @@ target 'SpotlightRevised' do
 pod 'LLSimpleCamera', '~> 4.1'
 pod 'FoldingTabBar', '~> 1.0.2'
 pod 'MGSwipeTableCell'
+pod ‘Parse’
 end
 
 target 'SpotlightRevisedTests' do

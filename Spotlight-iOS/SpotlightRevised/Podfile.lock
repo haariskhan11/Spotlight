@@ -1,16 +1,22 @@
 PODS:
+  - Bolts/Tasks (1.7.0)
   - FoldingTabBar (1.0.2)
   - LLSimpleCamera (4.2.0)
   - MGSwipeTableCell (1.5.5)
+  - Parse (1.13.0):
+    - Bolts/Tasks (~> 1.6)
 
 DEPENDENCIES:
   - FoldingTabBar (~> 1.0.2)
   - LLSimpleCamera (~> 4.1)
   - MGSwipeTableCell
+  - Parse
 
 SPEC CHECKSUMS:
+  Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
   FoldingTabBar: 79df76dfd5a84c0a369beaa378a31c07aa53b6b2
   LLSimpleCamera: ed7813ce4827ff3e34c6af159c99b5b56e54d1c6
   MGSwipeTableCell: bafeb5f351124544c9364ecbdf24c7b06a37d340
+  Parse: f51c24d2feb412e4b2d6cc73d37cb24e8d0089bc
 
 COCOAPODS: 0.39.0

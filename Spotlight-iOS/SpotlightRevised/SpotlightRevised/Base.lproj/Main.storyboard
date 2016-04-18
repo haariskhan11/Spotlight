@@ -9,6 +9,9 @@
             <string>Qanelas-Bold</string>
             <string>Qanelas-Bold</string>
         </mutableArray>
+        <mutableArray key="Qanelas-Light.otf">
+            <string>Qanelas-Light</string>
+        </mutableArray>
         <mutableArray key="Qanelas-Medium.otf">
             <string>Qanelas-Medium</string>
             <string>Qanelas-Medium</string>
@@ -53,6 +56,10 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="tableView" destination="AjN-wO-NbS" id="Qyl-aD-Nf9"/>
+                        <segue destination="Udk-25-gMX" kind="show" identifier="trumpvid" id="Yxu-Sk-cAf"/>
+                        <segue destination="agm-Xv-oLn" kind="show" identifier="policebrutality" id="nb6-Xg-3iP"/>
+                        <segue destination="rjD-dI-vST" kind="show" identifier="blacklivesmatter" id="CSe-nJ-nNT"/>
+                        <segue destination="eZY-Vx-PJv" kind="show" identifier="warruins" id="ty1-Ko-Je5"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="suS-gC-Pe5" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -69,7 +76,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="eCP-tK-jKg">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="eCP-tK-jKg" customClass="MGSwipeTableCell">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eCP-tK-jKg" id="QCT-Hm-5sP">
@@ -135,15 +142,22 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIF-jo-lbP">
-                                <rect key="frame" x="164" y="507" width="46" height="30"/>
-                                <animations/>
-                                <state key="normal" title="Button"/>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Kunal.png" translatesAutoresizingMaskIntoConstraints="NO" id="7QS-sA-ium">
                                 <rect key="frame" x="112" y="86" width="150" height="150"/>
                                 <animations/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kunal Shah" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4Z-uD-H2o">
+                                <rect key="frame" x="144" y="244" width="86" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Qanelas-Light" family="Qanelas" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZI-KC-NXz" userLabel="facebook">
+                                <rect key="frame" x="20" y="19" width="16" height="22"/>
+                                <animations/>
+                                <state key="normal" image="facebook.png"/>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.59215686270000001" green="0.84705882349999995" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -155,25 +169,25 @@
             </objects>
             <point key="canvasLocation" x="-469.5" y="105.5"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Hyd-Vz-793">
+        <!--AV Player View Controller-->
+        <scene sceneID="gAZ-QA-I6J">
             <objects>
-                <viewController id="Tkq-tO-Xev" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="T77-ZF-zQ6"/>
-                        <viewControllerLayoutGuide type="bottom" id="udI-u7-xdI"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="JLT-0i-PiY">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="rjD-dI-vST" sceneMemberID="viewController">
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nao-B4-WHP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </avPlayerViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Dg-2Q-djc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="48.5" y="245.5"/>
+            <point key="canvasLocation" x="-27.5" y="58.5"/>
+        </scene>
+        <!--AV Player View Controller-->
+        <scene sceneID="bAP-dN-kS5">
+            <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="eZY-Vx-PJv" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </avPlayerViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3gm-Ro-xia" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="447.5" y="-1422.5"/>
         </scene>
         <!--Login-->
         <scene sceneID="37W-5K-vpb">
@@ -295,6 +309,10 @@
                                 <state key="normal" title="Post">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="postVideo:" destination="A0G-AI-HKs" eventType="touchUpInside" id="xPI-l9-5dK"/>
+                                    <segue destination="eOA-bb-lCh" kind="show" id="CBH-2y-hEs"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -308,48 +326,29 @@
             </objects>
             <point key="canvasLocation" x="-469.5" y="-693.5"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="D2O-lm-lmI">
+        <!--AV Player View Controller-->
+        <scene sceneID="QY4-tw-SM7">
             <objects>
-                <viewController id="EqV-I0-RFf" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="l5b-hd-xmC"/>
-                        <viewControllerLayoutGuide type="bottom" id="4Aa-xq-pXf"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="KQm-Lq-Njl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="agm-Xv-oLn" sceneMemberID="viewController">
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cNE-Ge-kAb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </avPlayerViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gem-q3-Cyg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="48.5" y="-530.5"/>
+            <point key="canvasLocation" x="-27.5" y="-685.5"/>
         </scene>
-        <!--Play Video-->
-        <scene sceneID="Sis-xY-Pz5">
+        <!--AV Player View Controller-->
+        <scene sceneID="Cmq-9z-5Rg">
             <objects>
-                <viewController id="B0G-Qv-u9o" customClass="PlayVideo" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="QsK-gB-oic"/>
-                        <viewControllerLayoutGuide type="bottom" id="NkE-Rq-Na4"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="t7K-ka-TlL">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="Udk-25-gMX" sceneMemberID="viewController">
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ejj-OC-Hmr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </avPlayerViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LcB-Wt-pFA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="48.5" y="-1295.5"/>
+            <point key="canvasLocation" x="-27" y="-1422"/>
         </scene>
     </scenes>
     <resources>
         <image name="Kunal.png" width="2000" height="2000"/>
+        <image name="facebook.png" width="16" height="16"/>
     </resources>
 </document>

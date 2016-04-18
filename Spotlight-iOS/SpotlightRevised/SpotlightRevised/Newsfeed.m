@@ -7,6 +7,8 @@
 //
 
 #import "Newsfeed.h"
+#import <AVFoundation/AVFoundation.h>
+#import <AVKit/AVKit.h>
 
 @interface Newsfeed ()
 
@@ -18,12 +20,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,15 +29,15 @@
 
 #pragma mark - Table view data source
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
-}
+//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+//#warning Incomplete implementation, return the number of sections
+//    return 0;
+//}
+//
+//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+//#warning Incomplete implementation, return the number of rows
+//    return 0;
+//}
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{return 39.0;}
 
@@ -49,58 +45,68 @@
     return [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"header.png"]];
 }
 
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+# pragma  mark - On Cell Tap
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSInteger row = indexPath.row;
+    if (row == 1) {
+        [self presentTrumpVid];
+        [self performSegueWithIdentifier:@"trumpvid" sender:self];
+    }
+    else if (row == 2){
+        [self presentPoliceBrutalityScene];
+        [self performSegueWithIdentifier:@"policebrutality" sender:self];
+    }
+    else if (row == 3){
+        [self presentBlackLivesMatterProtest];
+        [self performSegueWithIdentifier:@"blacklivesmatter" sender:self];
+    }
+    else if (row == 4){
+        [self presentWarRuins];
+        [self performSegueWithIdentifier:@"warruins" sender:self];
+    }
     
-    // Configure the cell...
-    
-    return cell;
 }
-*/
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
+-(void)presentTrumpVid{
+    // this video occurs in Chicago,IL
+    NSURL *videoURL = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"chicagotrump" ofType:@"mp4"]];
+    AVPlayer *player = [AVPlayer playerWithURL:videoURL];
+    AVPlayerViewController *playerViewController = [AVPlayerViewController new];
+    playerViewController.player = player;
+    [playerViewController.player play];
+    [self presentViewController:playerViewController animated:YES completion:nil];
 }
-*/
 
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
+-(void)presentPoliceBrutalityScene{
+    // this video occurs in Houston,TX
+    NSURL *videoURL = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"policebrutality" ofType:@"mp4"]];
+    AVPlayer *player = [AVPlayer playerWithURL:videoURL];
+    AVPlayerViewController *playerViewController = [AVPlayerViewController new];
+    playerViewController.player = player;
+    [playerViewController.player play];
+    [self presentViewController:playerViewController animated:YES completion:nil];
 }
-*/
 
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
+-(void)presentBlackLivesMatterProtest{
+    // this video occurs in Gainesville,FL
+    NSURL *videoURL = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"blacklivesmatter" ofType:@"mp4"]];
+    AVPlayer *player = [AVPlayer playerWithURL:videoURL];
+    AVPlayerViewController *playerViewController = [AVPlayerViewController new];
+    playerViewController.player = player;
+    [playerViewController.player play];
+    [self presentViewController:playerViewController animated:YES completion:nil];
 }
-*/
 
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
+-(void)presentWarRuins{
+    // this video was taken in Syria
+    NSURL *videoURL = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"warruins" ofType:@"mp4"]];
+    AVPlayer *player = [AVPlayer playerWithURL:videoURL];
+    AVPlayerViewController *playerViewController = [AVPlayerViewController new];
+    playerViewController.player = player;
+    [playerViewController.player play];
+    [self presentViewController:playerViewController animated:YES completion:nil];
 }
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

@@ -9,6 +9,8 @@
 #import "Trending.h"
 #import "MGSwipeTableCell.h"
 #import "TestData.h"
+#import <AVFoundation/AVFoundation.h>
+#import <AVKit/AVKit.h>
 
 
 @interface Trending ()
@@ -23,6 +25,7 @@
     UITableViewCellAccessoryType accessory;
     UIImageView * background; //used for transparency test
     BOOL allowMultipleSwipe;
+    
 }
 @synthesize tableView;
 
@@ -102,6 +105,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
     tests = [TestData data];
     self.title = @"MGSwipeCell";
     
@@ -118,23 +122,23 @@
     
 }
 
--(NSArray *) createLeftButtons: (int) number
-{
-    NSMutableArray * result = [NSMutableArray array];
-    UIColor * colors[3] = {[UIColor greenColor],
-        [UIColor colorWithRed:0 green:0x99/255.0 blue:0xcc/255.0 alpha:1.0],
-        [UIColor colorWithRed:0.59 green:0.29 blue:0.08 alpha:1.0]};
-    UIImage * icons[3] = {[UIImage imageNamed:@"check.png"], [UIImage imageNamed:@"fav.png"], [UIImage imageNamed:@"menu.png"]};
-    for (int i = 0; i < number; ++i)
-    {
-        MGSwipeButton * button = [MGSwipeButton buttonWithTitle:@"" icon:icons[i] backgroundColor:colors[i] padding:15 callback:^BOOL(MGSwipeTableCell * sender){
-            NSLog(@"Convenience callback received (left).");
-            return YES;
-        }];
-        [result addObject:button];
-    }
-    return result;
-}
+//-(NSArray *) createLeftButtons: (int) number
+//{
+//    NSMutableArray * result = [NSMutableArray array];
+//    UIColor * colors[3] = {[UIColor greenColor],
+//        [UIColor colorWithRed:0 green:0x99/255.0 blue:0xcc/255.0 alpha:1.0],
+//        [UIColor colorWithRed:0.59 green:0.29 blue:0.08 alpha:1.0]};
+//    UIImage * icons[3] = {[UIImage imageNamed:@"check.png"], [UIImage imageNamed:@"fav.png"], [UIImage imageNamed:@"menu.png"]};
+//    for (int i = 0; i < number; ++i)
+//    {
+//        MGSwipeButton * button = [MGSwipeButton buttonWithTitle:@"" icon:icons[i] backgroundColor:colors[i] padding:15 callback:^BOOL(MGSwipeTableCell * sender){
+//            NSLog(@"Convenience callback received (left).");
+//            return YES;
+//        }];
+//        [result addObject:button];
+//    }
+//    return result;
+//}
 
 
 -(NSArray *) createRightButtons: (int) number
@@ -213,7 +217,7 @@
     cell.leftExpansion.fillOnTrigger = NO;
     cell.rightExpansion.buttonIndex = data.rightExpandableIndex;
     cell.rightExpansion.fillOnTrigger = YES;
-    cell.leftButtons = [self createLeftButtons:data.leftButtonsCount];
+    //cell.leftButtons = [self createLeftButtons:data.leftButtonsCount];
     cell.rightButtons = [self createRightButtons:data.rightButtonsCount];
 #endif
     
@@ -274,5 +278,69 @@
 }
 
 -(BOOL)prefersStatusBarHidden{return YES;}
+
+# pragma  mark - On Cell Tap
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSInteger row = indexPath.row;
+    if (row == 1) {
+        [self presentTrumpVid];
+        [self performSegueWithIdentifier:@"trumpvid" sender:self];
+    }
+    else if (row == 2){
+        [self presentPoliceBrutalityScene];
+        [self performSegueWithIdentifier:@"policebrutality" sender:self];
+    }
+    else if (row == 3){
+        [self presentBlackLivesMatterProtest];
+        [self performSegueWithIdentifier:@"blacklivesmatter" sender:self];
+    }
+    else if (row == 4){
+        [self presentWarRuins];
+        [self performSegueWithIdentifier:@"warruins" sender:self];
+    }
+
+}
+
+-(void)presentTrumpVid{
+    // this video occurs in Chicago,IL
+    NSURL *videoURL = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"chicagotrump" ofType:@"mp4"]];
+    AVPlayer *player = [AVPlayer playerWithURL:videoURL];
+    AVPlayerViewController *playerViewController = [AVPlayerViewController new];
+    playerViewController.player = player;
+    [playerViewController.player play];
+    [self presentViewController:playerViewController animated:YES completion:nil];
+}
+
+-(void)presentPoliceBrutalityScene{
+    // this video occurs in Houston,TX
+    NSURL *videoURL = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"policebrutality" ofType:@"mp4"]];
+    AVPlayer *player = [AVPlayer playerWithURL:videoURL];
+    AVPlayerViewController *playerViewController = [AVPlayerViewController new];
+    playerViewController.player = player;
+    [playerViewController.player play];
+    [self presentViewController:playerViewController animated:YES completion:nil];
+}
+
+-(void)presentBlackLivesMatterProtest{
+    // this video occurs in Gainesville,FL
+    NSURL *videoURL = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"blacklivesmatter" ofType:@"mp4"]];
+    AVPlayer *player = [AVPlayer playerWithURL:videoURL];
+    AVPlayerViewController *playerViewController = [AVPlayerViewController new];
+    playerViewController.player = player;
+    [playerViewController.player play];
+    [self presentViewController:playerViewController animated:YES completion:nil];
+}
+
+-(void)presentWarRuins{
+    // this video was taken in Syria
+    NSURL *videoURL = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"warruins" ofType:@"mp4"]];
+    AVPlayer *player = [AVPlayer playerWithURL:videoURL];
+    AVPlayerViewController *playerViewController = [AVPlayerViewController new];
+    playerViewController.player = player;
+    [playerViewController.player play];
+    [self presentViewController:playerViewController animated:YES completion:nil];
+}
 
 @end
