@@ -12,7 +12,7 @@
 #import "YALFoldingTabBarController.h"
 #import "YALAnimatingTabBarConstants.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
-#import <Parse/Parse.h>
+
 
 
 
@@ -29,9 +29,6 @@
     [[FBSDKApplicationDelegate sharedInstance] application:application
                              didFinishLaunchingWithOptions:launchOptions];
     
-    //parse
-    [Parse setApplicationId:@"z3kExaYyrqocyXtzRGWDUfYzGVPPEwcqfqADyKBy" clientKey:@"z3kExaYyrqocyXtzRGWDUfYzGVPPEwcqfqADyKBy"];
-    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
 
     return YES;
 }

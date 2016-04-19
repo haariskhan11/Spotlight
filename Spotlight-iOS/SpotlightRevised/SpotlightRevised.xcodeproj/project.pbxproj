@@ -40,6 +40,15 @@
 		0CB80E441CBA1058006996C7 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB80E411CBA1058006996C7 /* UIImage+Crop.m */; };
 		0CB80E451CBA1058006996C7 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB80E431CBA1058006996C7 /* UIImage+Resize.m */; };
 		0CB80E481CBA1085006996C7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB80E471CBA1085006996C7 /* AVFoundation.framework */; };
+		0CE13BF81CC4B7D500BF3F88 /* TrendingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE13BF71CC4B7D500BF3F88 /* TrendingView.m */; };
+		0CE13BFB1CC5E53E00BF3F88 /* SwipeTableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE13BFA1CC5E53E00BF3F88 /* SwipeTableAppDelegate.m */; };
+		0CE13BFC1CC5E53E00BF3F88 /* SwipeTableAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE13BFA1CC5E53E00BF3F88 /* SwipeTableAppDelegate.m */; };
+		0CE13BFF1CC5E58800BF3F88 /* TrendingViewCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE13BFE1CC5E58800BF3F88 /* TrendingViewCustom.m */; };
+		0CE13C001CC5E58800BF3F88 /* TrendingViewCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE13BFE1CC5E58800BF3F88 /* TrendingViewCustom.m */; };
+		0CE13C021CC5F22500BF3F88 /* CommentIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CE13C011CC5F22500BF3F88 /* CommentIcon.png */; };
+		0CE13C031CC5F22500BF3F88 /* CommentIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CE13C011CC5F22500BF3F88 /* CommentIcon.png */; };
+		0CE13C061CC5F7CD00BF3F88 /* TrumpVideoComments.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE13C051CC5F7CD00BF3F88 /* TrumpVideoComments.m */; };
+		0CE13C071CC5F7CD00BF3F88 /* TrumpVideoComments.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE13C051CC5F7CD00BF3F88 /* TrumpVideoComments.m */; };
 		0CF63CB31CBB3FC2003B8E01 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF63CB21CBB3FC2003B8E01 /* Login.m */; };
 		0CF63CCE1CBB51A7003B8E01 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF63CC71CBB51A7003B8E01 /* Bolts.framework */; };
 		0CF63CCF1CBB51A7003B8E01 /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CF63CC81CBB51A7003B8E01 /* FacebookSDKStrings.bundle */; };
@@ -144,6 +153,15 @@
 		0CB80E421CBA1058006996C7 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
 		0CB80E431CBA1058006996C7 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		0CB80E471CBA1085006996C7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0CE13BF61CC4B7D500BF3F88 /* TrendingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendingView.h; sourceTree = "<group>"; };
+		0CE13BF71CC4B7D500BF3F88 /* TrendingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendingView.m; sourceTree = "<group>"; };
+		0CE13BF91CC5E53E00BF3F88 /* SwipeTableAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeTableAppDelegate.h; sourceTree = "<group>"; };
+		0CE13BFA1CC5E53E00BF3F88 /* SwipeTableAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeTableAppDelegate.m; sourceTree = "<group>"; };
+		0CE13BFD1CC5E58800BF3F88 /* TrendingViewCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendingViewCustom.h; sourceTree = "<group>"; };
+		0CE13BFE1CC5E58800BF3F88 /* TrendingViewCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendingViewCustom.m; sourceTree = "<group>"; };
+		0CE13C011CC5F22500BF3F88 /* CommentIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CommentIcon.png; sourceTree = "<group>"; };
+		0CE13C041CC5F7CD00BF3F88 /* TrumpVideoComments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrumpVideoComments.h; sourceTree = "<group>"; };
+		0CE13C051CC5F7CD00BF3F88 /* TrumpVideoComments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrumpVideoComments.m; sourceTree = "<group>"; };
 		0CF63CA41CBB3C38003B8E01 /* Qanelas-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-Black.otf"; sourceTree = "<group>"; };
 		0CF63CA51CBB3C38003B8E01 /* Qanelas-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-BlackItalic.otf"; sourceTree = "<group>"; };
 		0CF63CA61CBB3C38003B8E01 /* Qanelas-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qanelas-Bold.otf"; sourceTree = "<group>"; };
@@ -244,6 +262,14 @@
 				0C627BFB1C8F5EF900A3DA3F /* ViewController.h */,
 				0C627BFC1C8F5EF900A3DA3F /* ViewController.m */,
 				0C627BFE1C8F5EF900A3DA3F /* Main.storyboard */,
+				0CE13C041CC5F7CD00BF3F88 /* TrumpVideoComments.h */,
+				0CE13C051CC5F7CD00BF3F88 /* TrumpVideoComments.m */,
+				0CE13BF91CC5E53E00BF3F88 /* SwipeTableAppDelegate.h */,
+				0CE13BFA1CC5E53E00BF3F88 /* SwipeTableAppDelegate.m */,
+				0CE13BF61CC4B7D500BF3F88 /* TrendingView.h */,
+				0CE13BF71CC4B7D500BF3F88 /* TrendingView.m */,
+				0CE13BFD1CC5E58800BF3F88 /* TrendingViewCustom.h */,
+				0CE13BFE1CC5E58800BF3F88 /* TrendingViewCustom.m */,
 				0CF63CB11CBB3FC2003B8E01 /* Login.h */,
 				0CF63CB21CBB3FC2003B8E01 /* Login.m */,
 				0CB80E311CB98598006996C7 /* Camera.h */,
@@ -331,6 +357,7 @@
 		0CB80E461CBA105D006996C7 /* Files_Needed_For_Camera */ = {
 			isa = PBXGroup;
 			children = (
+				0CE13C011CC5F22500BF3F88 /* CommentIcon.png */,
 				0C70B2FC1CC4A5300035B521 /* facebook.png */,
 				0CF63CFD1CC42776003B8E01 /* Kunal.png */,
 				0C70B2FA1CC4A3E40035B521 /* warruins.mp4 */,
@@ -519,6 +546,7 @@
 				0CF63CDD1CBB52DE003B8E01 /* Qanelas-Regular.otf in Resources */,
 				0CF63CFE1CC42776003B8E01 /* Kunal.png in Resources */,
 				0CF63CDE1CBB52DE003B8E01 /* Qanelas-RegularItalic.otf in Resources */,
+				0CE13C021CC5F22500BF3F88 /* CommentIcon.png in Resources */,
 				0CF63CDF1CBB52DE003B8E01 /* Qanelas-Thin.otf in Resources */,
 				0CF63CE01CBB52DE003B8E01 /* Qanelas-UltraLight.otf in Resources */,
 				0CB80E281CB97D0E006996C7 /* SETTINGS.png in Resources */,
@@ -539,6 +567,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CE13C031CC5F22500BF3F88 /* CommentIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,19 +640,23 @@
 				0C627C2A1C8F5FD000A3DA3F /* YALSpringAnimation.m in Sources */,
 				0CF63CE91CBD8F2A003B8E01 /* TestData.m in Sources */,
 				0CB80E391CB98889006996C7 /* ViewUtils.m in Sources */,
+				0CE13BFF1CC5E58800BF3F88 /* TrendingViewCustom.m in Sources */,
 				0CB80E3F1CBA1025006996C7 /* VideoViewController.m in Sources */,
 				0CB80E331CB98598006996C7 /* Camera.m in Sources */,
 				0C627C2D1C8F5FDE00A3DA3F /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
 				0C627C391C8F600000A3DA3F /* YALTabBarItem.m in Sources */,
 				0CB80E441CBA1058006996C7 /* UIImage+Crop.m in Sources */,
+				0CE13BFB1CC5E53E00BF3F88 /* SwipeTableAppDelegate.m in Sources */,
 				0C627BFD1C8F5EF900A3DA3F /* ViewController.m in Sources */,
 				0C627BFA1C8F5EF900A3DA3F /* AppDelegate.m in Sources */,
 				0C627BF71C8F5EF900A3DA3F /* main.m in Sources */,
 				0C627C3D1C8F601200A3DA3F /* YALFoldingTabBar.m in Sources */,
 				0CB80E3E1CBA1025006996C7 /* ImageViewController.m in Sources */,
 				0CB80E451CBA1058006996C7 /* UIImage+Resize.m in Sources */,
+				0CE13C061CC5F7CD00BF3F88 /* TrumpVideoComments.m in Sources */,
 				0CF63CF11CC03A95003B8E01 /* Newsfeed.m in Sources */,
 				0C627C331C8F5FF100A3DA3F /* YALAnimatingTabBarConstants.m in Sources */,
+				0CE13BF81CC4B7D500BF3F88 /* TrendingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,7 +664,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CE13C071CC5F7CD00BF3F88 /* TrumpVideoComments.m in Sources */,
+				0CE13BFC1CC5E53E00BF3F88 /* SwipeTableAppDelegate.m in Sources */,
 				0C627C101C8F5EF900A3DA3F /* SpotlightRevisedTests.m in Sources */,
+				0CE13C001CC5E58800BF3F88 /* TrendingViewCustom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -799,6 +835,7 @@
 		};
 		0C627C231C8F5EF900A3DA3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11A303B38924736AF205B23 /* Pods-SpotlightRevised.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SpotlightRevisedTests/Info.plist;
@@ -823,6 +860,7 @@
 		};
 		0C627C261C8F5EF900A3DA3F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B11A303B38924736AF205B23 /* Pods-SpotlightRevised.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SpotlightRevisedUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

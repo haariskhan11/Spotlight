@@ -22,13 +22,15 @@
             <string>Qanelas-Regular</string>
             <string>Qanelas-Regular</string>
             <string>Qanelas-Regular</string>
+            <string>Qanelas-Regular</string>
+            <string>Qanelas-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
         <!--Item-->
         <scene sceneID="ppg-Z2-bH9">
             <objects>
-                <tableViewController id="RGi-b4-Xvp" customClass="Trending" sceneMemberID="viewController">
+                <tableViewController id="RGi-b4-Xvp" customClass="TrendingViewCustom" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="69" sectionHeaderHeight="28" sectionFooterHeight="28" id="AjN-wO-NbS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -36,15 +38,36 @@
                         <color key="backgroundColor" red="0.59215686270000001" green="0.84705882349999995" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="75" id="fIh-Xy-mzE" customClass="MGSwipeTableCell">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="75" id="fIh-Xy-mzE" customClass="TrendingView">
                                 <rect key="frame" x="0.0" y="28" width="375" height="75"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fIh-Xy-mzE" id="IXv-nO-zOe">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="74.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1e5-yB-Nik">
+                                            <rect key="frame" x="141" y="4" width="93" height="21"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="Qanelas-Regular" family="Qanelas" pointSize="13"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="taf-Wy-5Bd">
+                                            <rect key="frame" x="55" y="33" width="264" height="21"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="Qanelas-Regular" family="Qanelas" pointSize="18"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                     <animations/>
+                                    <color key="backgroundColor" red="0.59215686270000001" green="0.84705882349999995" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </tableViewCellContentView>
                                 <animations/>
+                                <connections>
+                                    <outlet property="cityName" destination="1e5-yB-Nik" id="eaa-Vk-FzD"/>
+                                    <outlet property="eventName" destination="taf-Wy-5Bd" id="dQS-hW-rlg"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -60,6 +83,7 @@
                         <segue destination="agm-Xv-oLn" kind="show" identifier="policebrutality" id="nb6-Xg-3iP"/>
                         <segue destination="rjD-dI-vST" kind="show" identifier="blacklivesmatter" id="CSe-nJ-nNT"/>
                         <segue destination="eZY-Vx-PJv" kind="show" identifier="warruins" id="ty1-Ko-Je5"/>
+                        <segue destination="BD7-M1-mVG" kind="custom" identifier="trumpcomment" id="VPN-H2-g7O"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="suS-gC-Pe5" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -276,6 +300,7 @@
                         <segue destination="3uT-gn-F6L" kind="relationship" relationship="viewControllers" id="MMW-EB-Jdt"/>
                         <segue destination="A0G-AI-HKs" kind="relationship" relationship="viewControllers" id="2iE-nN-1e1"/>
                         <segue destination="LAc-rd-7TA" kind="relationship" relationship="viewControllers" id="14r-rS-y9Y"/>
+                        <segue destination="BD7-M1-mVG" kind="relationship" relationship="viewControllers" id="Nhc-px-IsF"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oFK-6G-eXk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -336,6 +361,42 @@
             </objects>
             <point key="canvasLocation" x="-27.5" y="-685.5"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="oDr-2n-1yy">
+            <objects>
+                <viewController id="BD7-M1-mVG" customClass="TrumpVideoComments" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zsL-bw-1aX"/>
+                        <viewControllerLayoutGuide type="bottom" id="2ea-bh-zZ6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ey1-0i-MBv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yhx-2g-Zdp">
+                                <rect key="frame" x="36" y="576" width="269" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iMn-ZM-NK8">
+                                <rect key="frame" x="309" y="576" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Post">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.59215686270000001" green="0.84705882349999995" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="k3c-D3-47x"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sij-xH-xQZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="447.5" y="-685.5"/>
+        </scene>
         <!--AV Player View Controller-->
         <scene sceneID="Cmq-9z-5Rg">
             <objects>
@@ -351,4 +412,7 @@
         <image name="Kunal.png" width="2000" height="2000"/>
         <image name="facebook.png" width="16" height="16"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="VPN-H2-g7O"/>
+    </inferredMetricsTieBreakers>
 </document>
