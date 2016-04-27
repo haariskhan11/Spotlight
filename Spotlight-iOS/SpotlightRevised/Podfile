@@ -8,6 +8,7 @@ pod 'LLSimpleCamera', '~> 4.1'
 pod 'FoldingTabBar', '~> 1.0.2'
 pod 'MGSwipeTableCell'
 pod 'SWTableViewCell', '~> 0.3.7'
+pod 'CNPPopupController'
 end
 
 target 'SpotlightRevisedTests' do

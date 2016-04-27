@@ -10,28 +10,41 @@
 #import "TrendingView.h"
 #import <AVFoundation/AVFoundation.h>
 #import <AVKit/AVKit.h>
+#import "CNPPopupController.h"
 
-@interface TrendingViewCustom (){
+
+
+@interface TrendingViewCustom () <CNPPopupControllerDelegate> {
     NSMutableArray *cityLabels;
     NSMutableArray *eventLabels;
+    NSMutableArray *times;
+    
 }
+
+@property (nonatomic, strong) CNPPopupController *popupController;
 
 @end
 
 @implementation TrendingViewCustom
+    
+
 
 -(BOOL)prefersStatusBarHidden{return YES;}
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
-    return [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"header.png"]];
+    return [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"header1.png"]];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    
     cityLabels = [NSMutableArray arrayWithObjects:@"Chicago,IL", @"Houston,TX", @"Gainesville,FL", @"Syria", @"San Francisco,CA", @"Bismark, ND", @"New York, NY", @"Atlanta,GA",nil];
     eventLabels = [NSMutableArray arrayWithObjects:@"Trump Protest", @"Police Brutality", @"Black Lives Matter Protest", @"War Ruins", @"Freedom of Speech", @"Protect your rights", @"Peaceful protest against racism", @"Racism", nil];
+    times = [NSMutableArray arrayWithObjects:@"7:58 P.M.", @"11:10 A.M.", @"12:58 P.M.", @"3:02 P.M.", @"1:20 A.M.", @"9:26 P.M.", @"12:00 P.M.", @"10:09 P.M.",nil];
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -52,8 +65,13 @@
 {
     static NSString *cellIdentifier = @"Cell";
     
-    TrendingView *cell = (TrendingView *)[tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+    TrendingView *cell = (TrendingView *)[self.tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
     
+    if (cell == nil) {
+        cell = [[TrendingView alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+    }
+    
+
     // Add utility buttons
     NSMutableArray *leftUtilityButtons = [NSMutableArray new];
     NSMutableArray *rightUtilityButtons = [NSMutableArray new];
@@ -87,6 +105,8 @@
 //    cell.patternImageView.image = [UIImage imageNamed:[patternImages objectAtIndex:indexPath.row]];
     cell.cityName.text = [cityLabels objectAtIndex:indexPath.row];
     cell.eventName.text = [eventLabels objectAtIndex:indexPath.row];
+    cell.time.text = [times objectAtIndex:indexPath.row];
+    
     
     return cell;
 }
@@ -115,6 +135,7 @@
 //            [alertView show];
 //            break;
 //        }
+
 //        case 3:
 //        {
 //            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Twitter Sharing" message:@"Just shared the pattern image on Twitter" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
@@ -214,5 +235,10 @@
     [playerViewController.player play];
     [self presentViewController:playerViewController animated:YES completion:nil];
 }
+
+-(void)vc{
+    
+}
+
 
 @end

@@ -15,8 +15,19 @@
         <mutableArray key="Qanelas-Medium.otf">
             <string>Qanelas-Medium</string>
             <string>Qanelas-Medium</string>
+            <string>Qanelas-Medium</string>
+            <string>Qanelas-Medium</string>
+            <string>Qanelas-Medium</string>
         </mutableArray>
         <mutableArray key="Qanelas-Regular.otf">
+            <string>Qanelas-Regular</string>
+            <string>Qanelas-Regular</string>
+            <string>Qanelas-Regular</string>
+            <string>Qanelas-Regular</string>
+            <string>Qanelas-Regular</string>
+            <string>Qanelas-Regular</string>
+            <string>Qanelas-Regular</string>
+            <string>Qanelas-Regular</string>
             <string>Qanelas-Regular</string>
             <string>Qanelas-Regular</string>
             <string>Qanelas-Regular</string>
@@ -37,9 +48,39 @@
                         <animations/>
                         <color key="backgroundColor" red="0.59215686270000001" green="0.84705882349999995" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="xua-dU-aLy">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="76"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spotlight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLd-ag-q0a">
+                                    <rect key="frame" x="153" y="3" width="69" height="21"/>
+                                    <animations/>
+                                    <fontDescription key="fontDescription" name="Qanelas-Medium" family="Qanelas" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trending" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAW-MR-HVd">
+                                    <rect key="frame" x="153" y="70" width="90" height="27"/>
+                                    <animations/>
+                                    <fontDescription key="fontDescription" name="Qanelas-Medium" family="Qanelas" pointSize="22"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rocket.png" translatesAutoresizingMaskIntoConstraints="NO" id="TcU-LO-EZb">
+                                    <rect key="frame" x="133" y="70" width="12" height="23"/>
+                                    <animations/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="search.png" translatesAutoresizingMaskIntoConstraints="NO" id="JKz-Dr-6RO">
+                                    <rect key="frame" x="8" y="32" width="359" height="28"/>
+                                    <animations/>
+                                </imageView>
+                            </subviews>
+                            <animations/>
+                            <color key="backgroundColor" red="0.59215686270000001" green="0.84705882349999995" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="75" id="fIh-Xy-mzE" customClass="TrendingView">
-                                <rect key="frame" x="0.0" y="28" width="375" height="75"/>
+                                <rect key="frame" x="0.0" y="104" width="375" height="75"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fIh-Xy-mzE" id="IXv-nO-zOe">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="74.5"/>
@@ -52,6 +93,20 @@
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tml-SY-yyG" userLabel="time">
+                                            <rect key="frame" x="304" y="49" width="63" height="21"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="Qanelas-Regular" family="Qanelas" pointSize="10"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xg-y4-cNr" userLabel="number">
+                                            <rect key="frame" x="315" y="20" width="40" height="21"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="Qanelas-Regular" family="Qanelas" pointSize="16"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="taf-Wy-5Bd">
                                             <rect key="frame" x="55" y="33" width="264" height="21"/>
                                             <animations/>
@@ -59,6 +114,23 @@
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7y-NA-TVS">
+                                            <rect key="frame" x="327" y="31" width="16" height="22"/>
+                                            <animations/>
+                                            <state key="normal" image="arrowdown.png"/>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWf-eA-S75">
+                                            <rect key="frame" x="308" y="13" width="55" height="21"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="Qanelas-Regular" family="Qanelas" pointSize="16"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wA6-zo-BUB">
+                                            <rect key="frame" x="327" y="-3" width="16" height="22"/>
+                                            <animations/>
+                                            <state key="normal" image="arrowup.png"/>
+                                        </button>
                                     </subviews>
                                     <animations/>
                                     <color key="backgroundColor" red="0.59215686270000001" green="0.84705882349999995" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -67,6 +139,8 @@
                                 <connections>
                                     <outlet property="cityName" destination="1e5-yB-Nik" id="eaa-Vk-FzD"/>
                                     <outlet property="eventName" destination="taf-Wy-5Bd" id="dQS-hW-rlg"/>
+                                    <outlet property="number" destination="5xg-y4-cNr" id="0b4-IJ-hgM"/>
+                                    <outlet property="time" destination="tml-SY-yyG" id="J4g-OM-hxi"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -83,32 +157,93 @@
                         <segue destination="agm-Xv-oLn" kind="show" identifier="policebrutality" id="nb6-Xg-3iP"/>
                         <segue destination="rjD-dI-vST" kind="show" identifier="blacklivesmatter" id="CSe-nJ-nNT"/>
                         <segue destination="eZY-Vx-PJv" kind="show" identifier="warruins" id="ty1-Ko-Je5"/>
-                        <segue destination="BD7-M1-mVG" kind="custom" identifier="trumpcomment" id="VPN-H2-g7O"/>
+                        <segue destination="BD7-M1-mVG" kind="custom" identifier="trumpcomment" id="HMs-bD-ThK"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="suS-gC-Pe5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-989.5" y="-1100.5"/>
+            <point key="canvasLocation" x="-1433.5" y="-1176.5"/>
         </scene>
         <!--Item-->
         <scene sceneID="zZ6-NN-C31">
             <objects>
                 <tableViewController id="3uT-gn-F6L" customClass="Newsfeed" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="wIv-XZ-h3A">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="75" sectionHeaderHeight="28" sectionFooterHeight="28" id="wIv-XZ-h3A">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="LaC-4O-1XO">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="67"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spotlight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vrA-ua-dOg">
+                                    <rect key="frame" x="153" y="3" width="69" height="21"/>
+                                    <animations/>
+                                    <fontDescription key="fontDescription" name="Qanelas-Medium" family="Qanelas" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="search.png" translatesAutoresizingMaskIntoConstraints="NO" id="YTi-tZ-HPd">
+                                    <rect key="frame" x="8" y="32" width="359" height="28"/>
+                                    <animations/>
+                                </imageView>
+                            </subviews>
+                            <animations/>
+                            <color key="backgroundColor" red="0.59215686270000001" green="0.84705882349999995" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="eCP-tK-jKg" customClass="MGSwipeTableCell">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="75" id="eCP-tK-jKg" customClass="TrendingView">
+                                <rect key="frame" x="0.0" y="95" width="375" height="75"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eCP-tK-jKg" id="QCT-Hm-5sP">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="74.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vw6-EB-hLt" userLabel="event">
+                                            <rect key="frame" x="47" y="33" width="280" height="21"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="Qanelas-Regular" family="Qanelas" pointSize="18"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olI-7P-I5H" userLabel="time">
+                                            <rect key="frame" x="304" y="53" width="63" height="21"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="Qanelas-Regular" family="Qanelas" pointSize="10"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gbt-4t-vfZ" userLabel="city">
+                                            <rect key="frame" x="141" y="8" width="93" height="21"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="Qanelas-Regular" family="Qanelas" pointSize="13"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ndr-SM-uHH">
+                                            <rect key="frame" x="334" y="1" width="16" height="22"/>
+                                            <animations/>
+                                            <state key="normal" image="arrowupblack.png"/>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="imy-DP-ttA">
+                                            <rect key="frame" x="334" y="32" width="16" height="22"/>
+                                            <animations/>
+                                            <state key="normal" image="arrowdownblack.png"/>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S2G-Op-hb6" userLabel="time">
+                                            <rect key="frame" x="311" y="18" width="63" height="21"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="Qanelas-Regular" family="Qanelas" pointSize="16"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                     <animations/>
                                 </tableViewCellContentView>
                                 <animations/>
+                                <connections>
+                                    <outlet property="cityName1" destination="Gbt-4t-vfZ" id="aaN-ut-LOm"/>
+                                    <outlet property="eventName1" destination="vw6-EB-hLt" id="FiD-0N-Luf"/>
+                                    <outlet property="time1" destination="olI-7P-I5H" id="3ep-Wi-7GQ"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -118,10 +253,16 @@
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Item" id="OKW-RV-8NP"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="Udk-25-gMX" kind="show" identifier="trumpvidnewsfeed" id="mDw-OS-HL0"/>
+                        <segue destination="agm-Xv-oLn" kind="show" identifier="policebrutalitynewsfeed" id="yhS-d7-Gzv"/>
+                        <segue destination="rjD-dI-vST" kind="show" identifier="blacklivesmatternewsfeed" id="tNL-z5-ESB"/>
+                        <segue destination="eZY-Vx-PJv" kind="show" identifier="warruinsnewsfeed" id="p6a-cg-uyz"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wpd-53-qBH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-989.5" y="449.5"/>
+            <point key="canvasLocation" x="-989.5" y="-1176.5"/>
         </scene>
         <!--Item-->
         <scene sceneID="fcq-7b-Q0g">
@@ -319,14 +460,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4i8-iT-aez">
-                                <rect key="frame" x="164" y="319" width="46" height="30"/>
-                                <animations/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="captureVideo:" destination="A0G-AI-HKs" eventType="touchUpInside" id="GIy-hX-92T"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZc-uJ-WSh">
                                 <rect key="frame" x="0.0" y="520" width="375" height="70"/>
                                 <animations/>
@@ -336,12 +469,18 @@
                                 </state>
                                 <connections>
                                     <action selector="postVideo:" destination="A0G-AI-HKs" eventType="touchUpInside" id="xPI-l9-5dK"/>
-                                    <segue destination="eOA-bb-lCh" kind="show" id="CBH-2y-hEs"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to the Post Screen." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0j-Ao-QO6">
+                                <rect key="frame" x="57" y="205" width="261" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Qanelas-Regular" family="Qanelas" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.59215686270000001" green="0.84705882349999995" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="VSe-mg-ViZ"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -410,9 +549,19 @@
     </scenes>
     <resources>
         <image name="Kunal.png" width="2000" height="2000"/>
+        <image name="arrowdown.png" width="16" height="9"/>
+        <image name="arrowdownblack.png" width="16" height="9"/>
+        <image name="arrowup.png" width="16" height="9"/>
+        <image name="arrowupblack.png" width="16" height="9"/>
         <image name="facebook.png" width="16" height="16"/>
+        <image name="rocket.png" width="12" height="23"/>
+        <image name="search.png" width="348" height="28"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="VPN-H2-g7O"/>
+        <segue reference="HMs-bD-ThK"/>
+        <segue reference="p6a-cg-uyz"/>
+        <segue reference="mDw-OS-HL0"/>
+        <segue reference="yhS-d7-Gzv"/>
+        <segue reference="tNL-z5-ESB"/>
     </inferredMetricsTieBreakers>
 </document>

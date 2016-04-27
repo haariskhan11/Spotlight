@@ -11,5 +11,12 @@
 @interface TrendingView : SWTableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *cityName;
 @property (weak, nonatomic) IBOutlet UILabel *eventName;
+@property (weak, nonatomic) IBOutlet UILabel *time;
+@property (weak, nonatomic) IBOutlet UILabel *number;
+
+@property (weak, nonatomic) IBOutlet UILabel *cityName1;
+@property (weak, nonatomic) IBOutlet UILabel *eventName1;
+@property (weak, nonatomic) IBOutlet UILabel *time1;
+@property (weak, nonatomic) IBOutlet UILabel *number1;
 
 @end

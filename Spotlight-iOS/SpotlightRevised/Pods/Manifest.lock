@@ -1,16 +1,19 @@
 PODS:
+  - CNPPopupController (0.3.1)
   - FoldingTabBar (1.0.2)
   - LLSimpleCamera (4.2.0)
   - MGSwipeTableCell (1.5.5)
   - SWTableViewCell (0.3.7)
 
 DEPENDENCIES:
+  - CNPPopupController
   - FoldingTabBar (~> 1.0.2)
   - LLSimpleCamera (~> 4.1)
   - MGSwipeTableCell
   - SWTableViewCell (~> 0.3.7)
 
 SPEC CHECKSUMS:
+  CNPPopupController: 67dc2ca5a3f88cd49a27bb1b0aeb78a24d423d79
   FoldingTabBar: 79df76dfd5a84c0a369beaa378a31c07aa53b6b2
   LLSimpleCamera: ed7813ce4827ff3e34c6af159c99b5b56e54d1c6
   MGSwipeTableCell: bafeb5f351124544c9364ecbdf24c7b06a37d340

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C030FBB1CCFEC520034F8AF /* arrowdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C030FB91CCFEC520034F8AF /* arrowdown.png */; };
+		0C030FBC1CCFEC520034F8AF /* arrowup.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C030FBA1CCFEC520034F8AF /* arrowup.png */; };
+		0C030FBE1CD08D030034F8AF /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C030FBD1CD08D030034F8AF /* rocket.png */; };
+		0C030FC01CD08DE30034F8AF /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C030FBF1CD08DE30034F8AF /* search.png */; };
+		0C030FC41CD092C10034F8AF /* page.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C030FC31CD092C10034F8AF /* page.png */; };
+		0C030FC61CD0935A0034F8AF /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C030FC51CD0935A0034F8AF /* line.png */; };
+		0C030FC91CD0994F0034F8AF /* arrowdownblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C030FC71CD0994F0034F8AF /* arrowdownblack.png */; };
+		0C030FCA1CD0994F0034F8AF /* arrowupblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C030FC81CD0994F0034F8AF /* arrowupblack.png */; };
 		0C627BF71C8F5EF900A3DA3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C627BF61C8F5EF900A3DA3F /* main.m */; };
 		0C627BFA1C8F5EF900A3DA3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C627BF91C8F5EF900A3DA3F /* AppDelegate.m */; };
 		0C627BFD1C8F5EF900A3DA3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C627BFC1C8F5EF900A3DA3F /* ViewController.m */; };
@@ -97,6 +105,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C030FB91CCFEC520034F8AF /* arrowdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowdown.png; sourceTree = "<group>"; };
+		0C030FBA1CCFEC520034F8AF /* arrowup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowup.png; sourceTree = "<group>"; };
+		0C030FBD1CD08D030034F8AF /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
+		0C030FBF1CD08DE30034F8AF /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		0C030FC31CD092C10034F8AF /* page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page.png; sourceTree = "<group>"; };
+		0C030FC51CD0935A0034F8AF /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		0C030FC71CD0994F0034F8AF /* arrowdownblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowdownblack.png; sourceTree = "<group>"; };
+		0C030FC81CD0994F0034F8AF /* arrowupblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowupblack.png; sourceTree = "<group>"; };
 		0C627BF21C8F5EF900A3DA3F /* SpotlightRevised.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotlightRevised.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C627BF61C8F5EF900A3DA3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C627BF81C8F5EF900A3DA3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -357,7 +373,15 @@
 		0CB80E461CBA105D006996C7 /* Files_Needed_For_Camera */ = {
 			isa = PBXGroup;
 			children = (
+				0C030FC71CD0994F0034F8AF /* arrowdownblack.png */,
+				0C030FC81CD0994F0034F8AF /* arrowupblack.png */,
+				0C030FC51CD0935A0034F8AF /* line.png */,
+				0C030FC31CD092C10034F8AF /* page.png */,
+				0C030FBF1CD08DE30034F8AF /* search.png */,
+				0C030FBD1CD08D030034F8AF /* rocket.png */,
 				0CE13C011CC5F22500BF3F88 /* CommentIcon.png */,
+				0C030FB91CCFEC520034F8AF /* arrowdown.png */,
+				0C030FBA1CCFEC520034F8AF /* arrowup.png */,
 				0C70B2FC1CC4A5300035B521 /* facebook.png */,
 				0CF63CFD1CC42776003B8E01 /* Kunal.png */,
 				0C70B2FA1CC4A3E40035B521 /* warruins.mp4 */,
@@ -533,25 +557,33 @@
 				0C70B2FB1CC4A3F10035B521 /* warruins.mp4 in Resources */,
 				0C70B2F91CC4A10D0035B521 /* blacklivesmatter.mp4 in Resources */,
 				0C70B2F71CC49F640035B521 /* policebrutality.mp4 in Resources */,
+				0C030FC01CD08DE30034F8AF /* search.png in Resources */,
 				0CF63CFC1CC15CE2003B8E01 /* chicagotrump.mp4 in Resources */,
 				0CF63CD51CBB52DE003B8E01 /* Qanelas-Black.otf in Resources */,
+				0C030FCA1CD0994F0034F8AF /* arrowupblack.png in Resources */,
 				0CF63CD61CBB52DE003B8E01 /* Qanelas-BlackItalic.otf in Resources */,
 				0CF63CD71CBB52DE003B8E01 /* Qanelas-Bold.otf in Resources */,
+				0C030FC91CD0994F0034F8AF /* arrowdownblack.png in Resources */,
 				0CF63CD81CBB52DE003B8E01 /* Qanelas-BoldItalic.otf in Resources */,
 				0CF63CD91CBB52DE003B8E01 /* Qanelas-ExtraBold.otf in Resources */,
 				0C70B2FD1CC4A5300035B521 /* facebook.png in Resources */,
+				0C030FC61CD0935A0034F8AF /* line.png in Resources */,
+				0C030FC41CD092C10034F8AF /* page.png in Resources */,
 				0CF63CDA1CBB52DE003B8E01 /* Qanelas-Heavy.otf in Resources */,
 				0CF63CDB1CBB52DE003B8E01 /* Qanelas-Light.otf in Resources */,
 				0CF63CDC1CBB52DE003B8E01 /* Qanelas-Medium.otf in Resources */,
 				0CF63CDD1CBB52DE003B8E01 /* Qanelas-Regular.otf in Resources */,
+				0C030FBC1CCFEC520034F8AF /* arrowup.png in Resources */,
 				0CF63CFE1CC42776003B8E01 /* Kunal.png in Resources */,
 				0CF63CDE1CBB52DE003B8E01 /* Qanelas-RegularItalic.otf in Resources */,
 				0CE13C021CC5F22500BF3F88 /* CommentIcon.png in Resources */,
 				0CF63CDF1CBB52DE003B8E01 /* Qanelas-Thin.otf in Resources */,
+				0C030FBB1CCFEC520034F8AF /* arrowdown.png in Resources */,
 				0CF63CE01CBB52DE003B8E01 /* Qanelas-UltraLight.otf in Resources */,
 				0CB80E281CB97D0E006996C7 /* SETTINGS.png in Resources */,
 				0CF63CCF1CBB51A7003B8E01 /* FacebookSDKStrings.bundle in Resources */,
 				0CB80E291CB97D0E006996C7 /* VIDEOCAMERA.png in Resources */,
+				0C030FBE1CD08D030034F8AF /* rocket.png in Resources */,
 				0C627C051C8F5EF900A3DA3F /* LaunchScreen.storyboard in Resources */,
 				0C627C021C8F5EF900A3DA3F /* Assets.xcassets in Resources */,
 				0CF63CEB1CC0339C003B8E01 /* header.png in Resources */,
@@ -753,6 +785,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -790,6 +823,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

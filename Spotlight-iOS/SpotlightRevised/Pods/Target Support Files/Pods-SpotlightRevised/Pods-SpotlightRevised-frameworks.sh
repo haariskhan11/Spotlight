@@ -84,12 +84,14 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-SpotlightRevised/CNPPopupController.framework"
   install_framework "Pods-SpotlightRevised/FoldingTabBar.framework"
   install_framework "Pods-SpotlightRevised/LLSimpleCamera.framework"
   install_framework "Pods-SpotlightRevised/MGSwipeTableCell.framework"
   install_framework "Pods-SpotlightRevised/SWTableViewCell.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-SpotlightRevised/CNPPopupController.framework"
   install_framework "Pods-SpotlightRevised/FoldingTabBar.framework"
   install_framework "Pods-SpotlightRevised/LLSimpleCamera.framework"
   install_framework "Pods-SpotlightRevised/MGSwipeTableCell.framework"

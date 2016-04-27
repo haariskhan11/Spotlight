@@ -11,4 +11,6 @@
 
 @interface TrendingViewCustom : UITableViewController <SWTableViewCellDelegate>
 
+//- (IBAction)showPopupCentered:(id)sender;
+
 @end

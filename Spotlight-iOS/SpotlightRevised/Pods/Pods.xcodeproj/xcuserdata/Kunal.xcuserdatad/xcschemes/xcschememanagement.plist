@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CNPPopupController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>FoldingTabBar.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,12 +42,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1B2E1BED3FA10F1F6CEC225B663C0720</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4ACDB98843C00B8EF565640521FF033E</key>
+		<key>1FEB205A27CAF752DC1660C1238C328A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -53,6 +53,16 @@
 			<true/>
 		</dict>
 		<key>CE0CC7E2B5B550BC4172F6FF9CC5D50A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2D17D2E6A8AD8B5A2D1F30A3032805E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D9CBE22823E124801AFD9BA9A55FB7FB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
