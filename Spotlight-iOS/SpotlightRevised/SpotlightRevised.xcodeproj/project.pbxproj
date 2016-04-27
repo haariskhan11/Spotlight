@@ -15,6 +15,7 @@
 		0C030FC61CD0935A0034F8AF /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C030FC51CD0935A0034F8AF /* line.png */; };
 		0C030FC91CD0994F0034F8AF /* arrowdownblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C030FC71CD0994F0034F8AF /* arrowdownblack.png */; };
 		0C030FCA1CD0994F0034F8AF /* arrowupblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C030FC81CD0994F0034F8AF /* arrowupblack.png */; };
+		0C030FCC1CD14A6E0034F8AF /* comments.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C030FCB1CD14A6E0034F8AF /* comments.png */; };
 		0C627BF71C8F5EF900A3DA3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C627BF61C8F5EF900A3DA3F /* main.m */; };
 		0C627BFA1C8F5EF900A3DA3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C627BF91C8F5EF900A3DA3F /* AppDelegate.m */; };
 		0C627BFD1C8F5EF900A3DA3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C627BFC1C8F5EF900A3DA3F /* ViewController.m */; };
@@ -113,6 +114,7 @@
 		0C030FC51CD0935A0034F8AF /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
 		0C030FC71CD0994F0034F8AF /* arrowdownblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowdownblack.png; sourceTree = "<group>"; };
 		0C030FC81CD0994F0034F8AF /* arrowupblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowupblack.png; sourceTree = "<group>"; };
+		0C030FCB1CD14A6E0034F8AF /* comments.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comments.png; sourceTree = "<group>"; };
 		0C627BF21C8F5EF900A3DA3F /* SpotlightRevised.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotlightRevised.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C627BF61C8F5EF900A3DA3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C627BF81C8F5EF900A3DA3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -373,6 +375,7 @@
 		0CB80E461CBA105D006996C7 /* Files_Needed_For_Camera */ = {
 			isa = PBXGroup;
 			children = (
+				0C030FCB1CD14A6E0034F8AF /* comments.png */,
 				0C030FC71CD0994F0034F8AF /* arrowdownblack.png */,
 				0C030FC81CD0994F0034F8AF /* arrowupblack.png */,
 				0C030FC51CD0935A0034F8AF /* line.png */,
@@ -563,6 +566,7 @@
 				0C030FCA1CD0994F0034F8AF /* arrowupblack.png in Resources */,
 				0CF63CD61CBB52DE003B8E01 /* Qanelas-BlackItalic.otf in Resources */,
 				0CF63CD71CBB52DE003B8E01 /* Qanelas-Bold.otf in Resources */,
+				0C030FCC1CD14A6E0034F8AF /* comments.png in Resources */,
 				0C030FC91CD0994F0034F8AF /* arrowdownblack.png in Resources */,
 				0CF63CD81CBB52DE003B8E01 /* Qanelas-BoldItalic.otf in Resources */,
 				0CF63CD91CBB52DE003B8E01 /* Qanelas-ExtraBold.otf in Resources */,

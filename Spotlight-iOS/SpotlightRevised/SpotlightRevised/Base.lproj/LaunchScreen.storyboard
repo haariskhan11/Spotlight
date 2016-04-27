@@ -8,6 +8,9 @@
         <mutableArray key="Qanelas-Bold.otf">
             <string>Qanelas-Bold</string>
         </mutableArray>
+        <mutableArray key="Qanelas-Regular.otf">
+            <string>Qanelas-Regular</string>
+        </mutableArray>
     </customFonts>
     <scenes>
         <!--View Controller-->
@@ -23,9 +26,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Spotlight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4u-uN-xIm">
-                                <rect key="frame" x="101" y="307" width="172" height="54"/>
+                                <rect key="frame" x="101" y="292" width="172" height="54"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="Qanelas-Bold" family="Qanelas" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Giving a voice to the voiceless." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u5k-dn-Jem">
+                                <rect key="frame" x="69" y="354" width="237" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="Qanelas-Regular" family="Qanelas" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
