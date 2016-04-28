@@ -14,6 +14,11 @@
 #import "Camera.h"
 
 
+// importing the tab bar
+#import "YALTabBarItem.h"
+#import "YALFoldingTabBarController.h"
+#import "YALAnimatingTabBarConstants.h"
+
 
 @interface TrendingViewCustom () <CNPPopupControllerDelegate> {
     NSMutableArray *cityLabels;
@@ -37,18 +42,23 @@
     return [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"header1.png"]];
 }
 
--(void)viewDidAppear:(BOOL)animated{
-    [self showPopupFullscreen:self];
-    
+//-(void)viewDidAppear:(BOOL)animated{
+//    [self showPopupFullscreen:self];
+//    
+//}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    static dispatch_once_t once;
+    dispatch_once(&once, ^{
+        [self showPopupFullscreen:self];
+    });
 }
 
 
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-    
-    
-    
     
     cityLabels = [NSMutableArray arrayWithObjects:@"Chicago,IL", @"Houston,TX", @"Gainesville,FL", @"Syria", @"San Francisco,CA", @"Bismark, ND", @"New York, NY", @"Atlanta,GA",nil];
     eventLabels = [NSMutableArray arrayWithObjects:@"Trump Protest", @"Police Brutality", @"Black Lives Matter Protest", @"War Ruins", @"Freedom of Speech", @"Protect your rights", @"Peaceful protest against racism", @"Racism", nil];
@@ -91,7 +101,7 @@
 //                                                icon:[UIImage imageNamed:@"like.png"]];
 //    [leftUtilityButtons sw_addUtilityButtonWithColor:
 //     [UIColor colorWithRed:1.0f green:1.0f blue:0.35f alpha:0.7]
-//                                                icon:[UIImage imageNamed:@"message.png"]];
+//                                                icon:[UIImage imageNamed:@"messagde.png"]];
 //    [leftUtilityButtons sw_addUtilityButtonWithColor:
 //     [UIColor colorWithRed:1.0f green:1.0f blue:0.35f alpha:0.7]
 //                                                icon:[UIImage imageNamed:@"facebook.png"]];
@@ -308,8 +318,18 @@
 #pragma mark - Initial popup to select camera or feed
 
 -(void)presentVC{
-    Camera *camera = [self.storyboard instantiateViewControllerWithIdentifier:@"camera"];
-    [self presentViewController:camera animated:YES completion:nil];
+
+    if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
+        
+        UIImagePickerController *picker = [[UIImagePickerController alloc] init];
+        picker.delegate = self;
+        picker.allowsEditing = YES;
+        picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+        picker.mediaTypes = [[NSArray alloc] initWithObjects: (NSString *) kUTTypeMovie, nil];
+        
+        [self presentViewController:picker animated:YES completion:NULL];
+    }
+    
 
     NSLog(@"hello calling presentVC");
 }
@@ -335,13 +355,18 @@
         NSLog(@"Block for button: %@", button.titleLabel.text);
     };
     
-    UIButton *videobutton = [[UIButton alloc] initWithFrame:CGRectMake(0, 50, 300, 50)];
+    CNPPopupButton *videobutton = [[CNPPopupButton alloc] initWithFrame:CGRectMake(0, 50, 300, 50)];
     [videobutton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     videobutton.titleLabel.font = [UIFont boldSystemFontOfSize:18];
     [videobutton setTitle:@"Record a Video" forState:UIControlStateNormal];
     videobutton.backgroundColor = [UIColor redColor];
     videobutton.layer.cornerRadius = 4;
     [videobutton addTarget:self action:@selector(presentVC) forControlEvents:UIControlEventTouchUpInside];
+    videobutton.selectionHandler = ^(CNPPopupButton *button){
+        [self.popupController dismissPopupControllerAnimated:YES];
+        NSLog(@"Block for button: %@", button.titleLabel.text);
+    };
+
     
     
     UILabel *titleLabel = [[UILabel alloc] init];
@@ -373,6 +398,43 @@
     self.popupController.delegate = self;
     [self.popupController presentPopupControllerAnimated:YES];
 }
+
+#pragma  mark - camera
+
+- (IBAction)captureVideo:(id)sender {
+    if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
+        
+        UIImagePickerController *picker = [[UIImagePickerController alloc] init];
+        picker.delegate = self;
+        picker.allowsEditing = YES;
+        picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+        picker.mediaTypes = [[NSArray alloc] initWithObjects: (NSString *) kUTTypeMovie, nil];
+        
+        [self presentViewController:picker animated:YES completion:NULL];
+    }
+}
+
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
+    
+    self.videoURL = info[UIImagePickerControllerMediaURL];
+    [picker dismissViewControllerAnimated:YES completion:NULL];
+    
+    self.videoController = [[MPMoviePlayerController alloc] init];
+    
+    [self.videoController setContentURL:self.videoURL];
+    [self.videoController.view setFrame:CGRectMake (0, 0, 375, 525)];
+    [self.view addSubview:self.videoController.view];
+    
+    [self.videoController play];
+    
+}
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
+    
+    [picker dismissViewControllerAnimated:YES completion:NULL];
+    
+}
+
 
 
 @end
