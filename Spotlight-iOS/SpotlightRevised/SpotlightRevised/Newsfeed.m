@@ -34,7 +34,7 @@
     // initializing the arrays
     cityLabels = [NSMutableArray arrayWithObjects:@"Chicago,IL", @"Houston,TX", @"Gainesville,FL", @"Syria", @"San Francisco,CA", @"Bismark, ND", @"New York, NY", @"Atlanta,GA",nil];
     eventLabels = [NSMutableArray arrayWithObjects:@"Trump Protest", @"Police Brutality", @"Black Lives Matter Protest", @"War Ruins", @"Freedom of Speech", @"Protect your rights", @"Peaceful protest against racism", @"Racism", nil];
-    times = [NSMutableArray arrayWithObjects:@"7:58 P.M.", @"11:10 A.M.", @"12:58 P.M.", @"3:02 P.M.", @"1:20 A.M.", @"9:26 P.M.", @"12:00 P.M.", @"10:09 P.M.",nil];
+    times = [NSMutableArray arrayWithObjects:@"7:58 A.M.", @"11:10 A.M.", @"12:58 P.M.", @"3:02 P.M.", @"5:20 P.M.", @"9:26 P.M.", @"9:37 P.M.", @"10:09 P.M.",nil];
 }
 
 - (void)didReceiveMemoryWarning {

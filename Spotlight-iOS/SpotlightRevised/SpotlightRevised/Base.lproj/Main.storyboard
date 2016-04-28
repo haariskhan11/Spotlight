@@ -470,13 +470,17 @@
                                     <action selector="postVideo:" destination="A0G-AI-HKs" eventType="touchUpInside" id="xPI-l9-5dK"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to the Post Screen." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0j-Ao-QO6">
-                                <rect key="frame" x="57" y="205" width="261" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmV-Hw-8uA">
+                                <rect key="frame" x="89" y="319" width="196" height="30"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" name="Qanelas-Regular" family="Qanelas" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <fontDescription key="fontDescription" name="Qanelas-Regular" family="Qanelas" pointSize="23"/>
+                                <state key="normal" title="Take Video Again">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="camera:" destination="A0G-AI-HKs" eventType="touchUpInside" id="ggh-Sc-8Mk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.59215686270000001" green="0.84705882349999995" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>

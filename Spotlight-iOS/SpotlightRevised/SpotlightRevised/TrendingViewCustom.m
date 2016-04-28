@@ -137,28 +137,7 @@
     switch (index) {
         case 0:
         {
-//            // More button is pressed
-//            UIActionSheet *shareActionSheet = [[UIActionSheet alloc] initWithTitle:@"Share" delegate:nil cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"Share on Facebook", @"Share on Twitter", nil];
-//            [shareActionSheet showInView:self.view];
-//            
-//            [cell hideUtilityButtonsAnimated:YES];
-            
-            //[self performSegueWithIdentifier:@"trumpcomment" sender:self];
-            
-            
-//            [self showPopupFormSheet:self];
-//            [self showPopupFullscreen:self];
             [self showPopupCentered:self];
-            
-            break;
-        }
-        case 1:
-        {
-            // Delete button is pressed
-            NSIndexPath *cellIndexPath = [self.tableView indexPathForCell:cell];
-//            [patterns removeObjectAtIndex:cellIndexPath.row];
-//            [patternImages removeObjectAtIndex:cellIndexPath.row];
-            [self.tableView deleteRowsAtIndexPaths:@[cellIndexPath] withRowAnimation:UITableViewRowAnimationLeft];
             break;
         }
         default:
