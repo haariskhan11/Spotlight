@@ -157,7 +157,6 @@
                         <segue destination="agm-Xv-oLn" kind="show" identifier="policebrutality" id="nb6-Xg-3iP"/>
                         <segue destination="rjD-dI-vST" kind="show" identifier="blacklivesmatter" id="CSe-nJ-nNT"/>
                         <segue destination="eZY-Vx-PJv" kind="show" identifier="warruins" id="ty1-Ko-Je5"/>
-                        <segue destination="BD7-M1-mVG" kind="custom" identifier="trumpcomment" id="HMs-bD-ThK"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="suS-gC-Pe5" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -451,7 +450,7 @@
         <!--Item-->
         <scene sceneID="HYd-gY-ZzX">
             <objects>
-                <viewController wantsFullScreenLayout="YES" hidesBottomBarWhenPushed="YES" id="A0G-AI-HKs" customClass="Camera" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="camera" wantsFullScreenLayout="YES" hidesBottomBarWhenPushed="YES" id="A0G-AI-HKs" customClass="Camera" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iAw-w6-kEc"/>
                         <viewControllerLayoutGuide type="bottom" id="jnL-ms-8D6"/>
@@ -558,10 +557,9 @@
         <image name="search.png" width="348" height="28"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HMs-bD-ThK"/>
-        <segue reference="p6a-cg-uyz"/>
-        <segue reference="mDw-OS-HL0"/>
-        <segue reference="yhS-d7-Gzv"/>
-        <segue reference="tNL-z5-ESB"/>
+        <segue reference="nb6-Xg-3iP"/>
+        <segue reference="CSe-nJ-nNT"/>
+        <segue reference="ty1-Ko-Je5"/>
+        <segue reference="Yxu-Sk-cAf"/>
     </inferredMetricsTieBreakers>
 </document>

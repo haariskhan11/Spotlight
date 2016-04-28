@@ -10,9 +10,13 @@
 
 #import "YALAnimatingTabBarConstants.h"
 
-@interface YALFoldingTabBarController () <YALTabBarViewDataSource, YALTabBarViewDelegate>
+// custom popup
+#import "CNPPopupController.h"
+
+@interface YALFoldingTabBarController () <YALTabBarViewDataSource, YALTabBarViewDelegate, CNPPopupControllerDelegate>
 
 @property (nonatomic, assign) YALTabBarState state;
+@property (nonatomic, strong) CNPPopupController *popupController;
 
 @end
 
@@ -21,6 +25,7 @@
 #pragma mark - Initialization
 
 - (instancetype)init {
+    
     self = [super init];
     if (self) {
         [self setup];
@@ -54,6 +59,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     
     [self.tabBar setBackgroundImage:[[UIImage alloc] init]];
     [self.tabBar setShadowImage:[[UIImage alloc] init]];

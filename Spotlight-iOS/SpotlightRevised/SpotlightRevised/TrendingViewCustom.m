@@ -11,6 +11,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import <AVKit/AVKit.h>
 #import "CNPPopupController.h"
+#import "Camera.h"
 
 
 
@@ -36,8 +37,16 @@
     return [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"header1.png"]];
 }
 
+-(void)viewDidAppear:(BOOL)animated{
+    [self showPopupFullscreen:self];
+    
+}
+
+
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
+    
     
     
     
@@ -112,40 +121,7 @@
     return cell;
 }
 
-// method not used as we do not need to implement swipe left action
 
-//- (void)swipeableTableViewCell:(SWTableViewCell *)cell didTriggerLeftUtilityButtonWithIndex:(NSInteger)index {
-//    
-//    switch (index) {
-//        case 0:
-//        {
-////            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Bookmark" message:@"Save to favorites successfully" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
-////            [alertView show];
-//            [self performSegueWithIdentifier:@"trumpcomment" sender:self];
-//            break;
-//        }
-//        case 1:
-//        {
-//            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Email sent" message:@"Just sent the image to your INBOX" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
-//            [alertView show];
-//            break;
-//        }
-//        case 2:
-//        {
-//            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Facebook Sharing" message:@"Just shared the pattern image on Facebook" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
-//            [alertView show];
-//            break;
-//        }
-
-//        case 3:
-//        {
-//            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Twitter Sharing" message:@"Just shared the pattern image on Twitter" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
-//            [alertView show];
-//        }
-//        default:
-//            break;
-//    }
-//}
 
 - (void)swipeableTableViewCell:(SWTableViewCell *)cell didTriggerRightUtilityButtonWithIndex:(NSInteger)index {
     switch (index) {
@@ -325,9 +301,78 @@
 }
 
 - (void)showPopupFullscreen:(id)sender {
-    [self showPopupWithStyle:CNPPopupStyleFullscreen];
+    [self initialPopup:CNPPopupStyleFullscreen];
 }
 
+
+#pragma mark - Initial popup to select camera or feed
+
+-(void)presentVC{
+    Camera *camera = [self.storyboard instantiateViewControllerWithIdentifier:@"camera"];
+    [self presentViewController:camera animated:YES completion:nil];
+
+    NSLog(@"hello calling presentVC");
+}
+
+- (void)initialPopup:(CNPPopupStyle)popupStyle {
+    
+    NSMutableParagraphStyle *paragraphStyle = NSMutableParagraphStyle.new;
+    paragraphStyle.lineBreakMode = NSLineBreakByWordWrapping;
+    paragraphStyle.alignment = NSTextAlignmentCenter;
+    
+    NSAttributedString *title = [[NSAttributedString alloc] initWithString:@"Welcome to Spotlight!" attributes:@{NSFontAttributeName : [UIFont fontWithName:@"Qanelas" size:30], NSParagraphStyleAttributeName : paragraphStyle}];
+    NSAttributedString *lineOne = [[NSAttributedString alloc] initWithString:@"You can add text and images" attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:18], NSParagraphStyleAttributeName : paragraphStyle}];
+    NSAttributedString *lineTwo = [[NSAttributedString alloc] initWithString:@"With style, using NSAttributedString" attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:18], NSForegroundColorAttributeName : [UIColor colorWithRed:0.46 green:0.8 blue:1.0 alpha:1.0], NSParagraphStyleAttributeName : paragraphStyle}];
+    
+    CNPPopupButton *button = [[CNPPopupButton alloc] initWithFrame:CGRectMake(0, 0, 300, 50)];
+    [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    button.titleLabel.font = [UIFont boldSystemFontOfSize:18];
+    [button setTitle:@"Take Me to the Trending Feed" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor colorWithRed:151.0/255.0 green:216.0/255.0 blue:192.0/255.0 alpha:100.0];
+    button.layer.cornerRadius = 4;
+    button.selectionHandler = ^(CNPPopupButton *button){
+        [self.popupController dismissPopupControllerAnimated:YES];
+        NSLog(@"Block for button: %@", button.titleLabel.text);
+    };
+    
+    UIButton *videobutton = [[UIButton alloc] initWithFrame:CGRectMake(0, 50, 300, 50)];
+    [videobutton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    videobutton.titleLabel.font = [UIFont boldSystemFontOfSize:18];
+    [videobutton setTitle:@"Record a Video" forState:UIControlStateNormal];
+    videobutton.backgroundColor = [UIColor redColor];
+    videobutton.layer.cornerRadius = 4;
+    [videobutton addTarget:self action:@selector(presentVC) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    UILabel *titleLabel = [[UILabel alloc] init];
+    titleLabel.numberOfLines = 0;
+    titleLabel.attributedText = title;
+    
+    UILabel *lineOneLabel = [[UILabel alloc] init];
+    lineOneLabel.numberOfLines = 0;
+    lineOneLabel.attributedText = lineOne;
+    
+    //UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"icon"]];
+    
+    UILabel *lineTwoLabel = [[UILabel alloc] init];
+    lineTwoLabel.numberOfLines = 0;
+    lineTwoLabel.attributedText = lineTwo;
+    
+    
+    UIView *customView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 250, 55)];
+    customView.backgroundColor = [UIColor lightGrayColor];
+    
+    UITextField *textFied = [[UITextField alloc] initWithFrame:CGRectMake(10, 10, 230, 35)];
+    textFied.borderStyle = UITextBorderStyleRoundedRect;
+    textFied.placeholder = @"Custom view!";
+    [customView addSubview:textFied];
+    
+    self.popupController = [[CNPPopupController alloc] initWithContents:@[titleLabel, button, videobutton]];
+    self.popupController.theme = [CNPPopupTheme defaultTheme];
+    self.popupController.theme.popupStyle = popupStyle;
+    self.popupController.delegate = self;
+    [self.popupController presentPopupControllerAnimated:YES];
+}
 
 
 @end
