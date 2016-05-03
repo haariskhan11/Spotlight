@@ -66,7 +66,7 @@
                                                         rightItemImage:nil];
     
     
-    YALTabBarItem *settings = [[YALTabBarItem alloc] initWithItemImage:[UIImage imageNamed:@"SETTINGS"]
+    YALTabBarItem *settings = [[YALTabBarItem alloc] initWithItemImage:[UIImage imageNamed:@"profile"]
                                                          leftItemImage:nil
                                                         rightItemImage:nil];
     

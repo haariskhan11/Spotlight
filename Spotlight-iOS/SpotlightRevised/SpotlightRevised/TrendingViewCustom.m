@@ -232,8 +232,8 @@
         NSLog(@"Block for button: %@", button.titleLabel.text);
     };
     
-    UIImageView *image = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 300, 100)];
-    image.image = [UIImage imageNamed:@"comments.png"];
+    UIImageView *image = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, 300, 130)];
+    image.image = [UIImage imageNamed:@"commentsblack.png"];
 
     
     UITextField *comment = [[UITextField alloc] initWithFrame:CGRectMake(10, 10, 270, 40)];
@@ -260,7 +260,8 @@
     textFied.borderStyle = UITextBorderStyleRoundedRect;
     textFied.placeholder = @"Custom view!";
 //    [customView addSubview:textFied];
-    self.popupController = [[CNPPopupController alloc]initWithContents:@[titleLabel, comment, button]];
+    self.popupController = [[CNPPopupController alloc]initWithContents:@[titleLabel, image, comment,
+                                                                         button]];
     
 //    self.popupController = [[CNPPopupController alloc] initWithContents:@[titleLabel, lineOneLabel, imageView, lineTwoLabel, customView, button]];
     self.popupController.theme = [CNPPopupTheme defaultTheme];
@@ -314,6 +315,8 @@
 }
 
 - (void)initialPopup:(CNPPopupStyle)popupStyle {
+    
+    
     
     NSMutableParagraphStyle *paragraphStyle = NSMutableParagraphStyle.new;
     paragraphStyle.lineBreakMode = NSLineBreakByWordWrapping;
