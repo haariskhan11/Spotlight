@@ -530,6 +530,7 @@
 				TargetAttributes = {
 					0C627BF11C8F5EF900A3DA3F = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 7239DBEMUJ;
 					};
 					0C627C0A1C8F5EF900A3DA3F = {
 						CreatedOnToolsVersion = 7.1;
@@ -851,6 +852,7 @@
 			baseConfigurationReference = B11A303B38924736AF205B23 /* Pods-SpotlightRevised.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7239DBEMUJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -870,6 +872,7 @@
 			baseConfigurationReference = 8BB81F10AB996913FF559F44 /* Pods-SpotlightRevised.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7239DBEMUJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

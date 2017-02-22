@@ -13,6 +13,7 @@
 #import "TrendingView.h"
 #import "CNPPopupController.h"
 
+
 @interface Newsfeed () <CNPPopupControllerDelegate>{
     NSMutableArray *cityLabels;
     NSMutableArray *eventLabels;
