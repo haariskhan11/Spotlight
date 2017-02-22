@@ -35,6 +35,7 @@
 		0C70B2F91CC4A10D0035B521 /* blacklivesmatter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C70B2F81CC4A1000035B521 /* blacklivesmatter.mp4 */; };
 		0C70B2FB1CC4A3F10035B521 /* warruins.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C70B2FA1CC4A3E40035B521 /* warruins.mp4 */; };
 		0C70B2FD1CC4A5300035B521 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C70B2FC1CC4A5300035B521 /* facebook.png */; };
+		0C9312C41E5D9B8E00F5328C /* tasks in Resources */ = {isa = PBXBuildFile; fileRef = 0C9312C31E5D9B8E00F5328C /* tasks */; };
 		0CB80E241CB97D0E006996C7 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB80E1E1CB97D0E006996C7 /* camera.png */; };
 		0CB80E251CB97D0E006996C7 /* JUSTIFYALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB80E1F1CB97D0E006996C7 /* JUSTIFYALL.png */; };
 		0CB80E261CB97D0E006996C7 /* LAUNCH.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB80E201CB97D0E006996C7 /* LAUNCH.png */; };
@@ -153,6 +154,7 @@
 		0C70B2F81CC4A1000035B521 /* blacklivesmatter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = blacklivesmatter.mp4; sourceTree = "<group>"; };
 		0C70B2FA1CC4A3E40035B521 /* warruins.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = warruins.mp4; sourceTree = "<group>"; };
 		0C70B2FC1CC4A5300035B521 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		0C9312C31E5D9B8E00F5328C /* tasks */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tasks; sourceTree = "<group>"; };
 		0CB80E1E1CB97D0E006996C7 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
 		0CB80E1F1CB97D0E006996C7 /* JUSTIFYALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JUSTIFYALL.png; sourceTree = "<group>"; };
 		0CB80E201CB97D0E006996C7 /* LAUNCH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LAUNCH.png; sourceTree = "<group>"; };
@@ -304,6 +306,7 @@
 				0CB80E2F1CB9826C006996C7 /* Trending.m */,
 				0CF63CE71CBD8F2A003B8E01 /* TestData.h */,
 				0CF63CE81CBD8F2A003B8E01 /* TestData.m */,
+				0C9312C31E5D9B8E00F5328C /* tasks */,
 				0CB80E461CBA105D006996C7 /* imagesandvideos */,
 				0C627C011C8F5EF900A3DA3F /* Assets.xcassets */,
 				0C627C031C8F5EF900A3DA3F /* LaunchScreen.storyboard */,
@@ -590,6 +593,7 @@
 				0CF63CDC1CBB52DE003B8E01 /* Qanelas-Medium.otf in Resources */,
 				0CF63CDD1CBB52DE003B8E01 /* Qanelas-Regular.otf in Resources */,
 				0C030FBC1CCFEC520034F8AF /* arrowup.png in Resources */,
+				0C9312C41E5D9B8E00F5328C /* tasks in Resources */,
 				0CF63CFE1CC42776003B8E01 /* Kunal.png in Resources */,
 				0CF63CDE1CBB52DE003B8E01 /* Qanelas-RegularItalic.otf in Resources */,
 				0CFDE7A51CD9325E0066C147 /* commentsblack.png in Resources */,

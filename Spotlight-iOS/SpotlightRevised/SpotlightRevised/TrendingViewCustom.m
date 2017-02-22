@@ -33,9 +33,6 @@
 
 @implementation TrendingViewCustom
 
-
-
-
 -(BOOL)prefersStatusBarHidden{return YES;}
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
@@ -146,6 +143,8 @@
 }
 
 # pragma  mark - On Cell Tap
+
+// to present the static videos
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {

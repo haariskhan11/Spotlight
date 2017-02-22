@@ -86,6 +86,7 @@
     
     [self.videoController play];
     
+     
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
@@ -98,11 +99,16 @@
     
 }
 
+- (IBAction)cancelVideo:(id)sender {
+    
+    [[self presentingViewController] dismissViewControllerAnimated:NO completion:nil];
+    
+    
+}
+
 -(IBAction)camera:(id)sender{
     [self showCamera];
 }
-
-
 
 
 @end

@@ -43,18 +43,23 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-    <key>CFBundleURLTypes</key>
-    <array>
-        <dict>
-            <key>CFBundleURLSchemes</key>
-            <array>
-                <string>fb{1714010778881246}</string>
-            </array>
-        </dict>
-    </array>
-    <key>FacebookAppID</key>
-    <string>1714010778881246</string>
-    <key>FacebookDisplayName</key>
-    <string>Spotlight</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb{1714010778881246}</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>1714010778881246</string>
+	<key>FacebookDisplayName</key>
+	<string>Spotlight</string>
+    <key>NSCameraUsageDescription</key>
+    <string>The camera is used to take videos so you can post to the feed!</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>The microphone is used!</string>
+    
 </dict>
 </plist>
