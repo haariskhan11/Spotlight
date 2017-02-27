@@ -12,8 +12,7 @@
       see on the main vc
 
 - bug fixes
-    - dismiss video vc after it has been recorded and played on the Camera vc after
-      'cancel' button press
+    - 
 
 - database
     - implement database

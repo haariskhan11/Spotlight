@@ -36,6 +36,18 @@
 		0C70B2FB1CC4A3F10035B521 /* warruins.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C70B2FA1CC4A3E40035B521 /* warruins.mp4 */; };
 		0C70B2FD1CC4A5300035B521 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C70B2FC1CC4A5300035B521 /* facebook.png */; };
 		0C9312C41E5D9B8E00F5328C /* tasks in Resources */ = {isa = PBXBuildFile; fileRef = 0C9312C31E5D9B8E00F5328C /* tasks */; };
+		0C9D86651E63ECAF00356635 /* MainCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9D86641E63ECAF00356635 /* MainCamera.m */; };
+		0C9D86691E63ED5D00356635 /* CameraSessionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9D86681E63ED5D00356635 /* CameraSessionView.m */; };
+		0C9D86761E63ED6A00356635 /* CameraDismissButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9D866B1E63ED6A00356635 /* CameraDismissButton.m */; };
+		0C9D86771E63ED6A00356635 /* CameraFlashButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9D866D1E63ED6A00356635 /* CameraFlashButton.m */; };
+		0C9D86781E63ED6A00356635 /* CameraFocalReticule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9D866F1E63ED6A00356635 /* CameraFocalReticule.m */; };
+		0C9D86791E63ED6A00356635 /* CameraShutterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9D86711E63ED6A00356635 /* CameraShutterButton.m */; };
+		0C9D867A1E63ED6A00356635 /* CameraToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9D86731E63ED6A00356635 /* CameraToggleButton.m */; };
+		0C9D867B1E63ED6A00356635 /* LaunchCameraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9D86751E63ED6A00356635 /* LaunchCameraButton.m */; };
+		0C9D867E1E63ED7500356635 /* CameraStyleKitClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9D867D1E63ED7500356635 /* CameraStyleKitClass.m */; };
+		0C9D86831E63ED8100356635 /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9D86801E63ED8100356635 /* CaptureSessionManager.m */; };
+		0C9D86841E63ED8100356635 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9D86821E63ED8100356635 /* Constants.m */; };
+		0C9D86881E63FA2A00356635 /* RKSwipeBetweenViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9D86871E63FA2A00356635 /* RKSwipeBetweenViewControllers.m */; };
 		0CB80E241CB97D0E006996C7 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB80E1E1CB97D0E006996C7 /* camera.png */; };
 		0CB80E251CB97D0E006996C7 /* JUSTIFYALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB80E1F1CB97D0E006996C7 /* JUSTIFYALL.png */; };
 		0CB80E261CB97D0E006996C7 /* LAUNCH.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB80E201CB97D0E006996C7 /* LAUNCH.png */; };
@@ -89,7 +101,9 @@
 		0CFDE7A51CD9325E0066C147 /* commentsblack.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFDE7A41CD9325E0066C147 /* commentsblack.png */; };
 		0CFDE7A71CD936E50066C147 /* commentsgroup.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFDE7A61CD936E50066C147 /* commentsgroup.png */; };
 		0CFDE7AB1CD938FF0066C147 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CFDE7AA1CD938FF0066C147 /* profile.png */; };
-		ECB2BCD89EF0209E73DD2651 /* Pods_SpotlightRevised.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22650A679ED24E2FF26A76AA /* Pods_SpotlightRevised.framework */; };
+		1B0FF194B260792024C1BC61 /* Pods_SpotlightRevised.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04491DA2A4313A8D83CE123A /* Pods_SpotlightRevised.framework */; };
+		71B71D197697FEC65EB886E7 /* Pods_SpotlightRevisedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC99CEFA9E6065D9F4BCE5B /* Pods_SpotlightRevisedTests.framework */; };
+		B53F6406161051A2CB1625BD /* Pods_SpotlightRevisedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF86B29D1569252F81E25C90 /* Pods_SpotlightRevisedUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +124,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04491DA2A4313A8D83CE123A /* Pods_SpotlightRevised.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotlightRevised.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C030FB91CCFEC520034F8AF /* arrowdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowdown.png; sourceTree = "<group>"; };
 		0C030FBA1CCFEC520034F8AF /* arrowup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowup.png; sourceTree = "<group>"; };
 		0C030FBD1CD08D030034F8AF /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
@@ -155,6 +170,30 @@
 		0C70B2FA1CC4A3E40035B521 /* warruins.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = warruins.mp4; sourceTree = "<group>"; };
 		0C70B2FC1CC4A5300035B521 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 		0C9312C31E5D9B8E00F5328C /* tasks */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tasks; sourceTree = "<group>"; };
+		0C9D86631E63ECAF00356635 /* MainCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCamera.h; sourceTree = "<group>"; };
+		0C9D86641E63ECAF00356635 /* MainCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCamera.m; sourceTree = "<group>"; };
+		0C9D86671E63ED5D00356635 /* CameraSessionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraSessionView.h; sourceTree = "<group>"; };
+		0C9D86681E63ED5D00356635 /* CameraSessionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraSessionView.m; sourceTree = "<group>"; };
+		0C9D866A1E63ED6A00356635 /* CameraDismissButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraDismissButton.h; sourceTree = "<group>"; };
+		0C9D866B1E63ED6A00356635 /* CameraDismissButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraDismissButton.m; sourceTree = "<group>"; };
+		0C9D866C1E63ED6A00356635 /* CameraFlashButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraFlashButton.h; sourceTree = "<group>"; };
+		0C9D866D1E63ED6A00356635 /* CameraFlashButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraFlashButton.m; sourceTree = "<group>"; };
+		0C9D866E1E63ED6A00356635 /* CameraFocalReticule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraFocalReticule.h; sourceTree = "<group>"; };
+		0C9D866F1E63ED6A00356635 /* CameraFocalReticule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraFocalReticule.m; sourceTree = "<group>"; };
+		0C9D86701E63ED6A00356635 /* CameraShutterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraShutterButton.h; sourceTree = "<group>"; };
+		0C9D86711E63ED6A00356635 /* CameraShutterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraShutterButton.m; sourceTree = "<group>"; };
+		0C9D86721E63ED6A00356635 /* CameraToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraToggleButton.h; sourceTree = "<group>"; };
+		0C9D86731E63ED6A00356635 /* CameraToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraToggleButton.m; sourceTree = "<group>"; };
+		0C9D86741E63ED6A00356635 /* LaunchCameraButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchCameraButton.h; sourceTree = "<group>"; };
+		0C9D86751E63ED6A00356635 /* LaunchCameraButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchCameraButton.m; sourceTree = "<group>"; };
+		0C9D867C1E63ED7500356635 /* CameraStyleKitClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraStyleKitClass.h; sourceTree = "<group>"; };
+		0C9D867D1E63ED7500356635 /* CameraStyleKitClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraStyleKitClass.m; sourceTree = "<group>"; };
+		0C9D867F1E63ED8100356635 /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
+		0C9D86801E63ED8100356635 /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
+		0C9D86811E63ED8100356635 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		0C9D86821E63ED8100356635 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		0C9D86861E63FA2A00356635 /* RKSwipeBetweenViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKSwipeBetweenViewControllers.h; sourceTree = "<group>"; };
+		0C9D86871E63FA2A00356635 /* RKSwipeBetweenViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKSwipeBetweenViewControllers.m; sourceTree = "<group>"; };
 		0CB80E1E1CB97D0E006996C7 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
 		0CB80E1F1CB97D0E006996C7 /* JUSTIFYALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JUSTIFYALL.png; sourceTree = "<group>"; };
 		0CB80E201CB97D0E006996C7 /* LAUNCH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LAUNCH.png; sourceTree = "<group>"; };
@@ -218,9 +257,14 @@
 		0CFDE7A41CD9325E0066C147 /* commentsblack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = commentsblack.png; sourceTree = "<group>"; };
 		0CFDE7A61CD936E50066C147 /* commentsgroup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = commentsgroup.png; sourceTree = "<group>"; };
 		0CFDE7AA1CD938FF0066C147 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
-		22650A679ED24E2FF26A76AA /* Pods_SpotlightRevised.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotlightRevised.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BB81F10AB996913FF559F44 /* Pods-SpotlightRevised.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightRevised.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpotlightRevised/Pods-SpotlightRevised.release.xcconfig"; sourceTree = "<group>"; };
-		B11A303B38924736AF205B23 /* Pods-SpotlightRevised.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightRevised.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpotlightRevised/Pods-SpotlightRevised.debug.xcconfig"; sourceTree = "<group>"; };
+		745C0E2BE1EFA87B63FC32AE /* Pods-SpotlightRevised.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightRevised.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpotlightRevised/Pods-SpotlightRevised.debug.xcconfig"; sourceTree = "<group>"; };
+		8A2E678A26367A354837E814 /* Pods-SpotlightRevisedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightRevisedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpotlightRevisedTests/Pods-SpotlightRevisedTests.release.xcconfig"; sourceTree = "<group>"; };
+		98CBAA0156878CD2E82A728A /* Pods-SpotlightRevisedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightRevisedUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpotlightRevisedUITests/Pods-SpotlightRevisedUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C24D68CCEDBB3A4CE6110307 /* Pods-SpotlightRevised.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightRevised.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpotlightRevised/Pods-SpotlightRevised.release.xcconfig"; sourceTree = "<group>"; };
+		CAC99CEFA9E6065D9F4BCE5B /* Pods_SpotlightRevisedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotlightRevisedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E113A8FFD63CD4B905970146 /* Pods-SpotlightRevisedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightRevisedUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpotlightRevisedUITests/Pods-SpotlightRevisedUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBCAD5865F9894DFAFF64B39 /* Pods-SpotlightRevisedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpotlightRevisedTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpotlightRevisedTests/Pods-SpotlightRevisedTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF86B29D1569252F81E25C90 /* Pods_SpotlightRevisedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotlightRevisedUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,9 +279,9 @@
 				0CF63CD11CBB51A7003B8E01 /* FBSDKCoreKit.framework in Frameworks */,
 				0CF63CCE1CBB51A7003B8E01 /* Bolts.framework in Frameworks */,
 				0CF63CD21CBB51A7003B8E01 /* FBSDKLoginKit.framework in Frameworks */,
-				ECB2BCD89EF0209E73DD2651 /* Pods_SpotlightRevised.framework in Frameworks */,
 				0CF63CD01CBB51A7003B8E01 /* FBAudienceNetwork.framework in Frameworks */,
 				0CF63CD31CBB51A7003B8E01 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				1B0FF194B260792024C1BC61 /* Pods_SpotlightRevised.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +289,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71B71D197697FEC65EB886E7 /* Pods_SpotlightRevisedTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +297,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53F6406161051A2CB1625BD /* Pods_SpotlightRevisedUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +311,8 @@
 				0C627C0E1C8F5EF900A3DA3F /* SpotlightRevisedTests */,
 				0C627C191C8F5EF900A3DA3F /* SpotlightRevisedUITests */,
 				0C627BF31C8F5EF900A3DA3F /* Products */,
-				45B50C5187EF3AEAB4B07454 /* Pods */,
 				4680C115D20707BD53A8FC9A /* Frameworks */,
+				C9C47E43017009F9A8637D77 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -288,6 +334,8 @@
 				0C627BFB1C8F5EF900A3DA3F /* ViewController.h */,
 				0C627BFC1C8F5EF900A3DA3F /* ViewController.m */,
 				0C627BFE1C8F5EF900A3DA3F /* Main.storyboard */,
+				0C9D86631E63ECAF00356635 /* MainCamera.h */,
+				0C9D86641E63ECAF00356635 /* MainCamera.m */,
 				0CE13C041CC5F7CD00BF3F88 /* TrumpVideoComments.h */,
 				0CE13C051CC5F7CD00BF3F88 /* TrumpVideoComments.m */,
 				0CE13BF91CC5E53E00BF3F88 /* SwipeTableAppDelegate.h */,
@@ -307,6 +355,9 @@
 				0CF63CE71CBD8F2A003B8E01 /* TestData.h */,
 				0CF63CE81CBD8F2A003B8E01 /* TestData.m */,
 				0C9312C31E5D9B8E00F5328C /* tasks */,
+				0C9D86861E63FA2A00356635 /* RKSwipeBetweenViewControllers.h */,
+				0C9D86871E63FA2A00356635 /* RKSwipeBetweenViewControllers.m */,
+				0C9D86851E63ED8C00356635 /* CoolCamera */,
 				0CB80E461CBA105D006996C7 /* imagesandvideos */,
 				0C627C011C8F5EF900A3DA3F /* Assets.xcassets */,
 				0C627C031C8F5EF900A3DA3F /* LaunchScreen.storyboard */,
@@ -365,6 +416,33 @@
 				0C627C3C1C8F601200A3DA3F /* YALFoldingTabBar.m */,
 			);
 			name = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		0C9D86851E63ED8C00356635 /* CoolCamera */ = {
+			isa = PBXGroup;
+			children = (
+				0C9D86671E63ED5D00356635 /* CameraSessionView.h */,
+				0C9D86681E63ED5D00356635 /* CameraSessionView.m */,
+				0C9D866A1E63ED6A00356635 /* CameraDismissButton.h */,
+				0C9D866B1E63ED6A00356635 /* CameraDismissButton.m */,
+				0C9D866C1E63ED6A00356635 /* CameraFlashButton.h */,
+				0C9D866D1E63ED6A00356635 /* CameraFlashButton.m */,
+				0C9D866E1E63ED6A00356635 /* CameraFocalReticule.h */,
+				0C9D866F1E63ED6A00356635 /* CameraFocalReticule.m */,
+				0C9D86701E63ED6A00356635 /* CameraShutterButton.h */,
+				0C9D86711E63ED6A00356635 /* CameraShutterButton.m */,
+				0C9D86721E63ED6A00356635 /* CameraToggleButton.h */,
+				0C9D86731E63ED6A00356635 /* CameraToggleButton.m */,
+				0C9D86741E63ED6A00356635 /* LaunchCameraButton.h */,
+				0C9D86751E63ED6A00356635 /* LaunchCameraButton.m */,
+				0C9D867C1E63ED7500356635 /* CameraStyleKitClass.h */,
+				0C9D867D1E63ED7500356635 /* CameraStyleKitClass.m */,
+				0C9D867F1E63ED8100356635 /* CaptureSessionManager.h */,
+				0C9D86801E63ED8100356635 /* CaptureSessionManager.m */,
+				0C9D86811E63ED8100356635 /* Constants.h */,
+				0C9D86821E63ED8100356635 /* Constants.m */,
+			);
+			name = CoolCamera;
 			sourceTree = "<group>";
 		};
 		0CB80E2A1CB97D15006996C7 /* Icons */ = {
@@ -436,15 +514,6 @@
 			name = QanelasFont;
 			sourceTree = "<group>";
 		};
-		45B50C5187EF3AEAB4B07454 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B11A303B38924736AF205B23 /* Pods-SpotlightRevised.debug.xcconfig */,
-				8BB81F10AB996913FF559F44 /* Pods-SpotlightRevised.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		4680C115D20707BD53A8FC9A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -458,9 +527,24 @@
 				0CF63CCC1CBB51A7003B8E01 /* FBSDKMessengerShareKit.framework */,
 				0CF63CCD1CBB51A7003B8E01 /* FBSDKShareKit.framework */,
 				0CB80E471CBA1085006996C7 /* AVFoundation.framework */,
-				22650A679ED24E2FF26A76AA /* Pods_SpotlightRevised.framework */,
+				04491DA2A4313A8D83CE123A /* Pods_SpotlightRevised.framework */,
+				CAC99CEFA9E6065D9F4BCE5B /* Pods_SpotlightRevisedTests.framework */,
+				FF86B29D1569252F81E25C90 /* Pods_SpotlightRevisedUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9C47E43017009F9A8637D77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				745C0E2BE1EFA87B63FC32AE /* Pods-SpotlightRevised.debug.xcconfig */,
+				C24D68CCEDBB3A4CE6110307 /* Pods-SpotlightRevised.release.xcconfig */,
+				FBCAD5865F9894DFAFF64B39 /* Pods-SpotlightRevisedTests.debug.xcconfig */,
+				8A2E678A26367A354837E814 /* Pods-SpotlightRevisedTests.release.xcconfig */,
+				98CBAA0156878CD2E82A728A /* Pods-SpotlightRevisedUITests.debug.xcconfig */,
+				E113A8FFD63CD4B905970146 /* Pods-SpotlightRevisedUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -470,12 +554,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C627C1F1C8F5EF900A3DA3F /* Build configuration list for PBXNativeTarget "SpotlightRevised" */;
 			buildPhases = (
-				9EEAEBC9EA5327A6D75D59A0 /* Check Pods Manifest.lock */,
+				C7477D6F43136026CB0C2378 /* [CP] Check Pods Manifest.lock */,
 				0C627BEE1C8F5EF900A3DA3F /* Sources */,
 				0C627BEF1C8F5EF900A3DA3F /* Frameworks */,
 				0C627BF01C8F5EF900A3DA3F /* Resources */,
-				61DFC51FBEEE5632C85E80B8 /* Embed Pods Frameworks */,
-				2CE1C5AD9DFB948840689660 /* Copy Pods Resources */,
+				B9010D2418409997731AB986 /* [CP] Embed Pods Frameworks */,
+				7902BD6FFED9C3376A1BE81F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -490,9 +574,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C627C221C8F5EF900A3DA3F /* Build configuration list for PBXNativeTarget "SpotlightRevisedTests" */;
 			buildPhases = (
+				72791F36B84115CDEB94C5CE /* [CP] Check Pods Manifest.lock */,
 				0C627C071C8F5EF900A3DA3F /* Sources */,
 				0C627C081C8F5EF900A3DA3F /* Frameworks */,
 				0C627C091C8F5EF900A3DA3F /* Resources */,
+				FF6D1DF2FE7614BA9B0E08CA /* [CP] Embed Pods Frameworks */,
+				A5B283467FD41584B7B869DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -508,9 +595,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C627C251C8F5EF900A3DA3F /* Build configuration list for PBXNativeTarget "SpotlightRevisedUITests" */;
 			buildPhases = (
+				83FB6F907C3885B3D7EBAADF /* [CP] Check Pods Manifest.lock */,
 				0C627C121C8F5EF900A3DA3F /* Sources */,
 				0C627C131C8F5EF900A3DA3F /* Frameworks */,
 				0C627C141C8F5EF900A3DA3F /* Resources */,
+				7C7D810FE3158B3B590FCE57 /* [CP] Embed Pods Frameworks */,
+				47BC00773F7B266489B61282 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -634,14 +724,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2CE1C5AD9DFB948840689660 /* Copy Pods Resources */ = {
+		47BC00773F7B266489B61282 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotlightRevisedUITests/Pods-SpotlightRevisedUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72791F36B84115CDEB94C5CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7902BD6FFED9C3376A1BE81F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -649,14 +769,59 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotlightRevised/Pods-SpotlightRevised-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		61DFC51FBEEE5632C85E80B8 /* Embed Pods Frameworks */ = {
+		7C7D810FE3158B3B590FCE57 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotlightRevisedUITests/Pods-SpotlightRevisedUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83FB6F907C3885B3D7EBAADF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A5B283467FD41584B7B869DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotlightRevisedTests/Pods-SpotlightRevisedTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9010D2418409997731AB986 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -664,19 +829,34 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotlightRevised/Pods-SpotlightRevised-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9EEAEBC9EA5327A6D75D59A0 /* Check Pods Manifest.lock */ = {
+		C7477D6F43136026CB0C2378 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF6D1DF2FE7614BA9B0E08CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpotlightRevisedTests/Pods-SpotlightRevisedTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -690,18 +870,28 @@
 				0C627C301C8F5FE600A3DA3F /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
 				0CB80E301CB9826C006996C7 /* Trending.m in Sources */,
 				0CF63CB31CBB3FC2003B8E01 /* Login.m in Sources */,
+				0C9D86651E63ECAF00356635 /* MainCamera.m in Sources */,
+				0C9D86841E63ED8100356635 /* Constants.m in Sources */,
 				0C627C2A1C8F5FD000A3DA3F /* YALSpringAnimation.m in Sources */,
+				0C9D86791E63ED6A00356635 /* CameraShutterButton.m in Sources */,
 				0CF63CE91CBD8F2A003B8E01 /* TestData.m in Sources */,
 				0CB80E391CB98889006996C7 /* ViewUtils.m in Sources */,
 				0CE13BFF1CC5E58800BF3F88 /* TrendingViewCustom.m in Sources */,
+				0C9D867E1E63ED7500356635 /* CameraStyleKitClass.m in Sources */,
+				0C9D86771E63ED6A00356635 /* CameraFlashButton.m in Sources */,
+				0C9D86761E63ED6A00356635 /* CameraDismissButton.m in Sources */,
 				0CB80E3F1CBA1025006996C7 /* VideoViewController.m in Sources */,
+				0C9D86881E63FA2A00356635 /* RKSwipeBetweenViewControllers.m in Sources */,
 				0CB80E331CB98598006996C7 /* Camera.m in Sources */,
+				0C9D86831E63ED8100356635 /* CaptureSessionManager.m in Sources */,
 				0C627C2D1C8F5FDE00A3DA3F /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
+				0C9D867B1E63ED6A00356635 /* LaunchCameraButton.m in Sources */,
 				0C627C391C8F600000A3DA3F /* YALTabBarItem.m in Sources */,
 				0CB80E441CBA1058006996C7 /* UIImage+Crop.m in Sources */,
 				0CE13BFB1CC5E53E00BF3F88 /* SwipeTableAppDelegate.m in Sources */,
 				0C627BFD1C8F5EF900A3DA3F /* ViewController.m in Sources */,
 				0C627BFA1C8F5EF900A3DA3F /* AppDelegate.m in Sources */,
+				0C9D86781E63ED6A00356635 /* CameraFocalReticule.m in Sources */,
 				0C627BF71C8F5EF900A3DA3F /* main.m in Sources */,
 				0C627C3D1C8F601200A3DA3F /* YALFoldingTabBar.m in Sources */,
 				0CB80E3E1CBA1025006996C7 /* ImageViewController.m in Sources */,
@@ -709,7 +899,9 @@
 				0CE13C061CC5F7CD00BF3F88 /* TrumpVideoComments.m in Sources */,
 				0CF63CF11CC03A95003B8E01 /* Newsfeed.m in Sources */,
 				0C627C331C8F5FF100A3DA3F /* YALAnimatingTabBarConstants.m in Sources */,
+				0C9D86691E63ED5D00356635 /* CameraSessionView.m in Sources */,
 				0CE13BF81CC4B7D500BF3F88 /* TrendingView.m in Sources */,
+				0C9D867A1E63ED6A00356635 /* CameraToggleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -853,7 +1045,7 @@
 		};
 		0C627C201C8F5EF900A3DA3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B11A303B38924736AF205B23 /* Pods-SpotlightRevised.debug.xcconfig */;
+			baseConfigurationReference = 745C0E2BE1EFA87B63FC32AE /* Pods-SpotlightRevised.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7239DBEMUJ;
@@ -873,7 +1065,7 @@
 		};
 		0C627C211C8F5EF900A3DA3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BB81F10AB996913FF559F44 /* Pods-SpotlightRevised.release.xcconfig */;
+			baseConfigurationReference = C24D68CCEDBB3A4CE6110307 /* Pods-SpotlightRevised.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7239DBEMUJ;
@@ -892,7 +1084,7 @@
 		};
 		0C627C231C8F5EF900A3DA3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B11A303B38924736AF205B23 /* Pods-SpotlightRevised.debug.xcconfig */;
+			baseConfigurationReference = FBCAD5865F9894DFAFF64B39 /* Pods-SpotlightRevisedTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SpotlightRevisedTests/Info.plist;
@@ -905,6 +1097,7 @@
 		};
 		0C627C241C8F5EF900A3DA3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2E678A26367A354837E814 /* Pods-SpotlightRevisedTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SpotlightRevisedTests/Info.plist;
@@ -917,7 +1110,7 @@
 		};
 		0C627C261C8F5EF900A3DA3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B11A303B38924736AF205B23 /* Pods-SpotlightRevised.debug.xcconfig */;
+			baseConfigurationReference = 98CBAA0156878CD2E82A728A /* Pods-SpotlightRevisedUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SpotlightRevisedUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -930,6 +1123,7 @@
 		};
 		0C627C271C8F5EF900A3DA3F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E113A8FFD63CD4B905970146 /* Pods-SpotlightRevisedUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SpotlightRevisedUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

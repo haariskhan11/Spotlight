@@ -137,7 +137,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="suS-gC-Pe5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1762.4000000000001" y="-905.3973013493254"/>
+            <point key="canvasLocation" x="-1700" y="-905"/>
         </scene>
         <!--Item-->
         <scene sceneID="zZ6-NN-C31">
@@ -316,7 +316,7 @@
                 <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="eZY-Vx-PJv" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3gm-Ro-xia" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="743" y="-751"/>
+            <point key="canvasLocation" x="665" y="-693"/>
         </scene>
         <!--Login-->
         <scene sceneID="37W-5K-vpb">
@@ -385,7 +385,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6TR-Qa-GSm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2474" y="-40"/>
+            <point key="canvasLocation" x="-3390" y="-905"/>
+        </scene>
+        <!--Main Camera-->
+        <scene sceneID="ynI-Lu-PHO">
+            <objects>
+                <viewController id="LWE-Hw-wJU" customClass="MainCamera" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QTS-cj-XbB"/>
+                        <viewControllerLayoutGuide type="bottom" id="9d4-Sn-SOL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hSV-yz-exe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hij-PG-y1A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2494" y="728"/>
         </scene>
         <!--Folding Tab Bar Controller-->
         <scene sceneID="xrM-Nm-86f">
@@ -406,7 +424,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oFK-6G-eXk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1762" y="-24"/>
+            <point key="canvasLocation" x="-1999" y="-40"/>
         </scene>
         <!--Item-->
         <scene sceneID="HYd-gY-ZzX">
@@ -428,7 +446,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="cancelVideo:" destination="A0G-AI-HKs" eventType="touchUpInside" id="NcL-5x-dHD"/>
+                                    <action selector="dismissVideo:" destination="A0G-AI-HKs" eventType="touchUpInside" id="D6Q-OH-LEw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmV-Hw-8uA">
@@ -527,8 +545,8 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="CSe-nJ-nNT"/>
-        <segue reference="nb6-Xg-3iP"/>
         <segue reference="Yxu-Sk-cAf"/>
+        <segue reference="nb6-Xg-3iP"/>
         <segue reference="ty1-Ko-Je5"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -12,7 +12,8 @@
 #import "YALFoldingTabBarController.h"
 #import "YALAnimatingTabBarConstants.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
-
+#import "RKSwipeBetweenViewControllers.h"
+#import "MainCamera.h"
 
 
 
@@ -24,12 +25,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [self setupYALTabBarController];
-    // facebook
-    [[FBSDKApplicationDelegate sharedInstance] application:application
-                             didFinishLaunchingWithOptions:launchOptions];
     
-
+    [self setupYALTabBarController];
     return YES;
 }
 

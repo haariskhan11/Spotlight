@@ -29,6 +29,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-SpotlightRevisedTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SpotlightRevisedUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SWTableViewCell.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,32 +47,42 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0F52284BB73D7CF6A946B01B92E4E07F</key>
+		<key>056B4ACA8C80850FFC348D7A9481D092</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1FEB205A27CAF752DC1660C1238C328A</key>
+		<key>0AFA392C63CD94812929638D8444BD7F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4E1263BFF45F6446CF3DE29AE234C893</key>
+		<key>1CD80321715FDB12A3A31B7BCB09EA28</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CE0CC7E2B5B550BC4172F6FF9CC5D50A</key>
+		<key>1F132D0DE6DEBB1F30F1814770BD9FF7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D2D17D2E6A8AD8B5A2D1F30A3032805E</key>
+		<key>1F532353DFD75DC4AEB2B10E93B8E735</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D9CBE22823E124801AFD9BA9A55FB7FB</key>
+		<key>235390E1D6873C0CE77F797E00B02E06</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>484C2F1D0424AB0938050552C5204F00</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8725FF285161D134C0176CDC01C0D20D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

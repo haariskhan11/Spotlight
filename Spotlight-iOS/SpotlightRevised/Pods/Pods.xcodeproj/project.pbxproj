@@ -7,102 +7,108 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00D9A6BF682C495BE80D2D4C8AEC2B63 /* YALAnimatingTabBarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F98E29C6923E504210501DBBFDEB052F /* YALAnimatingTabBarConstants.m */; };
-		06192BEF4786E7971FE2F52F2389E17D /* YALSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B479FD1B525808AE0059B0618BF17C /* YALSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CE5B65177B4BC135AED6D8A06C5DC51 /* FoldingTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B201CA9CC4133C97B2040EC1898107 /* FoldingTabBar-dummy.m */; };
-		0D66800D17F9137D23E390EC2DE6874D /* SWTableViewCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9102AD3698B8C4A77428D610832EC5A5 /* SWTableViewCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10D07EC8D2BBF2F41773210E68D7F3EE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F71929DF1C3C11432934FBEB317518 /* AVFoundation.framework */; };
-		140CF680259646E2F1F6017EDDAE9922 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B65FAF610945295360A63D8A4A7F138 /* SWUtilityButtonView.m */; };
-		1D54E6EC43B2B4250E1FE53B0C0A6662 /* MGSwipeTableCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8EE4E4D0D3A498C147901222ABB3217 /* MGSwipeTableCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24FBC46BDBBB83902D263FA0C337937E /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C95AC0C208F14E78BA759E591BB3EB3 /* SWUtilityButtonTapGestureRecognizer.m */; };
-		25DEF719A61C37E5CB10C799A01DFE42 /* YALTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D3430DD6F4C6822C05C4E745E9544200 /* YALTabBarItem.m */; };
-		375D5687696A3D2F77580F4E13F447DC /* YALFoldingTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27D5430A779CC11B5678E45C66BA6B7 /* YALFoldingTabBarController.m */; };
-		3F495468AC03533D934DFDC214EAA8F6 /* Pods-SpotlightRevised-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E048C8F11A25534CE1B60C021B21004E /* Pods-SpotlightRevised-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4366DC8CBCFFB8D5A7E36271FC7004A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4051A6DA4BC91E15F4A2A25D34C2BBBE /* Foundation.framework */; };
-		473915DFCF0BE86A8570AD80A5381E49 /* CAAnimation+YALTabBarViewAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = 852EFA5DA44DB230D23A2FD84EB20DF5 /* CAAnimation+YALTabBarViewAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CE0183024DB913B7D195AFD016DC687 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8907D231FA32BDECBCEF52968C9631 /* QuartzCore.framework */; };
-		5390FDC44AB6E88BC1F96CCDA8FAC248 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2759800250055ABA8CA74A4887FC2EE8 /* SWLongPressGestureRecognizer.m */; };
-		53F41211BEDE64C93BDD0B57696071C3 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = D42E12745C5685D8F82DE871CAA6573D /* NSMutableArray+SWUtilityButtons.m */; };
-		569D057F4C7A6F69AEA4AB0BD6D9900E /* MGSwipeTableCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1784853308C52A5E6C26DC7A0C6A300C /* MGSwipeTableCell-dummy.m */; };
-		59BF52836DAA1F972644DC9E257F38A7 /* SWCellScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4892322981B437ACE7ED0C8ED5AEB17F /* SWCellScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A4946DE77223E0A3BCB09D5A2C886D8 /* CNPPopupController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 735F17DD256131023A0253020A814949 /* CNPPopupController-dummy.m */; };
-		5A9D3D48B182CC30C8EFBC078D89EA05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4051A6DA4BC91E15F4A2A25D34C2BBBE /* Foundation.framework */; };
-		5CA8BCBE8D912BA8500E198D4F47E1AE /* LLSimpleCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E5DA5C1BECB78B88E969D87548517C /* LLSimpleCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CEE68640F3B188C4DE2EFACB5D75054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4051A6DA4BC91E15F4A2A25D34C2BBBE /* Foundation.framework */; };
-		5E3D71D11A9778CCAEE350748CD92286 /* LLSimpleCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 01947E6EDC87F0F5329BB1298BA70C23 /* LLSimpleCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EECB665352F33357612F51630336021 /* YALFoldingTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2ACE0731BC1D095A74A3E5B1A3266D /* YALFoldingTabBar.m */; };
-		63DC27806C23AFFC9B7115E5EEAB9CBF /* MGSwipeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F2D74C1A54956B7BD08E09750CF0EA /* MGSwipeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64165A4763C4D32CE8EC3AA8160359D9 /* YALSpringAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E9FD248ECB8F1358DC4826CFEACE4A /* YALSpringAnimation.m */; };
-		6722D867AB5622DED5D1C69E7C5AA4A9 /* SWLongPressGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EAAA951EF51C4E805F23073559B0799 /* SWLongPressGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67558B72295110F846C2420C9540A52A /* MGSwipeTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 25633514B56B0359A14F2CDC4E18A1D3 /* MGSwipeTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AD52D80E5C7AB3C0D28A2BB4FCAE074 /* LLSimpleCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AE51D9F6A3358A093277A1F950C0FB /* LLSimpleCamera-dummy.m */; };
-		7106B361CA57148640756546450E0F74 /* CATransaction+TransactionWithAnimationsAndCompletion.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E9B659F136DA15CF0A827DC4925573 /* CATransaction+TransactionWithAnimationsAndCompletion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D868F21917D8E2827811FDBD3547426 /* SWUtilityButtonTapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 092F055BB890D294CB3E007847AE2731 /* SWUtilityButtonTapGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F094BC5B3D52E1EA95E6403BC8590F2 /* Pods-SpotlightRevised-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A083934A652270443271922903E43D1F /* Pods-SpotlightRevised-dummy.m */; };
-		8839595458F647E1DF6D4CAB6B270DBF /* SWTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 858E176AE0CCE05D09D2F00D7F269D92 /* SWTableViewCell-dummy.m */; };
-		8A6125B82A0C3BD3EA496D0BEDC1ADF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EFE5C5129835C420AC803CB3198A31 /* UIKit.framework */; };
-		8CAC372B4D65D175A0574BB8D40FA96F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4051A6DA4BC91E15F4A2A25D34C2BBBE /* Foundation.framework */; };
-		91132336A682B460B7052E93D5C1604F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EFE5C5129835C420AC803CB3198A31 /* UIKit.framework */; };
-		924E42C1512BA8B48BF2974343F4D1B4 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = AA28734A7FC724116E1F240DE5F36788 /* LLSimpleCamera.m */; };
-		933ADA79A4137D3FC76DA0BE1734F3B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4051A6DA4BC91E15F4A2A25D34C2BBBE /* Foundation.framework */; };
-		93A65C4380703954DF5831808850E6D6 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC07C7D1E532F3C68F728CE288E9136 /* UIImage+FixOrientation.m */; };
-		94F6B95FD263B8271100E4B9A40A68D9 /* CAAnimation+YALTabBarViewAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E53940C5514350C23B52678C492E2A9 /* CAAnimation+YALTabBarViewAnimations.m */; };
-		95E41293E05A8ABB9866D6F3AED0CA10 /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D72FF96C2B56C99D9D38B67D3BD9ED42 /* MGSwipeTableCell.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		99278A46C2E7D8CE5C7B68671367F9D6 /* NSMutableArray+SWUtilityButtons.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E8228149B46FED47718D6178CAEDC8 /* NSMutableArray+SWUtilityButtons.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0020F6FB6D4ED0D96BEBCCD033B459C /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DED61328E948EB21EA7BD5171E79C0 /* SWTableViewCell.m */; };
-		A07B05E83843EE70C234A7E3A40B8152 /* SWUtilityButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27692D60FECDAF3F0D048CB193B4EDA9 /* SWUtilityButtonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3AD0C26433B9554C9AF03DF57A67C07 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC4C74620894AEA4FE6ABDF32488F27 /* SWCellScrollView.m */; };
-		A6EAEB7C6C2CFC35C97B96CD93B8F7C4 /* CNPPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = 578A9DC313D826FD0677A6630094750F /* CNPPopupController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B27C9EF627B93E6842E1C556B96C9CB5 /* SWTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7814DA4402B2A70368A78EDCB4ED1047 /* SWTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B33149BB6AFF371AC9E5D779FD552DD0 /* YALTabBarInteracting.h in Headers */ = {isa = PBXBuildFile; fileRef = 64D741F2D060E2F64A2790F61FC8918E /* YALTabBarInteracting.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFF2829C97B6A9B5CA862A7C39E101EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4051A6DA4BC91E15F4A2A25D34C2BBBE /* Foundation.framework */; };
-		C189A4A418ED4CFEAC1C63F7FFE0FAD8 /* YALTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E2D472F7CC592796C6DBCE3FE959E1 /* YALTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2D1986F363E54A9162F8718AB6B8F75 /* YALAnimatingTabBarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 63677CCD6ABC2960E6339FEB2394163E /* YALAnimatingTabBarConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3C101ACB04EDAC3BA7EC5F4C2984A94 /* UIImage+FixOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = EEF6B4015C62A965B792284D792043E5 /* UIImage+FixOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8FD669C32DE47E548CBB0153988C1E2 /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD9BC38B3FE1B6C587CF5626E647AC8 /* MGSwipeButton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		CA9B2A21A886487DD89DBB8DDCCFEF99 /* FoldingTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 538DB6C6D1696C7F72EC93C23A025BD2 /* FoldingTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8BE45A7B0621551DF48DAB76858E1D1 /* YALFoldingTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AF5B07A6592980489412400FF59019 /* YALFoldingTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6F8F9CBCB2058447C6C43579D15232A /* CNPPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7FEE951EE5E893E0B7DBBE8B52CAB9 /* CNPPopupController.m */; };
-		ED16DDA04FD591F4FEE094BA7E04B3FB /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */ = {isa = PBXBuildFile; fileRef = A72177DD6D905BCCF81FB3D888DF60DB /* CATransaction+TransactionWithAnimationsAndCompletion.m */; };
-		FABB6CAC4FDDB99E3C3B4FA04FA4EB50 /* YALFoldingTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F5363F6C612F8763F0500F05185C93 /* YALFoldingTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD0A6251084DC38929D61E65CF20AD58 /* CNPPopupController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC227BD422FF219AB692A306E2C591C /* CNPPopupController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01FBC08D065E889499B8EC12695C7C20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A410571F48F75FB09014E4F232C8B1D /* Foundation.framework */; };
+		0EF1248B77C601D050D95BEBAF0E5AE5 /* YALFoldingTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A27D5430A779CC11B5678E45C66BA6B7 /* YALFoldingTabBarController.m */; };
+		112B3AE3695C10E75BD89585295481AB /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD9BC38B3FE1B6C587CF5626E647AC8 /* MGSwipeButton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		13A58B72508E8B6087284213EE5DEE9D /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C95AC0C208F14E78BA759E591BB3EB3 /* SWUtilityButtonTapGestureRecognizer.m */; };
+		159DFFAF1D59765283DCECEAB8F76BBF /* YALFoldingTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F5363F6C612F8763F0500F05185C93 /* YALFoldingTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18244970F5F1FD5F74CC55FB9CCA33D6 /* Pods-SpotlightRevised-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A758AAAE24FE0B40560448814CD0DB17 /* Pods-SpotlightRevised-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F21FD6484D5C77296F3C967BE65990E /* SWTableViewCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9102AD3698B8C4A77428D610832EC5A5 /* SWTableViewCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B2010634B872223A5F8EE2061E1D8BE /* SWUtilityButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 27692D60FECDAF3F0D048CB193B4EDA9 /* SWUtilityButtonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D96B6DFCCFE4BE6BAE98D5A50758268 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A410571F48F75FB09014E4F232C8B1D /* Foundation.framework */; };
+		2F97A54E76B5ECA2777A6584DA81F2E3 /* Pods-SpotlightRevisedUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 737AA5683FB8ED564F8A2B86C6AEA769 /* Pods-SpotlightRevisedUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33F36A286C666E2636A45B338CD16C77 /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */ = {isa = PBXBuildFile; fileRef = A72177DD6D905BCCF81FB3D888DF60DB /* CATransaction+TransactionWithAnimationsAndCompletion.m */; };
+		35672EA2DC402651FF0FE19E104917F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A410571F48F75FB09014E4F232C8B1D /* Foundation.framework */; };
+		3A820B984186BC1CEBF37F93A7B7C093 /* SWTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 858E176AE0CCE05D09D2F00D7F269D92 /* SWTableViewCell-dummy.m */; };
+		3C03A04026570083C97CDA577F462FE3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3218BD3E03FC9D1B18D50459C0A195F /* QuartzCore.framework */; };
+		3C6F6E4EC04DD40438A179D9461C540D /* YALAnimatingTabBarConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 63677CCD6ABC2960E6339FEB2394163E /* YALAnimatingTabBarConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FBA35A6E8C65B8D8D1D1B6D55914A34 /* Pods-SpotlightRevisedTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27645C5D36D703691A79D8B84847F09A /* Pods-SpotlightRevisedTests-dummy.m */; };
+		42F572D04D5794F1FDCE9098DC349894 /* CAAnimation+YALTabBarViewAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E53940C5514350C23B52678C492E2A9 /* CAAnimation+YALTabBarViewAnimations.m */; };
+		45D58D960F077AC5C69CD77AA50040FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A410571F48F75FB09014E4F232C8B1D /* Foundation.framework */; };
+		46F889096488603B3821BAA2A5854137 /* Pods-SpotlightRevised-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E82078B8041BF02EB356540CC2689F /* Pods-SpotlightRevised-dummy.m */; };
+		49106CF960D9E7764FDCB3BC3602F9AA /* SWUtilityButtonTapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 092F055BB890D294CB3E007847AE2731 /* SWUtilityButtonTapGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B7574B7B54CB8B8E4D83659690BD636 /* SWLongPressGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EAAA951EF51C4E805F23073559B0799 /* SWLongPressGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5153510EFC163DE035F065A1D3D566CA /* YALFoldingTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AF5B07A6592980489412400FF59019 /* YALFoldingTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		516F09621168AAD155A0C9C989EF026F /* FoldingTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 538DB6C6D1696C7F72EC93C23A025BD2 /* FoldingTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		538155D294E8C239DEFABEE20532A940 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5485C01E6A6707700C774241ED9A76B8 /* AVFoundation.framework */; };
+		577CBD40E7F2DA5BB4BFE7E7B3E0F9ED /* CAAnimation+YALTabBarViewAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = 852EFA5DA44DB230D23A2FD84EB20DF5 /* CAAnimation+YALTabBarViewAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B80B085275F510613042260FA80037F /* FoldingTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B201CA9CC4133C97B2040EC1898107 /* FoldingTabBar-dummy.m */; };
+		5FBD996E8A4C6A2EC3091A2BBDAE6906 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B65FAF610945295360A63D8A4A7F138 /* SWUtilityButtonView.m */; };
+		60EBC3A469CAC52B8A2EB0CAF853AC32 /* YALAnimatingTabBarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = F98E29C6923E504210501DBBFDEB052F /* YALAnimatingTabBarConstants.m */; };
+		65147FE6161A0B1BC987838970B313D1 /* NSMutableArray+SWUtilityButtons.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E8228149B46FED47718D6178CAEDC8 /* NSMutableArray+SWUtilityButtons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CA804342026C8DD0D47F82901AE587D /* MGSwipeTableCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1784853308C52A5E6C26DC7A0C6A300C /* MGSwipeTableCell-dummy.m */; };
+		6F00E73D778B84F76501C601A448200B /* LLSimpleCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E5DA5C1BECB78B88E969D87548517C /* LLSimpleCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7203828DE131547F13BB1CEF8370D239 /* YALFoldingTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2ACE0731BC1D095A74A3E5B1A3266D /* YALFoldingTabBar.m */; };
+		79F90CCE5F2DFC409AE12CF025A02A9B /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2759800250055ABA8CA74A4887FC2EE8 /* SWLongPressGestureRecognizer.m */; };
+		7B924B042E2C790EFEF338B88EC09CA5 /* CATransaction+TransactionWithAnimationsAndCompletion.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E9B659F136DA15CF0A827DC4925573 /* CATransaction+TransactionWithAnimationsAndCompletion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CFA2FF6E9617C1CE40EB50509EE1963 /* CNPPopupController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 735F17DD256131023A0253020A814949 /* CNPPopupController-dummy.m */; };
+		7F37DC01856CD2ABF27B111BF6446E5F /* YALTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E2D472F7CC592796C6DBCE3FE959E1 /* YALTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80A03F30B6022D16677193151FC1E950 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = D42E12745C5685D8F82DE871CAA6573D /* NSMutableArray+SWUtilityButtons.m */; };
+		8218EA1345F8856B5A4349451F6FCFAA /* Pods-SpotlightRevisedTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC71301D1D02DE9B745B5D82828ECB6 /* Pods-SpotlightRevisedTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82B6EE9C56A6A31FF7609E34F62FB74D /* YALTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D3430DD6F4C6822C05C4E745E9544200 /* YALTabBarItem.m */; };
+		853A57622AD74BC28B636A4BA38E6873 /* MGSwipeTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 25633514B56B0359A14F2CDC4E18A1D3 /* MGSwipeTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EC439EAC0B69C9C6EB1587A9D0B9CF0 /* CNPPopupController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC227BD422FF219AB692A306E2C591C /* CNPPopupController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9102FF62B035D6C6F8618ECD75D0646D /* SWTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7814DA4402B2A70368A78EDCB4ED1047 /* SWTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96FE482A6CB0212EA110BB310F5C2099 /* LLSimpleCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AE51D9F6A3358A093277A1F950C0FB /* LLSimpleCamera-dummy.m */; };
+		9AF1B2D1A627DEEB02EB800D38E9BDBB /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = AA28734A7FC724116E1F240DE5F36788 /* LLSimpleCamera.m */; };
+		9D509AB6432D0F1AAFA84FAED2386AB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A410571F48F75FB09014E4F232C8B1D /* Foundation.framework */; };
+		9F98AF8178456D67356A329CD51DA93C /* YALSpringAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E9FD248ECB8F1358DC4826CFEACE4A /* YALSpringAnimation.m */; };
+		A3B8D9FA20F3C79AEDA329A2904836C5 /* UIImage+FixOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = EEF6B4015C62A965B792284D792043E5 /* UIImage+FixOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA74556CF0AF9CA630D0EAFB5F63F61A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A410571F48F75FB09014E4F232C8B1D /* Foundation.framework */; };
+		B260DAB0A8C887949E633C4DF56B4908 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A410571F48F75FB09014E4F232C8B1D /* Foundation.framework */; };
+		B3047163E78EAC88206B88EDA62F811E /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC07C7D1E532F3C68F728CE288E9136 /* UIImage+FixOrientation.m */; };
+		B6DDB8E7258944B99B3163FF807244EF /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC4C74620894AEA4FE6ABDF32488F27 /* SWCellScrollView.m */; };
+		BC9CF7AB88CB7A4D8E500B22443282CB /* LLSimpleCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 01947E6EDC87F0F5329BB1298BA70C23 /* LLSimpleCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5DDDB3BA24EFC473A55895982A58969 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87ACF980472087B6F4C523A72105399 /* UIKit.framework */; };
+		C9BB9572D929D9F65BD27F9AB29562EB /* MGSwipeTableCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8EE4E4D0D3A498C147901222ABB3217 /* MGSwipeTableCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB3C01C50941A9E8E7AE9F58A6843E32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87ACF980472087B6F4C523A72105399 /* UIKit.framework */; };
+		D0BB759B3DAD13227CF3821108BF9943 /* CNPPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = 578A9DC313D826FD0677A6630094750F /* CNPPopupController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D628AA040AA6BD1A0908C51A758C6FE4 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DED61328E948EB21EA7BD5171E79C0 /* SWTableViewCell.m */; };
+		DB33341B93BFF0A556A6F333BE95CFAD /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D72FF96C2B56C99D9D38B67D3BD9ED42 /* MGSwipeTableCell.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E4A8B63FE125B6E72B9D9DAEA6C34CF8 /* YALSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B479FD1B525808AE0059B0618BF17C /* YALSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4BF47046BA4675E1DA2F34893947702 /* MGSwipeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F2D74C1A54956B7BD08E09750CF0EA /* MGSwipeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4EA45A0E47BC9F0C053D4440B8401A7 /* YALTabBarInteracting.h in Headers */ = {isa = PBXBuildFile; fileRef = 64D741F2D060E2F64A2790F61FC8918E /* YALTabBarInteracting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F21747C02DF1539900E1D245294184D5 /* CNPPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7FEE951EE5E893E0B7DBBE8B52CAB9 /* CNPPopupController.m */; };
+		F2744BBA42F426F3B077E207196275C5 /* Pods-SpotlightRevisedUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29144DE6DAC1E8238AC1BCFBC8EDF0A5 /* Pods-SpotlightRevisedUITests-dummy.m */; };
+		F90C1F34839B19F33BA69716443D46BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A410571F48F75FB09014E4F232C8B1D /* Foundation.framework */; };
+		FACC71B86F45F6661579E96044A59BF3 /* SWCellScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4892322981B437ACE7ED0C8ED5AEB17F /* SWCellScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		035F2B334A62F72F0608E18D5C247D31 /* PBXContainerItemProxy */ = {
+		03583F5A1367E776390962324217ECD7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CE0CC7E2B5B550BC4172F6FF9CC5D50A;
+			remoteGlobalIDString = 056B4ACA8C80850FFC348D7A9481D092;
+			remoteInfo = CNPPopupController;
+		};
+		04D88C7C8159D17B8EB1D9675935E3D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 235390E1D6873C0CE77F797E00B02E06;
 			remoteInfo = LLSimpleCamera;
 		};
-		2ABACEC9222339B4FD48D61B09C2B17E /* PBXContainerItemProxy */ = {
+		7F25BB09AAF2834AA29B359C9B12F75A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0F52284BB73D7CF6A946B01B92E4E07F;
-			remoteInfo = FoldingTabBar;
-		};
-		5538C0D84E87DBEC967945267D837B4A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FEB205A27CAF752DC1660C1238C328A;
-			remoteInfo = SWTableViewCell;
-		};
-		6DAA53DB6970EA18F066B59B7102EC96 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4E1263BFF45F6446CF3DE29AE234C893;
+			remoteGlobalIDString = 1CD80321715FDB12A3A31B7BCB09EA28;
 			remoteInfo = MGSwipeTableCell;
 		};
-		9D7FDD86A46A482D89D8AB68665CB637 /* PBXContainerItemProxy */ = {
+		9FE9B42015416C9E0BCCAEF36F6B9C36 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D2D17D2E6A8AD8B5A2D1F30A3032805E;
-			remoteInfo = CNPPopupController;
+			remoteGlobalIDString = 484C2F1D0424AB0938050552C5204F00;
+			remoteInfo = FoldingTabBar;
+		};
+		E9EEB58E98D57529D326822106FB32A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8725FF285161D134C0176CDC01C0D20D;
+			remoteInfo = SWTableViewCell;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -113,140 +119,178 @@
 		0EC227BD422FF219AB692A306E2C591C /* CNPPopupController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNPPopupController-umbrella.h"; sourceTree = "<group>"; };
 		1184D8A6DFD3E475E0A7DDAF7790BF12 /* FoldingTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingTabBar-prefix.pch"; sourceTree = "<group>"; };
 		1784853308C52A5E6C26DC7A0C6A300C /* MGSwipeTableCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGSwipeTableCell-dummy.m"; sourceTree = "<group>"; };
+		17DC4AD77BBEA22FB47EBE851E0F0874 /* Pods-SpotlightRevisedTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpotlightRevisedTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B12B88A6DCA32B5D819357022D86F93 /* Pods-SpotlightRevisedUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SpotlightRevisedUITests.modulemap"; sourceTree = "<group>"; };
 		1F13764A7C40C152665965375B45CB76 /* MGSwipeTableCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGSwipeTableCell.xcconfig; sourceTree = "<group>"; };
+		1F177675596518D230525910EE921649 /* Pods-SpotlightRevised-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpotlightRevised-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2132E5BF2031A3D43C25ACBF9D2B05C5 /* FoldingTabBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoldingTabBar.xcconfig; sourceTree = "<group>"; };
-		21867F2D7B589C3F0A0A904EDCF0DA05 /* CNPPopupController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CNPPopupController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24AF2E5F36268903799B9DFB521594E5 /* LLSimpleCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLSimpleCamera.xcconfig; sourceTree = "<group>"; };
 		25633514B56B0359A14F2CDC4E18A1D3 /* MGSwipeTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGSwipeTableCell.h; path = MGSwipeTableCell/MGSwipeTableCell.h; sourceTree = "<group>"; };
 		2759800250055ABA8CA74A4887FC2EE8 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWLongPressGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		27645C5D36D703691A79D8B84847F09A /* Pods-SpotlightRevisedTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpotlightRevisedTests-dummy.m"; sourceTree = "<group>"; };
 		27692D60FECDAF3F0D048CB193B4EDA9 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonView.h; path = SWTableViewCell/PodFiles/SWUtilityButtonView.h; sourceTree = "<group>"; };
-		287E55035E7D4358E7D26736B3498A46 /* Pods-SpotlightRevised.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotlightRevised.debug.xcconfig"; sourceTree = "<group>"; };
-		2A5922B0D0813D91DD2AE0EEB0041B00 /* Pods_SpotlightRevised.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpotlightRevised.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29144DE6DAC1E8238AC1BCFBC8EDF0A5 /* Pods-SpotlightRevisedUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpotlightRevisedUITests-dummy.m"; sourceTree = "<group>"; };
+		2CFDEE4132FB38FC0624B7F0B2877CCA /* Pods-SpotlightRevisedUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpotlightRevisedUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D6B1EE056BD722F812486605F98850E /* Pods-SpotlightRevised.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotlightRevised.debug.xcconfig"; sourceTree = "<group>"; };
 		2F9A3BD7627C740F3D5666D585002983 /* MGSwipeTableCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGSwipeTableCell-prefix.pch"; sourceTree = "<group>"; };
 		2FC4C74620894AEA4FE6ABDF32488F27 /* SWCellScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWCellScrollView.m; path = SWTableViewCell/PodFiles/SWCellScrollView.m; sourceTree = "<group>"; };
 		34C4A886BA39D19DDE892B5090629230 /* CNPPopupController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CNPPopupController.xcconfig; sourceTree = "<group>"; };
 		3C90CB3F6068241349E5D766B5C10FF8 /* LLSimpleCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera-prefix.pch"; sourceTree = "<group>"; };
+		3C98D4033EDD5D56874959E6D590B96F /* Pods-SpotlightRevisedTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SpotlightRevisedTests.modulemap"; sourceTree = "<group>"; };
 		3D2ACE0731BC1D095A74A3E5B1A3266D /* YALFoldingTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALFoldingTabBar.m; path = FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.m; sourceTree = "<group>"; };
+		3E1100E17A39014AD732763B59D8E72A /* Pods_SpotlightRevised.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SpotlightRevised.framework; path = "Pods-SpotlightRevised.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EAAA951EF51C4E805F23073559B0799 /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWLongPressGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
-		4051A6DA4BC91E15F4A2A25D34C2BBBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		406968FA562CD2E3B6776287C4A3469F /* SWTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SWTableViewCell.modulemap; sourceTree = "<group>"; };
+		406968FA562CD2E3B6776287C4A3469F /* SWTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SWTableViewCell.modulemap; sourceTree = "<group>"; };
 		41E5DA5C1BECB78B88E969D87548517C /* LLSimpleCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera-umbrella.h"; sourceTree = "<group>"; };
-		44F71929DF1C3C11432934FBEB317518 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		46DED61328E948EB21EA7BD5171E79C0 /* SWTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWTableViewCell.m; path = SWTableViewCell/PodFiles/SWTableViewCell.m; sourceTree = "<group>"; };
 		4892322981B437ACE7ED0C8ED5AEB17F /* SWCellScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWCellScrollView.h; path = SWTableViewCell/PodFiles/SWCellScrollView.h; sourceTree = "<group>"; };
 		4D5101E50135BF5CDF6D1FCE2AA52A51 /* SWTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWTableViewCell.xcconfig; sourceTree = "<group>"; };
-		4DF2632D9519B87EB732E34F04F7990F /* Pods-SpotlightRevised-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpotlightRevised-resources.sh"; sourceTree = "<group>"; };
-		505F613787611E61B041844CF4BE1B41 /* LLSimpleCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LLSimpleCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5078D3C807355817474C51365C6023B0 /* SWTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWTableViewCell.framework; path = SWTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		538DB6C6D1696C7F72EC93C23A025BD2 /* FoldingTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoldingTabBar-umbrella.h"; sourceTree = "<group>"; };
+		5485C01E6A6707700C774241ED9A76B8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		56E82078B8041BF02EB356540CC2689F /* Pods-SpotlightRevised-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpotlightRevised-dummy.m"; sourceTree = "<group>"; };
 		578A9DC313D826FD0677A6630094750F /* CNPPopupController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CNPPopupController.h; path = CNPPopupController/CNPPopupController.h; sourceTree = "<group>"; };
+		584C8153320A1A9E3951F94F43DE6059 /* Pods-SpotlightRevisedUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpotlightRevisedUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5B65FAF610945295360A63D8A4A7F138 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonView.m; path = SWTableViewCell/PodFiles/SWUtilityButtonView.m; sourceTree = "<group>"; };
 		63677CCD6ABC2960E6339FEB2394163E /* YALAnimatingTabBarConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALAnimatingTabBarConstants.h; path = FoldingTabBar/Constants/YALAnimatingTabBarConstants.h; sourceTree = "<group>"; };
 		64D741F2D060E2F64A2790F61FC8918E /* YALTabBarInteracting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALTabBarInteracting.h; path = FoldingTabBar/Protocol/TabBarInteracting/YALTabBarInteracting.h; sourceTree = "<group>"; };
+		64EEBEE4B22B89596EBA438D895346D5 /* Pods-SpotlightRevisedTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpotlightRevisedTests-resources.sh"; sourceTree = "<group>"; };
 		6565428B4B520D261C2E7E0640DF70B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B5C1AF72A35CA6CD64D07B8CD2CE66 /* FoldingTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FoldingTabBar.framework; path = FoldingTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68AE51D9F6A3358A093277A1F950C0FB /* LLSimpleCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLSimpleCamera-dummy.m"; sourceTree = "<group>"; };
+		69D8DC57479583F4EC4FB53ED94BFE0F /* MGSwipeTableCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGSwipeTableCell.framework; path = MGSwipeTableCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2638A98DE4E3D8E3B4EE4B71730BEC /* Pods-SpotlightRevisedUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpotlightRevisedUITests-resources.sh"; sourceTree = "<group>"; };
 		735F17DD256131023A0253020A814949 /* CNPPopupController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CNPPopupController-dummy.m"; sourceTree = "<group>"; };
+		737AA5683FB8ED564F8A2B86C6AEA769 /* Pods-SpotlightRevisedUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpotlightRevisedUITests-umbrella.h"; sourceTree = "<group>"; };
 		768C20DC3840A43184B6D9AFFACD58F0 /* SWTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTableViewCell-prefix.pch"; sourceTree = "<group>"; };
-		76DE744A2EF37553BA2E30F7F40D309C /* Pods-SpotlightRevised-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpotlightRevised-frameworks.sh"; sourceTree = "<group>"; };
+		769AF52C078F726364A24D9DCCB76B77 /* Pods-SpotlightRevisedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotlightRevisedTests.release.xcconfig"; sourceTree = "<group>"; };
 		7814DA4402B2A70368A78EDCB4ED1047 /* SWTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWTableViewCell.h; path = SWTableViewCell/PodFiles/SWTableViewCell.h; sourceTree = "<group>"; };
+		7F722AA0EF22292D45FFBD1829ACB291 /* Pods-SpotlightRevisedTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpotlightRevisedTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		81E5AACF04FEAE21EF06D80B2BC9C22E /* LLSimpleCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LLSimpleCamera.framework; path = LLSimpleCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		852EFA5DA44DB230D23A2FD84EB20DF5 /* CAAnimation+YALTabBarViewAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+YALTabBarViewAnimations.h"; path = "FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.h"; sourceTree = "<group>"; };
 		858E176AE0CCE05D09D2F00D7F269D92 /* SWTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWTableViewCell-dummy.m"; sourceTree = "<group>"; };
 		85B201CA9CC4133C97B2040EC1898107 /* FoldingTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FoldingTabBar-dummy.m"; sourceTree = "<group>"; };
-		8C04B01266C569E54FEC87AD2300F737 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1B1D5BCA34BA07E27E045FBCB4B237 /* Pods-SpotlightRevisedTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpotlightRevisedTests-frameworks.sh"; sourceTree = "<group>"; };
+		8A410571F48F75FB09014E4F232C8B1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		8C95AC0C208F14E78BA759E591BB3EB3 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonTapGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
 		8E53940C5514350C23B52678C492E2A9 /* CAAnimation+YALTabBarViewAnimations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+YALTabBarViewAnimations.m"; path = "FoldingTabBar/Category/CAAnimation/CAAnimation+YALTabBarViewAnimations/CAAnimation+YALTabBarViewAnimations.m"; sourceTree = "<group>"; };
 		9102AD3698B8C4A77428D610832EC5A5 /* SWTableViewCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTableViewCell-umbrella.h"; sourceTree = "<group>"; };
-		91FD4CFACD8C478D44002D15EF6EEB22 /* MGSwipeTableCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGSwipeTableCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		925E4033B9DE93A35BEB49A213535766 /* Pods-SpotlightRevised.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SpotlightRevised.modulemap"; sourceTree = "<group>"; };
+		9348124B9AEA24C24957EB429DB1A29A /* Pods-SpotlightRevised-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpotlightRevised-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B7F300C74C8233C819260060023CF1 /* Pods-SpotlightRevised.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotlightRevised.release.xcconfig"; sourceTree = "<group>"; };
 		98F2D74C1A54956B7BD08E09750CF0EA /* MGSwipeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGSwipeButton.h; path = MGSwipeTableCell/MGSwipeButton.h; sourceTree = "<group>"; };
 		9E300580B0C38A802959D8D06656BB84 /* CNPPopupController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CNPPopupController-prefix.pch"; sourceTree = "<group>"; };
-		A083934A652270443271922903E43D1F /* Pods-SpotlightRevised-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpotlightRevised-dummy.m"; sourceTree = "<group>"; };
 		A27D5430A779CC11B5678E45C66BA6B7 /* YALFoldingTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALFoldingTabBarController.m; path = FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.m; sourceTree = "<group>"; };
+		A356E863CE65BF60E9D68DF8B8598BD6 /* Pods_SpotlightRevisedUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SpotlightRevisedUITests.framework; path = "Pods-SpotlightRevisedUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A64B2A0E7AE4E0FB49A9A0CE7E135605 /* Pods-SpotlightRevisedUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpotlightRevisedUITests-frameworks.sh"; sourceTree = "<group>"; };
 		A72177DD6D905BCCF81FB3D888DF60DB /* CATransaction+TransactionWithAnimationsAndCompletion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CATransaction+TransactionWithAnimationsAndCompletion.m"; path = "FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.m"; sourceTree = "<group>"; };
+		A758AAAE24FE0B40560448814CD0DB17 /* Pods-SpotlightRevised-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpotlightRevised-umbrella.h"; sourceTree = "<group>"; };
 		AA28734A7FC724116E1F240DE5F36788 /* LLSimpleCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLSimpleCamera.m; path = LLSimpleCamera/LLSimpleCamera.m; sourceTree = "<group>"; };
-		AAD4D0513E157A7622CEC0B68DE07702 /* Pods-SpotlightRevised.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotlightRevised.release.xcconfig"; sourceTree = "<group>"; };
-		AB7F3E7C9DA04ACE9425F3F4120F7838 /* SWTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABB246A717A595A7A5335A2F8D3225E5 /* Pods-SpotlightRevised-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpotlightRevised-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AD8907D231FA32BDECBCEF52968C9631 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		ADD9BC38B3FE1B6C587CF5626E647AC8 /* MGSwipeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGSwipeButton.m; path = MGSwipeTableCell/MGSwipeButton.m; sourceTree = "<group>"; };
-		ADDB247871C2DC82FAB3B9D1B9FD04A6 /* CNPPopupController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CNPPopupController.modulemap; sourceTree = "<group>"; };
+		ADDB247871C2DC82FAB3B9D1B9FD04A6 /* CNPPopupController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CNPPopupController.modulemap; sourceTree = "<group>"; };
 		AFA0F9303F65394B50EF394FC827A731 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B055DB3CC43AFD4DBFA26552413F08CB /* FoldingTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FoldingTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E2D472F7CC592796C6DBCE3FE959E1 /* YALTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALTabBarItem.h; path = FoldingTabBar/Model/TabBarItem/YALTabBarItem.h; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BE6AD3F223AE983642E67D032C9DF1F3 /* LLSimpleCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LLSimpleCamera.modulemap; sourceTree = "<group>"; };
+		BE6AD3F223AE983642E67D032C9DF1F3 /* LLSimpleCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LLSimpleCamera.modulemap; sourceTree = "<group>"; };
+		C35D93F0E37D0CF07B0D491C99CEDF83 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC71301D1D02DE9B745B5D82828ECB6 /* Pods-SpotlightRevisedTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpotlightRevisedTests-umbrella.h"; sourceTree = "<group>"; };
 		CD95D6CFD77EB0A971931F14F715EECB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC07C7D1E532F3C68F728CE288E9136 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FixOrientation.m"; path = "LLSimpleCamera/UIImage+FixOrientation.m"; sourceTree = "<group>"; };
 		D0AF5B07A6592980489412400FF59019 /* YALFoldingTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALFoldingTabBar.h; path = FoldingTabBar/View/FoldingTabBar/YALFoldingTabBar.h; sourceTree = "<group>"; };
+		D3218BD3E03FC9D1B18D50459C0A195F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D3430DD6F4C6822C05C4E745E9544200 /* YALTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALTabBarItem.m; path = FoldingTabBar/Model/TabBarItem/YALTabBarItem.m; sourceTree = "<group>"; };
-		D37EF32991967F5E5D60364785BFC8EB /* MGSwipeTableCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MGSwipeTableCell.modulemap; sourceTree = "<group>"; };
+		D37EF32991967F5E5D60364785BFC8EB /* MGSwipeTableCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MGSwipeTableCell.modulemap; sourceTree = "<group>"; };
 		D3E9FD248ECB8F1358DC4826CFEACE4A /* YALSpringAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALSpringAnimation.m; path = FoldingTabBar/Animation/YALSpringAnimation/YALSpringAnimation.m; sourceTree = "<group>"; };
 		D42E12745C5685D8F82DE871CAA6573D /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SWUtilityButtons.m"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
-		D4A8F14C309B527418ED2B61FA83E2AA /* Pods-SpotlightRevised-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpotlightRevised-acknowledgements.plist"; sourceTree = "<group>"; };
 		D4E9B659F136DA15CF0A827DC4925573 /* CATransaction+TransactionWithAnimationsAndCompletion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CATransaction+TransactionWithAnimationsAndCompletion.h"; path = "FoldingTabBar/Category/CATransaction/CATransaction+TransactionWithAnimationsAndCompletion/CATransaction+TransactionWithAnimationsAndCompletion.h"; sourceTree = "<group>"; };
-		D643D5E6BEF8FF1A7B18D4F76CA2EFBA /* FoldingTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FoldingTabBar.modulemap; sourceTree = "<group>"; };
+		D643D5E6BEF8FF1A7B18D4F76CA2EFBA /* FoldingTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FoldingTabBar.modulemap; sourceTree = "<group>"; };
 		D72FF96C2B56C99D9D38B67D3BD9ED42 /* MGSwipeTableCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGSwipeTableCell.m; path = MGSwipeTableCell/MGSwipeTableCell.m; sourceTree = "<group>"; };
+		DAD4F268D1CF6CD8F1133907858A0EFB /* Pods-SpotlightRevisedTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotlightRevisedTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DE7FEE951EE5E893E0B7DBBE8B52CAB9 /* CNPPopupController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CNPPopupController.m; path = CNPPopupController/CNPPopupController.m; sourceTree = "<group>"; };
-		E048C8F11A25534CE1B60C021B21004E /* Pods-SpotlightRevised-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpotlightRevised-umbrella.h"; sourceTree = "<group>"; };
+		E40161CCCB5AB8B15E172DF24B27DBDF /* Pods-SpotlightRevisedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotlightRevisedUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E4E8228149B46FED47718D6178CAEDC8 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SWUtilityButtons.h"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
 		E641803DDEE4D46C5A4B49074564CC88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E6EFE5C5129835C420AC803CB3198A31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		E8F5363F6C612F8763F0500F05185C93 /* YALFoldingTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALFoldingTabBarController.h; path = FoldingTabBar/Controller/FoldingTabBarController/YALFoldingTabBarController.h; sourceTree = "<group>"; };
+		EADF3E9368ABF460E462B34927333194 /* CNPPopupController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CNPPopupController.framework; path = CNPPopupController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC951CA4306AFB77584AD7AD2672F0BE /* Pods-SpotlightRevisedUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpotlightRevisedUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED90EC07A1E06A0147F94D70899AD4EE /* Pods-SpotlightRevised-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpotlightRevised-resources.sh"; sourceTree = "<group>"; };
 		EEF6B4015C62A965B792284D792043E5 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FixOrientation.h"; path = "LLSimpleCamera/UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		F1A48BD6FB4D3B87F8876B3FA8A97CB6 /* Pods-SpotlightRevised.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SpotlightRevised.modulemap"; sourceTree = "<group>"; };
+		F2B1FA6978D947B15872FC7A77F088A0 /* Pods_SpotlightRevisedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SpotlightRevisedTests.framework; path = "Pods-SpotlightRevisedTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51D2DFD3CA5EE60125B9503569A4092 /* Pods-SpotlightRevised-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpotlightRevised-frameworks.sh"; sourceTree = "<group>"; };
+		F87ACF980472087B6F4C523A72105399 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		F8EE4E4D0D3A498C147901222ABB3217 /* MGSwipeTableCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGSwipeTableCell-umbrella.h"; sourceTree = "<group>"; };
 		F98E29C6923E504210501DBBFDEB052F /* YALAnimatingTabBarConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALAnimatingTabBarConstants.m; path = FoldingTabBar/Constants/YALAnimatingTabBarConstants.m; sourceTree = "<group>"; };
+		FB495FC1599CF5203054F3897DBCBB49 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4DA620EB0513CB4B7F04F26AD8FF1F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCDED35A258A0D05CAA518BC646AE611 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		28C44F1544739AB41044E681A1A056B5 /* Frameworks */ = {
+		16523DD77057F11B82E9E7563307FFB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CEE68640F3B188C4DE2EFACB5D75054 /* Foundation.framework in Frameworks */,
+				2D96B6DFCCFE4BE6BAE98D5A50758268 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D37FC3453661471EDDC8EC07E3C54D2 /* Frameworks */ = {
+		259938712002F869550D80FAF19E7797 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFF2829C97B6A9B5CA862A7C39E101EB /* Foundation.framework in Frameworks */,
-				91132336A682B460B7052E93D5C1604F /* UIKit.framework in Frameworks */,
+				B260DAB0A8C887949E633C4DF56B4908 /* Foundation.framework in Frameworks */,
+				3C03A04026570083C97CDA577F462FE3 /* QuartzCore.framework in Frameworks */,
+				CB3C01C50941A9E8E7AE9F58A6843E32 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42B1C09FA49EC551A9BB46E594E7FC63 /* Frameworks */ = {
+		2FC3111035DC0A9ECF7DA2D2289DF376 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10D07EC8D2BBF2F41773210E68D7F3EE /* AVFoundation.framework in Frameworks */,
-				8CAC372B4D65D175A0574BB8D40FA96F /* Foundation.framework in Frameworks */,
+				F90C1F34839B19F33BA69716443D46BA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		998EE91EBA1A1128945EBF6A296AA4CB /* Frameworks */ = {
+		5F86A802147CAEDCD5D2F69F78B5A758 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4366DC8CBCFFB8D5A7E36271FC7004A6 /* Foundation.framework in Frameworks */,
+				45D58D960F077AC5C69CD77AA50040FC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC0271E88F65B17975F56915CAAD607F /* Frameworks */ = {
+		760BB27503BA527276AFC5851D004A64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A9D3D48B182CC30C8EFBC078D89EA05 /* Foundation.framework in Frameworks */,
+				01FBC08D065E889499B8EC12695C7C20 /* Foundation.framework in Frameworks */,
+				C5DDDB3BA24EFC473A55895982A58969 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE92B6904276D96AABE735278A581F62 /* Frameworks */ = {
+		A6745841E622ABE375D692E8BF5B93D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				933ADA79A4137D3FC76DA0BE1734F3B2 /* Foundation.framework in Frameworks */,
-				4CE0183024DB913B7D195AFD016DC687 /* QuartzCore.framework in Frameworks */,
-				8A6125B82A0C3BD3EA496D0BEDC1ADF7 /* UIKit.framework in Frameworks */,
+				538155D294E8C239DEFABEE20532A940 /* AVFoundation.framework in Frameworks */,
+				AA74556CF0AF9CA630D0EAFB5F63F61A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD16910C83CB9D027910B17778DFF613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35672EA2DC402651FF0FE19E104917F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6223A3698F8D66E0EBC2EC60ED7195D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D509AB6432D0F1AAFA84FAED2386AB0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +300,7 @@
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A43D47E2D19D53721513572DCA410936 /* iOS */,
+				78A9DE78EA18030C2649E5C0990127FB /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -275,24 +319,6 @@
 			path = "../Target Support Files/MGSwipeTableCell";
 			sourceTree = "<group>";
 		};
-		25A8C759D476BCCE6912A8C64B8E42A5 /* Pods-SpotlightRevised */ = {
-			isa = PBXGroup;
-			children = (
-				8C04B01266C569E54FEC87AD2300F737 /* Info.plist */,
-				925E4033B9DE93A35BEB49A213535766 /* Pods-SpotlightRevised.modulemap */,
-				ABB246A717A595A7A5335A2F8D3225E5 /* Pods-SpotlightRevised-acknowledgements.markdown */,
-				D4A8F14C309B527418ED2B61FA83E2AA /* Pods-SpotlightRevised-acknowledgements.plist */,
-				A083934A652270443271922903E43D1F /* Pods-SpotlightRevised-dummy.m */,
-				76DE744A2EF37553BA2E30F7F40D309C /* Pods-SpotlightRevised-frameworks.sh */,
-				4DF2632D9519B87EB732E34F04F7990F /* Pods-SpotlightRevised-resources.sh */,
-				E048C8F11A25534CE1B60C021B21004E /* Pods-SpotlightRevised-umbrella.h */,
-				287E55035E7D4358E7D26736B3498A46 /* Pods-SpotlightRevised.debug.xcconfig */,
-				AAD4D0513E157A7622CEC0B68DE07702 /* Pods-SpotlightRevised.release.xcconfig */,
-			);
-			name = "Pods-SpotlightRevised";
-			path = "Target Support Files/Pods-SpotlightRevised";
-			sourceTree = "<group>";
-		};
 		2AA5DD5EF6B0F5BAD6A230D15E0C3D96 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,6 +329,21 @@
 				37745A5405D4DC0A0D8312BBCADAD27C /* SWTableViewCell */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		2C04D955EC26D347D702AD63A4009964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EADF3E9368ABF460E462B34927333194 /* CNPPopupController.framework */,
+				65B5C1AF72A35CA6CD64D07B8CD2CE66 /* FoldingTabBar.framework */,
+				81E5AACF04FEAE21EF06D80B2BC9C22E /* LLSimpleCamera.framework */,
+				69D8DC57479583F4EC4FB53ED94BFE0F /* MGSwipeTableCell.framework */,
+				3E1100E17A39014AD732763B59D8E72A /* Pods_SpotlightRevised.framework */,
+				F2B1FA6978D947B15872FC7A77F088A0 /* Pods_SpotlightRevisedTests.framework */,
+				A356E863CE65BF60E9D68DF8B8598BD6 /* Pods_SpotlightRevisedUITests.framework */,
+				5078D3C807355817474C51365C6023B0 /* SWTableViewCell.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		37745A5405D4DC0A0D8312BBCADAD27C /* SWTableViewCell */ = {
@@ -322,25 +363,65 @@
 				5B65FAF610945295360A63D8A4A7F138 /* SWUtilityButtonView.m */,
 				DCA555C311F33D708E9CE6F0125C4649 /* Support Files */,
 			);
+			name = SWTableViewCell;
 			path = SWTableViewCell;
 			sourceTree = "<group>";
 		};
-		6E61451A4EA9813105E97464BFB7C749 /* Targets Support Files */ = {
+		52A3149C2721728CF8FBCFCA3862AC6A /* Pods-SpotlightRevisedTests */ = {
 			isa = PBXGroup;
 			children = (
-				25A8C759D476BCCE6912A8C64B8E42A5 /* Pods-SpotlightRevised */,
+				FB495FC1599CF5203054F3897DBCBB49 /* Info.plist */,
+				3C98D4033EDD5D56874959E6D590B96F /* Pods-SpotlightRevisedTests.modulemap */,
+				17DC4AD77BBEA22FB47EBE851E0F0874 /* Pods-SpotlightRevisedTests-acknowledgements.markdown */,
+				7F722AA0EF22292D45FFBD1829ACB291 /* Pods-SpotlightRevisedTests-acknowledgements.plist */,
+				27645C5D36D703691A79D8B84847F09A /* Pods-SpotlightRevisedTests-dummy.m */,
+				8A1B1D5BCA34BA07E27E045FBCB4B237 /* Pods-SpotlightRevisedTests-frameworks.sh */,
+				64EEBEE4B22B89596EBA438D895346D5 /* Pods-SpotlightRevisedTests-resources.sh */,
+				CAC71301D1D02DE9B745B5D82828ECB6 /* Pods-SpotlightRevisedTests-umbrella.h */,
+				DAD4F268D1CF6CD8F1133907858A0EFB /* Pods-SpotlightRevisedTests.debug.xcconfig */,
+				769AF52C078F726364A24D9DCCB76B77 /* Pods-SpotlightRevisedTests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-SpotlightRevisedTests";
+			path = "Target Support Files/Pods-SpotlightRevisedTests";
+			sourceTree = "<group>";
+		};
+		5E332359AD0A5297D5DFECD161C684BA /* Pods-SpotlightRevisedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C35D93F0E37D0CF07B0D491C99CEDF83 /* Info.plist */,
+				1B12B88A6DCA32B5D819357022D86F93 /* Pods-SpotlightRevisedUITests.modulemap */,
+				2CFDEE4132FB38FC0624B7F0B2877CCA /* Pods-SpotlightRevisedUITests-acknowledgements.markdown */,
+				584C8153320A1A9E3951F94F43DE6059 /* Pods-SpotlightRevisedUITests-acknowledgements.plist */,
+				29144DE6DAC1E8238AC1BCFBC8EDF0A5 /* Pods-SpotlightRevisedUITests-dummy.m */,
+				A64B2A0E7AE4E0FB49A9A0CE7E135605 /* Pods-SpotlightRevisedUITests-frameworks.sh */,
+				6B2638A98DE4E3D8E3B4EE4B71730BEC /* Pods-SpotlightRevisedUITests-resources.sh */,
+				737AA5683FB8ED564F8A2B86C6AEA769 /* Pods-SpotlightRevisedUITests-umbrella.h */,
+				E40161CCCB5AB8B15E172DF24B27DBDF /* Pods-SpotlightRevisedUITests.debug.xcconfig */,
+				EC951CA4306AFB77584AD7AD2672F0BE /* Pods-SpotlightRevisedUITests.release.xcconfig */,
+			);
+			name = "Pods-SpotlightRevisedUITests";
+			path = "Target Support Files/Pods-SpotlightRevisedUITests";
+			sourceTree = "<group>";
+		};
+		78A9DE78EA18030C2649E5C0990127FB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5485C01E6A6707700C774241ED9A76B8 /* AVFoundation.framework */,
+				8A410571F48F75FB09014E4F232C8B1D /* Foundation.framework */,
+				D3218BD3E03FC9D1B18D50459C0A195F /* QuartzCore.framework */,
+				F87ACF980472087B6F4C523A72105399 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				2AA5DD5EF6B0F5BAD6A230D15E0C3D96 /* Pods */,
-				CBD6C02BA6AE81B1A65A03701CB80611 /* Products */,
-				6E61451A4EA9813105E97464BFB7C749 /* Targets Support Files */,
+				2C04D955EC26D347D702AD63A4009964 /* Products */,
+				8C72742E0E9E3A823487FB007FC7C35B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -372,6 +453,16 @@
 			path = "../Target Support Files/CNPPopupController";
 			sourceTree = "<group>";
 		};
+		8C72742E0E9E3A823487FB007FC7C35B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3947B7DB31FE9170DA80B6C8A9D00E2 /* Pods-SpotlightRevised */,
+				52A3149C2721728CF8FBCFCA3862AC6A /* Pods-SpotlightRevisedTests */,
+				5E332359AD0A5297D5DFECD161C684BA /* Pods-SpotlightRevisedUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		9F19BAAD5374C6413D480A1D1FEB74B7 /* LLSimpleCamera */ = {
 			isa = PBXGroup;
 			children = (
@@ -381,18 +472,8 @@
 				CEC07C7D1E532F3C68F728CE288E9136 /* UIImage+FixOrientation.m */,
 				82A73CFAA234819E1B205D9094CC0D42 /* Support Files */,
 			);
+			name = LLSimpleCamera;
 			path = LLSimpleCamera;
-			sourceTree = "<group>";
-		};
-		A43D47E2D19D53721513572DCA410936 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				44F71929DF1C3C11432934FBEB317518 /* AVFoundation.framework */,
-				4051A6DA4BC91E15F4A2A25D34C2BBBE /* Foundation.framework */,
-				AD8907D231FA32BDECBCEF52968C9631 /* QuartzCore.framework */,
-				E6EFE5C5129835C420AC803CB3198A31 /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		AF7AE37A965D378A25E13A1218ADD640 /* CNPPopupController */ = {
@@ -402,6 +483,7 @@
 				DE7FEE951EE5E893E0B7DBBE8B52CAB9 /* CNPPopupController.m */,
 				86AB24AB99031567EA8C5EDF5EEA981C /* Support Files */,
 			);
+			name = CNPPopupController;
 			path = CNPPopupController;
 			sourceTree = "<group>";
 		};
@@ -414,20 +496,26 @@
 				D72FF96C2B56C99D9D38B67D3BD9ED42 /* MGSwipeTableCell.m */,
 				17EBAEE552F887DA04CA0B6B02E6195D /* Support Files */,
 			);
+			name = MGSwipeTableCell;
 			path = MGSwipeTableCell;
 			sourceTree = "<group>";
 		};
-		CBD6C02BA6AE81B1A65A03701CB80611 /* Products */ = {
+		D3947B7DB31FE9170DA80B6C8A9D00E2 /* Pods-SpotlightRevised */ = {
 			isa = PBXGroup;
 			children = (
-				21867F2D7B589C3F0A0A904EDCF0DA05 /* CNPPopupController.framework */,
-				B055DB3CC43AFD4DBFA26552413F08CB /* FoldingTabBar.framework */,
-				505F613787611E61B041844CF4BE1B41 /* LLSimpleCamera.framework */,
-				91FD4CFACD8C478D44002D15EF6EEB22 /* MGSwipeTableCell.framework */,
-				2A5922B0D0813D91DD2AE0EEB0041B00 /* Pods_SpotlightRevised.framework */,
-				AB7F3E7C9DA04ACE9425F3F4120F7838 /* SWTableViewCell.framework */,
+				FC4DA620EB0513CB4B7F04F26AD8FF1F /* Info.plist */,
+				F1A48BD6FB4D3B87F8876B3FA8A97CB6 /* Pods-SpotlightRevised.modulemap */,
+				1F177675596518D230525910EE921649 /* Pods-SpotlightRevised-acknowledgements.markdown */,
+				9348124B9AEA24C24957EB429DB1A29A /* Pods-SpotlightRevised-acknowledgements.plist */,
+				56E82078B8041BF02EB356540CC2689F /* Pods-SpotlightRevised-dummy.m */,
+				F51D2DFD3CA5EE60125B9503569A4092 /* Pods-SpotlightRevised-frameworks.sh */,
+				ED90EC07A1E06A0147F94D70899AD4EE /* Pods-SpotlightRevised-resources.sh */,
+				A758AAAE24FE0B40560448814CD0DB17 /* Pods-SpotlightRevised-umbrella.h */,
+				2D6B1EE056BD722F812486605F98850E /* Pods-SpotlightRevised.debug.xcconfig */,
+				94B7F300C74C8233C819260060023CF1 /* Pods-SpotlightRevised.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-SpotlightRevised";
+			path = "Target Support Files/Pods-SpotlightRevised";
 			sourceTree = "<group>";
 		};
 		DC52D7639C08DB56D108D2B5718D9C6B /* FoldingTabBar */ = {
@@ -450,6 +538,7 @@
 				D3430DD6F4C6822C05C4E745E9544200 /* YALTabBarItem.m */,
 				E54924D4E7304299596502E482A4A5A8 /* Support Files */,
 			);
+			name = FoldingTabBar;
 			path = FoldingTabBar;
 			sourceTree = "<group>";
 		};
@@ -484,151 +573,99 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1E754E9D399930F33BC210A07296168D /* Headers */ = {
+		2D4160E4766B0ED59C5E66E4D09CBFD3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63DC27806C23AFFC9B7115E5EEAB9CBF /* MGSwipeButton.h in Headers */,
-				1D54E6EC43B2B4250E1FE53B0C0A6662 /* MGSwipeTableCell-umbrella.h in Headers */,
-				67558B72295110F846C2420C9540A52A /* MGSwipeTableCell.h in Headers */,
+				577CBD40E7F2DA5BB4BFE7E7B3E0F9ED /* CAAnimation+YALTabBarViewAnimations.h in Headers */,
+				7B924B042E2C790EFEF338B88EC09CA5 /* CATransaction+TransactionWithAnimationsAndCompletion.h in Headers */,
+				516F09621168AAD155A0C9C989EF026F /* FoldingTabBar-umbrella.h in Headers */,
+				3C6F6E4EC04DD40438A179D9461C540D /* YALAnimatingTabBarConstants.h in Headers */,
+				5153510EFC163DE035F065A1D3D566CA /* YALFoldingTabBar.h in Headers */,
+				159DFFAF1D59765283DCECEAB8F76BBF /* YALFoldingTabBarController.h in Headers */,
+				E4A8B63FE125B6E72B9D9DAEA6C34CF8 /* YALSpringAnimation.h in Headers */,
+				E4EA45A0E47BC9F0C053D4440B8401A7 /* YALTabBarInteracting.h in Headers */,
+				7F37DC01856CD2ABF27B111BF6446E5F /* YALTabBarItem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CCC3AAF8F87F8D1B6851D6A685CC141 /* Headers */ = {
+		606D94C705FE6A9048ECBAC7483A2200 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CA8BCBE8D912BA8500E198D4F47E1AE /* LLSimpleCamera-umbrella.h in Headers */,
-				5E3D71D11A9778CCAEE350748CD92286 /* LLSimpleCamera.h in Headers */,
-				C3C101ACB04EDAC3BA7EC5F4C2984A94 /* UIImage+FixOrientation.h in Headers */,
+				65147FE6161A0B1BC987838970B313D1 /* NSMutableArray+SWUtilityButtons.h in Headers */,
+				FACC71B86F45F6661579E96044A59BF3 /* SWCellScrollView.h in Headers */,
+				4B7574B7B54CB8B8E4D83659690BD636 /* SWLongPressGestureRecognizer.h in Headers */,
+				1F21FD6484D5C77296F3C967BE65990E /* SWTableViewCell-umbrella.h in Headers */,
+				9102FF62B035D6C6F8618ECD75D0646D /* SWTableViewCell.h in Headers */,
+				49106CF960D9E7764FDCB3BC3602F9AA /* SWUtilityButtonTapGestureRecognizer.h in Headers */,
+				2B2010634B872223A5F8EE2061E1D8BE /* SWUtilityButtonView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47C78A602A6FE60ED8147078E70C64F2 /* Headers */ = {
+		60763A650B6C8007ECC91753A617BAB1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD0A6251084DC38929D61E65CF20AD58 /* CNPPopupController-umbrella.h in Headers */,
-				A6EAEB7C6C2CFC35C97B96CD93B8F7C4 /* CNPPopupController.h in Headers */,
+				E4BF47046BA4675E1DA2F34893947702 /* MGSwipeButton.h in Headers */,
+				C9BB9572D929D9F65BD27F9AB29562EB /* MGSwipeTableCell-umbrella.h in Headers */,
+				853A57622AD74BC28B636A4BA38E6873 /* MGSwipeTableCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7535463B5906DC7B118A89AFCA89847F /* Headers */ = {
+		66C7E15CF278B39CEF6C8D16EAA6443D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F495468AC03533D934DFDC214EAA8F6 /* Pods-SpotlightRevised-umbrella.h in Headers */,
+				6F00E73D778B84F76501C601A448200B /* LLSimpleCamera-umbrella.h in Headers */,
+				BC9CF7AB88CB7A4D8E500B22443282CB /* LLSimpleCamera.h in Headers */,
+				A3B8D9FA20F3C79AEDA329A2904836C5 /* UIImage+FixOrientation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85978A94B1415BD270DB4E2CF47791B0 /* Headers */ = {
+		871BC26F41A5D5FC33AECA12D4E60151 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99278A46C2E7D8CE5C7B68671367F9D6 /* NSMutableArray+SWUtilityButtons.h in Headers */,
-				59BF52836DAA1F972644DC9E257F38A7 /* SWCellScrollView.h in Headers */,
-				6722D867AB5622DED5D1C69E7C5AA4A9 /* SWLongPressGestureRecognizer.h in Headers */,
-				0D66800D17F9137D23E390EC2DE6874D /* SWTableViewCell-umbrella.h in Headers */,
-				B27C9EF627B93E6842E1C556B96C9CB5 /* SWTableViewCell.h in Headers */,
-				7D868F21917D8E2827811FDBD3547426 /* SWUtilityButtonTapGestureRecognizer.h in Headers */,
-				A07B05E83843EE70C234A7E3A40B8152 /* SWUtilityButtonView.h in Headers */,
+				18244970F5F1FD5F74CC55FB9CCA33D6 /* Pods-SpotlightRevised-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE1E551D92398799D43309CEE9B1D557 /* Headers */ = {
+		AC64CCDC6D6991B71DB31E767FD4583E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				473915DFCF0BE86A8570AD80A5381E49 /* CAAnimation+YALTabBarViewAnimations.h in Headers */,
-				7106B361CA57148640756546450E0F74 /* CATransaction+TransactionWithAnimationsAndCompletion.h in Headers */,
-				CA9B2A21A886487DD89DBB8DDCCFEF99 /* FoldingTabBar-umbrella.h in Headers */,
-				C2D1986F363E54A9162F8718AB6B8F75 /* YALAnimatingTabBarConstants.h in Headers */,
-				D8BE45A7B0621551DF48DAB76858E1D1 /* YALFoldingTabBar.h in Headers */,
-				FABB6CAC4FDDB99E3C3B4FA04FA4EB50 /* YALFoldingTabBarController.h in Headers */,
-				06192BEF4786E7971FE2F52F2389E17D /* YALSpringAnimation.h in Headers */,
-				B33149BB6AFF371AC9E5D779FD552DD0 /* YALTabBarInteracting.h in Headers */,
-				C189A4A418ED4CFEAC1C63F7FFE0FAD8 /* YALTabBarItem.h in Headers */,
+				8218EA1345F8856B5A4349451F6FCFAA /* Pods-SpotlightRevisedTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B9BDCCF7C45E231C08708F68CC6543 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F97A54E76B5ECA2777A6584DA81F2E3 /* Pods-SpotlightRevisedUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1B7CBEC10C5A87FEA28D379940F7DEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC439EAC0B69C9C6EB1587A9D0B9CF0 /* CNPPopupController-umbrella.h in Headers */,
+				D0BB759B3DAD13227CF3821108BF9943 /* CNPPopupController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0F52284BB73D7CF6A946B01B92E4E07F /* FoldingTabBar */ = {
+		056B4ACA8C80850FFC348D7A9481D092 /* CNPPopupController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23D529782B826D4145385D9F722BCD02 /* Build configuration list for PBXNativeTarget "FoldingTabBar" */;
+			buildConfigurationList = C6ADAD0A39D47F843D1FEADC6F7144C3 /* Build configuration list for PBXNativeTarget "CNPPopupController" */;
 			buildPhases = (
-				4128CDA34F3112B2109187153E4F1197 /* Sources */,
-				AE92B6904276D96AABE735278A581F62 /* Frameworks */,
-				FE1E551D92398799D43309CEE9B1D557 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FoldingTabBar;
-			productName = FoldingTabBar;
-			productReference = B055DB3CC43AFD4DBFA26552413F08CB /* FoldingTabBar.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		1FEB205A27CAF752DC1660C1238C328A /* SWTableViewCell */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6BE8CEA638483B28E5B2743BA038E1CF /* Build configuration list for PBXNativeTarget "SWTableViewCell" */;
-			buildPhases = (
-				1882804943A6EA40AA4589A67A320EE7 /* Sources */,
-				28C44F1544739AB41044E681A1A056B5 /* Frameworks */,
-				85978A94B1415BD270DB4E2CF47791B0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SWTableViewCell;
-			productName = SWTableViewCell;
-			productReference = AB7F3E7C9DA04ACE9425F3F4120F7838 /* SWTableViewCell.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4E1263BFF45F6446CF3DE29AE234C893 /* MGSwipeTableCell */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7B05C24F339BF84D6E16E6538A947C90 /* Build configuration list for PBXNativeTarget "MGSwipeTableCell" */;
-			buildPhases = (
-				C8C13026DC462129E945B064D7D89D95 /* Sources */,
-				AC0271E88F65B17975F56915CAAD607F /* Frameworks */,
-				1E754E9D399930F33BC210A07296168D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MGSwipeTableCell;
-			productName = MGSwipeTableCell;
-			productReference = 91FD4CFACD8C478D44002D15EF6EEB22 /* MGSwipeTableCell.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CE0CC7E2B5B550BC4172F6FF9CC5D50A /* LLSimpleCamera */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1A9E0881D54953A1A29D9CED7E22EE96 /* Build configuration list for PBXNativeTarget "LLSimpleCamera" */;
-			buildPhases = (
-				CDDF6909A7A8BB8CD9AF07F2A7166828 /* Sources */,
-				42B1C09FA49EC551A9BB46E594E7FC63 /* Frameworks */,
-				3CCC3AAF8F87F8D1B6851D6A685CC141 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LLSimpleCamera;
-			productName = LLSimpleCamera;
-			productReference = 505F613787611E61B041844CF4BE1B41 /* LLSimpleCamera.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D2D17D2E6A8AD8B5A2D1F30A3032805E /* CNPPopupController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A7C2DDEF61322D4E2D49987DFA976D39 /* Build configuration list for PBXNativeTarget "CNPPopupController" */;
-			buildPhases = (
-				2EC8594122596FA461473C25EE7FA5B4 /* Sources */,
-				3D37FC3453661471EDDC8EC07E3C54D2 /* Frameworks */,
-				47C78A602A6FE60ED8147078E70C64F2 /* Headers */,
+				352FB4E3E8C620A2B5BC3A1E352EE5D3 /* Sources */,
+				760BB27503BA527276AFC5851D004A64 /* Frameworks */,
+				F1B7CBEC10C5A87FEA28D379940F7DEB /* Headers */,
 			);
 			buildRules = (
 			);
@@ -636,29 +673,131 @@
 			);
 			name = CNPPopupController;
 			productName = CNPPopupController;
-			productReference = 21867F2D7B589C3F0A0A904EDCF0DA05 /* CNPPopupController.framework */;
+			productReference = EADF3E9368ABF460E462B34927333194 /* CNPPopupController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D9CBE22823E124801AFD9BA9A55FB7FB /* Pods-SpotlightRevised */ = {
+		0AFA392C63CD94812929638D8444BD7F /* Pods-SpotlightRevisedTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC3C79186287A6FB676BD809B91DA71B /* Build configuration list for PBXNativeTarget "Pods-SpotlightRevised" */;
+			buildConfigurationList = 1B2880C8B11F36125752A0CBC9CD9994 /* Build configuration list for PBXNativeTarget "Pods-SpotlightRevisedTests" */;
 			buildPhases = (
-				E170B2F4AFA4DDCD8B23894DDE649E94 /* Sources */,
-				998EE91EBA1A1128945EBF6A296AA4CB /* Frameworks */,
-				7535463B5906DC7B118A89AFCA89847F /* Headers */,
+				12A6F6616D9B057FEFEFC7268FF16EE1 /* Sources */,
+				16523DD77057F11B82E9E7563307FFB1 /* Frameworks */,
+				AC64CCDC6D6991B71DB31E767FD4583E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D4D8F6D90DC141D1AE2B52002B583B86 /* PBXTargetDependency */,
-				C4E84D06C4C1C5B9EE10FA2B472C6B43 /* PBXTargetDependency */,
-				B7F43D30C606B23A5298FC2E791E3F31 /* PBXTargetDependency */,
-				996F3D591B52442C538AD48D4BEA6524 /* PBXTargetDependency */,
-				D1369F7A8911D7A25D193D0239DB5F23 /* PBXTargetDependency */,
+			);
+			name = "Pods-SpotlightRevisedTests";
+			productName = "Pods-SpotlightRevisedTests";
+			productReference = F2B1FA6978D947B15872FC7A77F088A0 /* Pods_SpotlightRevisedTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1CD80321715FDB12A3A31B7BCB09EA28 /* MGSwipeTableCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782AD3C225DF6AF102A6DB24AFC59B5F /* Build configuration list for PBXNativeTarget "MGSwipeTableCell" */;
+			buildPhases = (
+				119E444BE35160E7AD3F82008DEF1E29 /* Sources */,
+				5F86A802147CAEDCD5D2F69F78B5A758 /* Frameworks */,
+				60763A650B6C8007ECC91753A617BAB1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGSwipeTableCell;
+			productName = MGSwipeTableCell;
+			productReference = 69D8DC57479583F4EC4FB53ED94BFE0F /* MGSwipeTableCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1F132D0DE6DEBB1F30F1814770BD9FF7 /* Pods-SpotlightRevised */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABD8F5B57185C52EDF1A169853C6A23 /* Build configuration list for PBXNativeTarget "Pods-SpotlightRevised" */;
+			buildPhases = (
+				9F4E44552DC63464710F6CB3AD033AC5 /* Sources */,
+				C6223A3698F8D66E0EBC2EC60ED7195D /* Frameworks */,
+				871BC26F41A5D5FC33AECA12D4E60151 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4BAA55113406B1CC4BB987490619BFF /* PBXTargetDependency */,
+				0A29430ECEC25C8D88C1F58274EFE5CF /* PBXTargetDependency */,
+				ACA5541933C5DE8A87D98509EF040899 /* PBXTargetDependency */,
+				6BB986D91882F1F6B3B76092D1288141 /* PBXTargetDependency */,
+				4AC2890F3C6096E69811C5A8C580AC44 /* PBXTargetDependency */,
 			);
 			name = "Pods-SpotlightRevised";
 			productName = "Pods-SpotlightRevised";
-			productReference = 2A5922B0D0813D91DD2AE0EEB0041B00 /* Pods_SpotlightRevised.framework */;
+			productReference = 3E1100E17A39014AD732763B59D8E72A /* Pods_SpotlightRevised.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1F532353DFD75DC4AEB2B10E93B8E735 /* Pods-SpotlightRevisedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24278C44210E5FAB5E80A2797458CE48 /* Build configuration list for PBXNativeTarget "Pods-SpotlightRevisedUITests" */;
+			buildPhases = (
+				A8A490B7A93DFFED9412819B731A5370 /* Sources */,
+				2FC3111035DC0A9ECF7DA2D2289DF376 /* Frameworks */,
+				D8B9BDCCF7C45E231C08708F68CC6543 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SpotlightRevisedUITests";
+			productName = "Pods-SpotlightRevisedUITests";
+			productReference = A356E863CE65BF60E9D68DF8B8598BD6 /* Pods_SpotlightRevisedUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		235390E1D6873C0CE77F797E00B02E06 /* LLSimpleCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DB71B4E3220C30C469A9385B458B440 /* Build configuration list for PBXNativeTarget "LLSimpleCamera" */;
+			buildPhases = (
+				555F7663600F595107DB28953E7B1162 /* Sources */,
+				A6745841E622ABE375D692E8BF5B93D6 /* Frameworks */,
+				66C7E15CF278B39CEF6C8D16EAA6443D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLSimpleCamera;
+			productName = LLSimpleCamera;
+			productReference = 81E5AACF04FEAE21EF06D80B2BC9C22E /* LLSimpleCamera.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		484C2F1D0424AB0938050552C5204F00 /* FoldingTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C323FF336CB24AADBD489B8D81CAD7C3 /* Build configuration list for PBXNativeTarget "FoldingTabBar" */;
+			buildPhases = (
+				881055451230C0C106DF1DF22D3A2EE9 /* Sources */,
+				259938712002F869550D80FAF19E7797 /* Frameworks */,
+				2D4160E4766B0ED59C5E66E4D09CBFD3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoldingTabBar;
+			productName = FoldingTabBar;
+			productReference = 65B5C1AF72A35CA6CD64D07B8CD2CE66 /* FoldingTabBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8725FF285161D134C0176CDC01C0D20D /* SWTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AFC1E9647F6D3D708B95DAD2271BBA4 /* Build configuration list for PBXNativeTarget "SWTableViewCell" */;
+			buildPhases = (
+				5F77DAE68D71ED2122A1F92D9A4AA188 /* Sources */,
+				BD16910C83CB9D027910B17778DFF613 /* Frameworks */,
+				606D94C705FE6A9048ECBAC7483A2200 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWTableViewCell;
+			productName = SWTableViewCell;
+			productReference = 5078D3C807355817474C51365C6023B0 /* SWTableViewCell.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -667,7 +806,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -678,346 +817,146 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CBD6C02BA6AE81B1A65A03701CB80611 /* Products */;
+			productRefGroup = 2C04D955EC26D347D702AD63A4009964 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2D17D2E6A8AD8B5A2D1F30A3032805E /* CNPPopupController */,
-				0F52284BB73D7CF6A946B01B92E4E07F /* FoldingTabBar */,
-				CE0CC7E2B5B550BC4172F6FF9CC5D50A /* LLSimpleCamera */,
-				4E1263BFF45F6446CF3DE29AE234C893 /* MGSwipeTableCell */,
-				D9CBE22823E124801AFD9BA9A55FB7FB /* Pods-SpotlightRevised */,
-				1FEB205A27CAF752DC1660C1238C328A /* SWTableViewCell */,
+				056B4ACA8C80850FFC348D7A9481D092 /* CNPPopupController */,
+				484C2F1D0424AB0938050552C5204F00 /* FoldingTabBar */,
+				235390E1D6873C0CE77F797E00B02E06 /* LLSimpleCamera */,
+				1CD80321715FDB12A3A31B7BCB09EA28 /* MGSwipeTableCell */,
+				1F132D0DE6DEBB1F30F1814770BD9FF7 /* Pods-SpotlightRevised */,
+				0AFA392C63CD94812929638D8444BD7F /* Pods-SpotlightRevisedTests */,
+				1F532353DFD75DC4AEB2B10E93B8E735 /* Pods-SpotlightRevisedUITests */,
+				8725FF285161D134C0176CDC01C0D20D /* SWTableViewCell */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1882804943A6EA40AA4589A67A320EE7 /* Sources */ = {
+		119E444BE35160E7AD3F82008DEF1E29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53F41211BEDE64C93BDD0B57696071C3 /* NSMutableArray+SWUtilityButtons.m in Sources */,
-				A3AD0C26433B9554C9AF03DF57A67C07 /* SWCellScrollView.m in Sources */,
-				5390FDC44AB6E88BC1F96CCDA8FAC248 /* SWLongPressGestureRecognizer.m in Sources */,
-				8839595458F647E1DF6D4CAB6B270DBF /* SWTableViewCell-dummy.m in Sources */,
-				A0020F6FB6D4ED0D96BEBCCD033B459C /* SWTableViewCell.m in Sources */,
-				24FBC46BDBBB83902D263FA0C337937E /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
-				140CF680259646E2F1F6017EDDAE9922 /* SWUtilityButtonView.m in Sources */,
+				112B3AE3695C10E75BD89585295481AB /* MGSwipeButton.m in Sources */,
+				6CA804342026C8DD0D47F82901AE587D /* MGSwipeTableCell-dummy.m in Sources */,
+				DB33341B93BFF0A556A6F333BE95CFAD /* MGSwipeTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2EC8594122596FA461473C25EE7FA5B4 /* Sources */ = {
+		12A6F6616D9B057FEFEFC7268FF16EE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A4946DE77223E0A3BCB09D5A2C886D8 /* CNPPopupController-dummy.m in Sources */,
-				E6F8F9CBCB2058447C6C43579D15232A /* CNPPopupController.m in Sources */,
+				3FBA35A6E8C65B8D8D1D1B6D55914A34 /* Pods-SpotlightRevisedTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4128CDA34F3112B2109187153E4F1197 /* Sources */ = {
+		352FB4E3E8C620A2B5BC3A1E352EE5D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94F6B95FD263B8271100E4B9A40A68D9 /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
-				ED16DDA04FD591F4FEE094BA7E04B3FB /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
-				0CE5B65177B4BC135AED6D8A06C5DC51 /* FoldingTabBar-dummy.m in Sources */,
-				00D9A6BF682C495BE80D2D4C8AEC2B63 /* YALAnimatingTabBarConstants.m in Sources */,
-				5EECB665352F33357612F51630336021 /* YALFoldingTabBar.m in Sources */,
-				375D5687696A3D2F77580F4E13F447DC /* YALFoldingTabBarController.m in Sources */,
-				64165A4763C4D32CE8EC3AA8160359D9 /* YALSpringAnimation.m in Sources */,
-				25DEF719A61C37E5CB10C799A01DFE42 /* YALTabBarItem.m in Sources */,
+				7CFA2FF6E9617C1CE40EB50509EE1963 /* CNPPopupController-dummy.m in Sources */,
+				F21747C02DF1539900E1D245294184D5 /* CNPPopupController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8C13026DC462129E945B064D7D89D95 /* Sources */ = {
+		555F7663600F595107DB28953E7B1162 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8FD669C32DE47E548CBB0153988C1E2 /* MGSwipeButton.m in Sources */,
-				569D057F4C7A6F69AEA4AB0BD6D9900E /* MGSwipeTableCell-dummy.m in Sources */,
-				95E41293E05A8ABB9866D6F3AED0CA10 /* MGSwipeTableCell.m in Sources */,
+				96FE482A6CB0212EA110BB310F5C2099 /* LLSimpleCamera-dummy.m in Sources */,
+				9AF1B2D1A627DEEB02EB800D38E9BDBB /* LLSimpleCamera.m in Sources */,
+				B3047163E78EAC88206B88EDA62F811E /* UIImage+FixOrientation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDDF6909A7A8BB8CD9AF07F2A7166828 /* Sources */ = {
+		5F77DAE68D71ED2122A1F92D9A4AA188 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AD52D80E5C7AB3C0D28A2BB4FCAE074 /* LLSimpleCamera-dummy.m in Sources */,
-				924E42C1512BA8B48BF2974343F4D1B4 /* LLSimpleCamera.m in Sources */,
-				93A65C4380703954DF5831808850E6D6 /* UIImage+FixOrientation.m in Sources */,
+				80A03F30B6022D16677193151FC1E950 /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				B6DDB8E7258944B99B3163FF807244EF /* SWCellScrollView.m in Sources */,
+				79F90CCE5F2DFC409AE12CF025A02A9B /* SWLongPressGestureRecognizer.m in Sources */,
+				3A820B984186BC1CEBF37F93A7B7C093 /* SWTableViewCell-dummy.m in Sources */,
+				D628AA040AA6BD1A0908C51A758C6FE4 /* SWTableViewCell.m in Sources */,
+				13A58B72508E8B6087284213EE5DEE9D /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				5FBD996E8A4C6A2EC3091A2BBDAE6906 /* SWUtilityButtonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E170B2F4AFA4DDCD8B23894DDE649E94 /* Sources */ = {
+		881055451230C0C106DF1DF22D3A2EE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F094BC5B3D52E1EA95E6403BC8590F2 /* Pods-SpotlightRevised-dummy.m in Sources */,
+				42F572D04D5794F1FDCE9098DC349894 /* CAAnimation+YALTabBarViewAnimations.m in Sources */,
+				33F36A286C666E2636A45B338CD16C77 /* CATransaction+TransactionWithAnimationsAndCompletion.m in Sources */,
+				5B80B085275F510613042260FA80037F /* FoldingTabBar-dummy.m in Sources */,
+				60EBC3A469CAC52B8A2EB0CAF853AC32 /* YALAnimatingTabBarConstants.m in Sources */,
+				7203828DE131547F13BB1CEF8370D239 /* YALFoldingTabBar.m in Sources */,
+				0EF1248B77C601D050D95BEBAF0E5AE5 /* YALFoldingTabBarController.m in Sources */,
+				9F98AF8178456D67356A329CD51DA93C /* YALSpringAnimation.m in Sources */,
+				82B6EE9C56A6A31FF7609E34F62FB74D /* YALTabBarItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4E44552DC63464710F6CB3AD033AC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F889096488603B3821BAA2A5854137 /* Pods-SpotlightRevised-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8A490B7A93DFFED9412819B731A5370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2744BBA42F426F3B077E207196275C5 /* Pods-SpotlightRevisedUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		996F3D591B52442C538AD48D4BEA6524 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MGSwipeTableCell;
-			target = 4E1263BFF45F6446CF3DE29AE234C893 /* MGSwipeTableCell */;
-			targetProxy = 6DAA53DB6970EA18F066B59B7102EC96 /* PBXContainerItemProxy */;
-		};
-		B7F43D30C606B23A5298FC2E791E3F31 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LLSimpleCamera;
-			target = CE0CC7E2B5B550BC4172F6FF9CC5D50A /* LLSimpleCamera */;
-			targetProxy = 035F2B334A62F72F0608E18D5C247D31 /* PBXContainerItemProxy */;
-		};
-		C4E84D06C4C1C5B9EE10FA2B472C6B43 /* PBXTargetDependency */ = {
+		0A29430ECEC25C8D88C1F58274EFE5CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FoldingTabBar;
-			target = 0F52284BB73D7CF6A946B01B92E4E07F /* FoldingTabBar */;
-			targetProxy = 2ABACEC9222339B4FD48D61B09C2B17E /* PBXContainerItemProxy */;
+			target = 484C2F1D0424AB0938050552C5204F00 /* FoldingTabBar */;
+			targetProxy = 9FE9B42015416C9E0BCCAEF36F6B9C36 /* PBXContainerItemProxy */;
 		};
-		D1369F7A8911D7A25D193D0239DB5F23 /* PBXTargetDependency */ = {
+		4AC2890F3C6096E69811C5A8C580AC44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SWTableViewCell;
-			target = 1FEB205A27CAF752DC1660C1238C328A /* SWTableViewCell */;
-			targetProxy = 5538C0D84E87DBEC967945267D837B4A /* PBXContainerItemProxy */;
+			target = 8725FF285161D134C0176CDC01C0D20D /* SWTableViewCell */;
+			targetProxy = E9EEB58E98D57529D326822106FB32A4 /* PBXContainerItemProxy */;
 		};
-		D4D8F6D90DC141D1AE2B52002B583B86 /* PBXTargetDependency */ = {
+		6BB986D91882F1F6B3B76092D1288141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGSwipeTableCell;
+			target = 1CD80321715FDB12A3A31B7BCB09EA28 /* MGSwipeTableCell */;
+			targetProxy = 7F25BB09AAF2834AA29B359C9B12F75A /* PBXContainerItemProxy */;
+		};
+		ACA5541933C5DE8A87D98509EF040899 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLSimpleCamera;
+			target = 235390E1D6873C0CE77F797E00B02E06 /* LLSimpleCamera */;
+			targetProxy = 04D88C7C8159D17B8EB1D9675935E3D7 /* PBXContainerItemProxy */;
+		};
+		F4BAA55113406B1CC4BB987490619BFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CNPPopupController;
-			target = D2D17D2E6A8AD8B5A2D1F30A3032805E /* CNPPopupController */;
-			targetProxy = 9D7FDD86A46A482D89D8AB68665CB637 /* PBXContainerItemProxy */;
+			target = 056B4ACA8C80850FFC348D7A9481D092 /* CNPPopupController */;
+			targetProxy = 03583F5A1367E776390962324217ECD7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01936BD68B2EE3D51A816D4CE6B343D9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F13764A7C40C152665965375B45CB76 /* MGSwipeTableCell.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MGSwipeTableCell/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MGSwipeTableCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1F6846F3D3FD30B38ECB32DC9F6E6BD7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 287E55035E7D4358E7D26736B3498A46 /* Pods-SpotlightRevised.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SpotlightRevised/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SpotlightRevised/Pods-SpotlightRevised.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_SpotlightRevised;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		47069BA0D8FA8504266293BCA130DC6A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D5101E50135BF5CDF6D1FCE2AA52A51 /* SWTableViewCell.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SWTableViewCell/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SWTableViewCell/SWTableViewCell.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SWTableViewCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6502F542E09D85EBA77031990C85222D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D5101E50135BF5CDF6D1FCE2AA52A51 /* SWTableViewCell.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SWTableViewCell/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SWTableViewCell/SWTableViewCell.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SWTableViewCell;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		67277AAC95914B901BC6BF639CCE712F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34C4A886BA39D19DDE892B5090629230 /* CNPPopupController.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CNPPopupController/CNPPopupController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CNPPopupController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CNPPopupController/CNPPopupController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CNPPopupController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		82CAD549EB211461A1EF95346CE33269 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34C4A886BA39D19DDE892B5090629230 /* CNPPopupController.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CNPPopupController/CNPPopupController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CNPPopupController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CNPPopupController/CNPPopupController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CNPPopupController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		94BBC8829ACD88D9CD196EB624E79A99 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24AF2E5F36268903799B9DFB521594E5 /* LLSimpleCamera.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LLSimpleCamera/LLSimpleCamera-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LLSimpleCamera/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LLSimpleCamera/LLSimpleCamera.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = LLSimpleCamera;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A455652A7B3D585BF46C947223450CEA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2132E5BF2031A3D43C25ACBF9D2B05C5 /* FoldingTabBar.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FoldingTabBar/FoldingTabBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FoldingTabBar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FoldingTabBar/FoldingTabBar.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FoldingTabBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1031,11 +970,14 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -1048,30 +990,35 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		AA73BEABF752DDF39F81BD1FFB2DD8CF /* Release */ = {
+		015AAADF709100F4C8D88A7B706ACF09 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24AF2E5F36268903799B9DFB521594E5 /* LLSimpleCamera.xcconfig */;
+			baseConfigurationReference = 34C4A886BA39D19DDE892B5090629230 /* CNPPopupController.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LLSimpleCamera/LLSimpleCamera-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LLSimpleCamera/Info.plist";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CNPPopupController/CNPPopupController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CNPPopupController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LLSimpleCamera/LLSimpleCamera.modulemap";
+				MODULEMAP_FILE = "Target Support Files/CNPPopupController/CNPPopupController.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = LLSimpleCamera;
+				PRODUCT_NAME = CNPPopupController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1080,24 +1027,28 @@
 			};
 			name = Release;
 		};
-		C52939A31F4AC8C24B3F0B3D3B7E934F /* Debug */ = {
+		09DDBD66893CB94036DCF4F8685ADA00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1F13764A7C40C152665965375B45CB76 /* MGSwipeTableCell.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MGSwipeTableCell/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = MGSwipeTableCell;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1105,19 +1056,23 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		EE04AD3C507CD2FB37E6AB3D13013FA8 /* Debug */ = {
+		39057CD23EB96DFFC7BEFEEA555B7352 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2132E5BF2031A3D43C25ACBF9D2B05C5 /* FoldingTabBar.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/FoldingTabBar/FoldingTabBar-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/FoldingTabBar/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1134,10 +1089,42 @@
 			};
 			name = Debug;
 		};
-		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+		3907ABD0BAE92A9AAA3198039C40F590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D5101E50135BF5CDF6D1FCE2AA52A51 /* SWTableViewCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWTableViewCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWTableViewCell/SWTableViewCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SWTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1151,10 +1138,14 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1162,23 +1153,195 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		FFAD445A688B13EBF42AE462236B17E2 /* Release */ = {
+		489AE7243ACDC191420674965010942F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAD4D0513E157A7622CEC0B68DE07702 /* Pods-SpotlightRevised.release.xcconfig */;
+			baseConfigurationReference = 34C4A886BA39D19DDE892B5090629230 /* CNPPopupController.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CNPPopupController/CNPPopupController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CNPPopupController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CNPPopupController/CNPPopupController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CNPPopupController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F00C5202C67CCD3AC3D4ED75E3C22B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAD4F268D1CF6CD8F1133907858A0EFB /* Pods-SpotlightRevisedTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpotlightRevisedTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpotlightRevisedTests/Pods-SpotlightRevisedTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SpotlightRevisedTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8493A4BCB87D832DCABE3DEAAD9284BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24AF2E5F36268903799B9DFB521594E5 /* LLSimpleCamera.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LLSimpleCamera/LLSimpleCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LLSimpleCamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LLSimpleCamera/LLSimpleCamera.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LLSimpleCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3E8294DB549FEE19F548BF96EA0F7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E40161CCCB5AB8B15E172DF24B27DBDF /* Pods-SpotlightRevisedUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpotlightRevisedUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpotlightRevisedUITests/Pods-SpotlightRevisedUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SpotlightRevisedUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B80D8702466676D1A8C6F1EDE8D62659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D6B1EE056BD722F812486605F98850E /* Pods-SpotlightRevised.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpotlightRevised/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpotlightRevised/Pods-SpotlightRevised.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SpotlightRevised;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE7CC42745DB97D5D12D449B6BCAF93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94B7F300C74C8233C819260060023CF1 /* Pods-SpotlightRevised.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-SpotlightRevised/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1189,6 +1352,7 @@
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_SpotlightRevised;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1198,23 +1362,226 @@
 			};
 			name = Release;
 		};
+		BFEE7AB6C78E38533494058272B44021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D5101E50135BF5CDF6D1FCE2AA52A51 /* SWTableViewCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWTableViewCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWTableViewCell/SWTableViewCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SWTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C14FF30ECF3B0743D81758761C61356A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2132E5BF2031A3D43C25ACBF9D2B05C5 /* FoldingTabBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FoldingTabBar/FoldingTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoldingTabBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FoldingTabBar/FoldingTabBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FoldingTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C30C02A7E81DDFB2ECE4AC04B37A8FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24AF2E5F36268903799B9DFB521594E5 /* LLSimpleCamera.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LLSimpleCamera/LLSimpleCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LLSimpleCamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LLSimpleCamera/LLSimpleCamera.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LLSimpleCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C6F6F690506B555E2A08EA63DF3710CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 769AF52C078F726364A24D9DCCB76B77 /* Pods-SpotlightRevisedTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpotlightRevisedTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpotlightRevisedTests/Pods-SpotlightRevisedTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SpotlightRevisedTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D63ED3C1DB8D3EEAA9C5F32EFB868707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC951CA4306AFB77584AD7AD2672F0BE /* Pods-SpotlightRevisedUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpotlightRevisedUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpotlightRevisedUITests/Pods-SpotlightRevisedUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SpotlightRevisedUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E775DFBBE449D571D2AC82FF5A3D0AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F13764A7C40C152665965375B45CB76 /* MGSwipeTableCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGSwipeTableCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MGSwipeTableCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A9E0881D54953A1A29D9CED7E22EE96 /* Build configuration list for PBXNativeTarget "LLSimpleCamera" */ = {
+		1ABD8F5B57185C52EDF1A169853C6A23 /* Build configuration list for PBXNativeTarget "Pods-SpotlightRevised" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94BBC8829ACD88D9CD196EB624E79A99 /* Debug */,
-				AA73BEABF752DDF39F81BD1FFB2DD8CF /* Release */,
+				B80D8702466676D1A8C6F1EDE8D62659 /* Debug */,
+				BE7CC42745DB97D5D12D449B6BCAF93B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		23D529782B826D4145385D9F722BCD02 /* Build configuration list for PBXNativeTarget "FoldingTabBar" */ = {
+		1B2880C8B11F36125752A0CBC9CD9994 /* Build configuration list for PBXNativeTarget "Pods-SpotlightRevisedTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE04AD3C507CD2FB37E6AB3D13013FA8 /* Debug */,
-				A455652A7B3D585BF46C947223450CEA /* Release */,
+				5F00C5202C67CCD3AC3D4ED75E3C22B2 /* Debug */,
+				C6F6F690506B555E2A08EA63DF3710CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24278C44210E5FAB5E80A2797458CE48 /* Build configuration list for PBXNativeTarget "Pods-SpotlightRevisedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3E8294DB549FEE19F548BF96EA0F7A8 /* Debug */,
+				D63ED3C1DB8D3EEAA9C5F32EFB868707 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1222,44 +1589,53 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
-				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6BE8CEA638483B28E5B2743BA038E1CF /* Build configuration list for PBXNativeTarget "SWTableViewCell" */ = {
+		5DB71B4E3220C30C469A9385B458B440 /* Build configuration list for PBXNativeTarget "LLSimpleCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47069BA0D8FA8504266293BCA130DC6A /* Debug */,
-				6502F542E09D85EBA77031990C85222D /* Release */,
+				C30C02A7E81DDFB2ECE4AC04B37A8FD3 /* Debug */,
+				8493A4BCB87D832DCABE3DEAAD9284BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B05C24F339BF84D6E16E6538A947C90 /* Build configuration list for PBXNativeTarget "MGSwipeTableCell" */ = {
+		782AD3C225DF6AF102A6DB24AFC59B5F /* Build configuration list for PBXNativeTarget "MGSwipeTableCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C52939A31F4AC8C24B3F0B3D3B7E934F /* Debug */,
-				01936BD68B2EE3D51A816D4CE6B343D9 /* Release */,
+				E775DFBBE449D571D2AC82FF5A3D0AEA /* Debug */,
+				09DDBD66893CB94036DCF4F8685ADA00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7C2DDEF61322D4E2D49987DFA976D39 /* Build configuration list for PBXNativeTarget "CNPPopupController" */ = {
+		8AFC1E9647F6D3D708B95DAD2271BBA4 /* Build configuration list for PBXNativeTarget "SWTableViewCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				82CAD549EB211461A1EF95346CE33269 /* Debug */,
-				67277AAC95914B901BC6BF639CCE712F /* Release */,
+				3907ABD0BAE92A9AAA3198039C40F590 /* Debug */,
+				BFEE7AB6C78E38533494058272B44021 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC3C79186287A6FB676BD809B91DA71B /* Build configuration list for PBXNativeTarget "Pods-SpotlightRevised" */ = {
+		C323FF336CB24AADBD489B8D81CAD7C3 /* Build configuration list for PBXNativeTarget "FoldingTabBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F6846F3D3FD30B38ECB32DC9F6E6BD7 /* Debug */,
-				FFAD445A688B13EBF42AE462236B17E2 /* Release */,
+				39057CD23EB96DFFC7BEFEEA555B7352 /* Debug */,
+				C14FF30ECF3B0743D81758761C61356A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6ADAD0A39D47F843D1FEADC6F7144C3 /* Build configuration list for PBXNativeTarget "CNPPopupController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489AE7243ACDC191420674965010942F /* Debug */,
+				015AAADF709100F4C8D88A7B706ACF09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

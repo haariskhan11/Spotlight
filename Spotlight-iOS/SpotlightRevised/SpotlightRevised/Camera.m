@@ -18,8 +18,10 @@
 
 @implementation Camera
 
+
+
 -(void)viewWillAppear:(BOOL)animated{
-    
+  
     [super viewDidAppear:animated];
     static dispatch_once_t once;
     dispatch_once(&once, ^{
@@ -43,6 +45,7 @@
 
 -(void)viewDidLoad{
     [super viewDidLoad];
+  
 //    if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
 //        
 //        UIImagePickerController *picker = [[UIImagePickerController alloc] init];
@@ -84,9 +87,7 @@
     [self.videoController.view setFrame:CGRectMake (0, 0, 375, 525)];
     [self.view addSubview:self.videoController.view];
     
-    [self.videoController play];
-    
-     
+//    [self.videoController play];
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
@@ -96,18 +97,14 @@
 }
 
 - (IBAction)postVideo:(id)sender {
-    
-}
-
-- (IBAction)cancelVideo:(id)sender {
-    
-    [[self presentingViewController] dismissViewControllerAnimated:NO completion:nil];
-    
-    
+    // POST request to database
 }
 
 -(IBAction)camera:(id)sender{
     [self showCamera];
+}
+- (IBAction)dismissVideo:(id)sender {
+    [self.videoController.view removeFromSuperview];
 }
 
 

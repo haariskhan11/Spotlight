@@ -18,15 +18,17 @@
 #import "YALTabBarItem.h"
 #import "YALFoldingTabBarController.h"
 #import "YALAnimatingTabBarConstants.h"
+#import "CameraSessionView.h"
 
 
-@interface TrendingViewCustom () <CNPPopupControllerDelegate> {
+@interface TrendingViewCustom () <CNPPopupControllerDelegate, CACameraSessionDelegate> {
     NSMutableArray *cityLabels;
     NSMutableArray *eventLabels;
     NSMutableArray *times;
     
+    
 }
-
+@property (nonatomic, strong) CameraSessionView *cameraView;
 @property (nonatomic, strong) CNPPopupController *popupController;
 
 @end
@@ -61,6 +63,7 @@
     eventLabels = [NSMutableArray arrayWithObjects:@"Trump Protest", @"Police Brutality", @"Black Lives Matter Protest", @"War Ruins", @"Freedom of Speech", @"Protect your rights", @"Peaceful protest against racism", @"Racism", nil];
     times = [NSMutableArray arrayWithObjects:@"7:58 P.M.", @"11:10 A.M.", @"12:58 P.M.", @"3:02 P.M.", @"1:20 A.M.", @"9:26 P.M.", @"12:00 P.M.", @"10:09 P.M.",nil];
 }
+
 
 
 - (void)didReceiveMemoryWarning {
@@ -313,6 +316,59 @@
     NSLog(@"hello calling presentVC");
 }
 
+-(void)showCustomCam{
+    //Set white status bar
+    [self setNeedsStatusBarAppearanceUpdate];
+    
+    //Instantiate the camera view & assign its frame
+    _cameraView = [[CameraSessionView alloc] initWithFrame:CGRectMake(0,
+                                                                      0,
+                                                                      [[UIScreen mainScreen] applicationFrame].size.width,
+                                                                      [[UIScreen mainScreen] applicationFrame].size.height)
+                   ];
+    
+    //Set the camera view's delegate and add it as a subview
+    _cameraView.delegate = self;
+    
+    //Apply animation effect to present the camera view
+    CATransition *applicationLoadViewIn =[CATransition animation];
+    [applicationLoadViewIn setDuration:0.6];
+    [applicationLoadViewIn setType:kCATransitionReveal];
+    [applicationLoadViewIn setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn]];
+    [[_cameraView layer]addAnimation:applicationLoadViewIn forKey:kCATransitionReveal];
+    
+    //[self.view addSubview:_cameraView];
+    
+    UIWindow *currentWindow = [UIApplication sharedApplication].keyWindow;
+    [currentWindow addSubview:_cameraView];
+    
+    //____________________________Example Customization____________________________
+    //[_cameraView setTopBarColor:[UIColor colorWithRed:0.97 green:0.97 blue:0.97 alpha: 0.64]];
+    //[_cameraView hideFlashButton]; //On iPad flash is not present, hence it wont appear.
+    //[_cameraView hideCameraToggleButton];
+    //[_cameraView hideDismissButton];
+
+}
+
+-(void)didCaptureImage:(UIImage *)image {
+    NSLog(@"CAPTURED IMAGE");
+    UIImageWriteToSavedPhotosAlbum(image, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
+    [self.cameraView removeFromSuperview];
+}
+
+-(void)didCaptureImageWithData:(NSData *)imageData {
+    NSLog(@"CAPTURED IMAGE DATA");
+    //UIImage *image = [[UIImage alloc] initWithData:imageData];
+    //UIImageWriteToSavedPhotosAlbum(image, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
+    //[self.cameraView removeFromSuperview];
+}
+
+- (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo
+{
+    //Show error alert if image could not be saved
+    if (error) [[[UIAlertView alloc] initWithTitle:@"Error!" message:@"Image couldn't be saved" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
+}
+
 - (void)initialPopup:(CNPPopupStyle)popupStyle {
     
     
@@ -342,7 +398,7 @@
     [videobutton setTitle:@"Record a Video" forState:UIControlStateNormal];
     videobutton.backgroundColor = [UIColor redColor];
     videobutton.layer.cornerRadius = 4;
-    [videobutton addTarget:self action:@selector(presentVC) forControlEvents:UIControlEventTouchUpInside];
+    [videobutton addTarget:self action:@selector(showCustomCam) forControlEvents:UIControlEventTouchUpInside];
     videobutton.selectionHandler = ^(CNPPopupButton *button){
         [self.popupController dismissPopupControllerAnimated:YES];
         NSLog(@"Block for button: %@", button.titleLabel.text);
@@ -403,7 +459,7 @@
     self.videoController = [[MPMoviePlayerController alloc] init];
     
     [self.videoController setContentURL:self.videoURL];
-    [self.videoController.view setFrame:CGRectMake (0, 0, 375, 525)];
+    [self.videoController.view setFrame:CGRectMake (0, 0, 375, 667)];
     [self.view addSubview:self.videoController.view];
     
     [self.videoController play];
