@@ -87,7 +87,7 @@
     [self.videoController.view setFrame:CGRectMake (0, 0, 375, 525)];
     [self.view addSubview:self.videoController.view];
     
-//    [self.videoController play];
+    [self.videoController play];
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {

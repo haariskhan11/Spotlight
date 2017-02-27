@@ -19,16 +19,15 @@
 #import "YALFoldingTabBarController.h"
 #import "YALAnimatingTabBarConstants.h"
 #import "CameraSessionView.h"
+#import "LLSimpleCamera.h"
 
 
-@interface TrendingViewCustom () <CNPPopupControllerDelegate, CACameraSessionDelegate> {
+@interface TrendingViewCustom () <CNPPopupControllerDelegate> {
     NSMutableArray *cityLabels;
     NSMutableArray *eventLabels;
     NSMutableArray *times;
     
-    
 }
-@property (nonatomic, strong) CameraSessionView *cameraView;
 @property (nonatomic, strong) CNPPopupController *popupController;
 
 @end
@@ -315,63 +314,7 @@
 
     NSLog(@"hello calling presentVC");
 }
-
--(void)showCustomCam{
-    //Set white status bar
-    [self setNeedsStatusBarAppearanceUpdate];
-    
-    //Instantiate the camera view & assign its frame
-    _cameraView = [[CameraSessionView alloc] initWithFrame:CGRectMake(0,
-                                                                      0,
-                                                                      [[UIScreen mainScreen] applicationFrame].size.width,
-                                                                      [[UIScreen mainScreen] applicationFrame].size.height)
-                   ];
-    
-    //Set the camera view's delegate and add it as a subview
-    _cameraView.delegate = self;
-    
-    //Apply animation effect to present the camera view
-    CATransition *applicationLoadViewIn =[CATransition animation];
-    [applicationLoadViewIn setDuration:0.6];
-    [applicationLoadViewIn setType:kCATransitionReveal];
-    [applicationLoadViewIn setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn]];
-    [[_cameraView layer]addAnimation:applicationLoadViewIn forKey:kCATransitionReveal];
-    
-    //[self.view addSubview:_cameraView];
-    
-    UIWindow *currentWindow = [UIApplication sharedApplication].keyWindow;
-    [currentWindow addSubview:_cameraView];
-    
-    //____________________________Example Customization____________________________
-    //[_cameraView setTopBarColor:[UIColor colorWithRed:0.97 green:0.97 blue:0.97 alpha: 0.64]];
-    //[_cameraView hideFlashButton]; //On iPad flash is not present, hence it wont appear.
-    //[_cameraView hideCameraToggleButton];
-    //[_cameraView hideDismissButton];
-
-}
-
--(void)didCaptureImage:(UIImage *)image {
-    NSLog(@"CAPTURED IMAGE");
-    UIImageWriteToSavedPhotosAlbum(image, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
-    [self.cameraView removeFromSuperview];
-}
-
--(void)didCaptureImageWithData:(NSData *)imageData {
-    NSLog(@"CAPTURED IMAGE DATA");
-    //UIImage *image = [[UIImage alloc] initWithData:imageData];
-    //UIImageWriteToSavedPhotosAlbum(image, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
-    //[self.cameraView removeFromSuperview];
-}
-
-- (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo
-{
-    //Show error alert if image could not be saved
-    if (error) [[[UIAlertView alloc] initWithTitle:@"Error!" message:@"Image couldn't be saved" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil] show];
-}
-
 - (void)initialPopup:(CNPPopupStyle)popupStyle {
-    
-    
     
     NSMutableParagraphStyle *paragraphStyle = NSMutableParagraphStyle.new;
     paragraphStyle.lineBreakMode = NSLineBreakByWordWrapping;
@@ -398,7 +341,7 @@
     [videobutton setTitle:@"Record a Video" forState:UIControlStateNormal];
     videobutton.backgroundColor = [UIColor redColor];
     videobutton.layer.cornerRadius = 4;
-    [videobutton addTarget:self action:@selector(showCustomCam) forControlEvents:UIControlEventTouchUpInside];
+    [videobutton addTarget:self action:@selector(presentVC) forControlEvents:UIControlEventTouchUpInside];
     videobutton.selectionHandler = ^(CNPPopupButton *button){
         [self.popupController dismissPopupControllerAnimated:YES];
         NSLog(@"Block for button: %@", button.titleLabel.text);
@@ -460,15 +403,44 @@
     
     [self.videoController setContentURL:self.videoURL];
     [self.videoController.view setFrame:CGRectMake (0, 0, 375, 667)];
-    [self.view addSubview:self.videoController.view];
+    //[self.view addSubview:self.videoController.view];
+    
+    UIWindow *currentWindow = [UIApplication sharedApplication].keyWindow;
+    [currentWindow addSubview:self.videoController.view];
+
     
     [self.videoController play];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(videoPlayBackDidFinish:)
+                                                 name:MPMoviePlayerPlaybackDidFinishNotification
+                                               object:self.videoController];
     
 }
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
     
     [picker dismissViewControllerAnimated:YES completion:NULL];
+    
+}
+
+- (void)videoPlayBackDidFinish:(NSNotification *)notification {
+    
+    [[NSNotificationCenter defaultCenter]removeObserver:self name:MPMoviePlayerPlaybackDidFinishNotification object:nil];
+    
+    // Stop the video player and remove it from view
+    [self.videoController stop];
+    [self.videoController.view removeFromSuperview];
+    self.videoController = nil;
+    
+    //[self performSegueWithIdentifier:@"present" sender:self];
+
+    
+//    // Display a message
+//    UIAlertView *alert = [[UIAlertView alloc]
+//                          initWithTitle:@"Video Playback" message:@"Just finished the video playback. The video is now removed." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+//    [alert show];
+    
     
 }
 

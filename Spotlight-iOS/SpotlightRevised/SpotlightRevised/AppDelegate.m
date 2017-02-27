@@ -12,8 +12,7 @@
 #import "YALFoldingTabBarController.h"
 #import "YALAnimatingTabBarConstants.h"
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
-#import "RKSwipeBetweenViewControllers.h"
-#import "MainCamera.h"
+
 
 
 
